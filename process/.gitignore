@@ -1,9 +1,7 @@
 HELP.md
-target/
-!.mvn/*
+/target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**
-!**/src/test/**
+/dist/bin/temp/
 
 ### STS ###
 .apt_generated
@@ -23,10 +21,12 @@ target/
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
-/dist/
 /nbdist/
 /.nb-gradle/
-build/
+/build/
 
 ### VS Code ###
 .vscode/
+mvnw
+mvnw.cmd
+.mvn/
