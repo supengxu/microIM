@@ -7,7 +7,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 class AccessApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void IsValidateInitChannel_featureTest_expectSuccess() {
+		
+	}
+
+	@Test
+	void  IsValidate(){
+
 	}
 
 }
