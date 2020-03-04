@@ -16,8 +16,8 @@ import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import java.net.InetSocketAddress;
 @Component
-public class HeartBeatServer {
-    private final static Logger LOGGER = LoggerFactory.getLogger(HeartBeatServer.class);
+public class MicroImAccessServer {
+    private final static Logger LOGGER = LoggerFactory.getLogger(MicroImAccessServer.class);
 
     private EventLoopGroup boss = new NioEventLoopGroup();
     private EventLoopGroup work = new NioEventLoopGroup();
@@ -28,26 +28,29 @@ public class HeartBeatServer {
 
 
     /**
-     * 启动 Netty
-     *
-     * @return
-     * @throws InterruptedException
+     * 启动服务端
      */
     @PostConstruct
-    public void start() throws InterruptedException {
+    public void start()  {
+        try {
+            ServerBootstrap bootstrap = new ServerBootstrap()
+                    .group(boss, work)
+                    .channel(NioServerSocketChannel.class)
+                    .localAddress(new InetSocketAddress(nettyPort))
+                    .childHandler(new ServerInitializer());
 
-        ServerBootstrap bootstrap = new ServerBootstrap()
-                .group(boss, work)
-                .channel(NioServerSocketChannel.class)
-                .localAddress(new InetSocketAddress(nettyPort))
-                //保持长连接
-                .childOption(ChannelOption.SO_KEEPALIVE, true)
-                .childHandler(new ServerInitializer());
-
-        ChannelFuture future = bootstrap.bind().sync();
-        if (future.isSuccess()) {
-            LOGGER.info("启动 Netty 成功");
+            ChannelFuture future = bootstrap.bind().sync();
+            if (future.isSuccess()) {
+                LOGGER.info("启动 Netty 成功");
+            }
+        }catch (InterruptedException e) {
+            e.printStackTrace();
+        }finally {
+            // 当服务器关闭时，关闭eventLoop
+            boss.shutdownGracefully();
+            work.shutdownGracefully();
         }
+
     }
 
 

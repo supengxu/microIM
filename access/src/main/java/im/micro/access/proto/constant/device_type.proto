@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package im.turms.proto;
+
+option java_package = "im.micro.access.constant";
+option java_multiple_files = true;
+// 设备烈性
+enum DeviceType {
+    DESKTOP = 0; // 桌面
+    BROWSER = 1; // 浏览器
+    IOS = 2;  // IOS
+    ANDROID = 3; // 安卓
+    OTHERS = 4; // 其他设备（其他系统）
+    UNKNOWN = 5; // 位置
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package im.turms.proto;
+
+option java_package = "im.micro.access.constant";
+option java_multiple_files = true;
+// 聊天类型
+enum ChatType {
+    PRIVATE = 0; // 私聊
+    GROUP = 1; // 群聊
+}

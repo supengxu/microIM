@@ -11,6 +11,5 @@ public class HeartbeatEncode extends MessageToByteEncoder<CustomProtocol> {
 
         out.writeLong(msg.getId()) ;
         out.writeBytes(msg.getContent().getBytes()) ;
-
     }
 }

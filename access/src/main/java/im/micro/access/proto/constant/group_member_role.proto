@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package im.turms.proto;
+
+option java_package = "im.micro.access.constant";
+option java_multiple_files = true;
+// 群聊人员角色
+enum GroupMemberRole {
+    OWNER = 0; // 群主
+    MANAGER = 1; // 管理员
+    MEMBER = 2; // 成员
+    GUEST = 3; // 访客
+    ANONYMOUS_GUEST = 4; // 另类访客（备用）
+}

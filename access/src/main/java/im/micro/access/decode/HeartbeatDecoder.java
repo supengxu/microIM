@@ -11,7 +11,7 @@ public class HeartbeatDecoder extends ByteToMessageDecoder {
     @Override
     protected void decode(ChannelHandlerContext ctx, ByteBuf in, List<Object> out) {
 
-        long id = in.readLong() ;
+        long id = in.readLong() ; // 不一定有足够的字节可以读取
         byte[] bytes = new byte[in.readableBytes()] ;
         in.readBytes(bytes) ;
         String content = new String(bytes) ;

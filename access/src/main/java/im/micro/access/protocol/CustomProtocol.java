@@ -16,6 +16,14 @@ public class CustomProtocol implements Serializable {
     public CustomProtocol() {
     }
 
+    @Override
+    public String toString() {
+        return "CustomProtocol{" +
+                "id=" + id +
+                ", content='" + content + '\'' +
+                '}';
+    }
+
     public static long getSerialVersionUID() {
         return serialVersionUID;
     }

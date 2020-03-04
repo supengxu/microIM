@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package im.turms.proto;
+
+option java_package = "im.micro.access.constant";
+option java_multiple_files = true;
+// 用户状态（参照QQ的用户状态）
+enum UserStatus {
+    AVAILABLE = 0; // 活跃
+    OFFLINE = 1; // 离线
+    INVISIBLE = 2; // 隐身
+    BUSY = 3; // 忙碌
+    DO_NOT_DISTURB = 4; //请勿打扰
+    AWAY = 5; // 离开
+    BE_RIGHT_BACK = 6; // 马上回来
+}

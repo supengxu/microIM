@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package im.turms.proto;
+
+option java_package = "im.micro.access.constant";
+option java_multiple_files = true;
+// 消息投送状态
+enum MessageDeliveryStatus {
+    READY = 0;   //准备发送
+    SENDING = 1; // 正在发送
+    RECEIVED = 2;  // 已送达
+    RECALLING = 3; // 回复中
+    RECALLED = 4; // 已回复
+}

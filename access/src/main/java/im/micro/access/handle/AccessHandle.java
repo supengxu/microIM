@@ -14,12 +14,25 @@ import io.netty.util.CharsetUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class HeartBeatSimpleHandle extends SimpleChannelInboundHandler<CustomProtocol> {
-    private final static Logger LOGGER = LoggerFactory.getLogger(HeartBeatSimpleHandle.class);
+public class AccessHandle extends SimpleChannelInboundHandler<CustomProtocol> {
+    private final static Logger LOGGER = LoggerFactory.getLogger(AccessHandle.class);
 
     private static final ByteBuf HEART_BEAT =  Unpooled.unreleasableBuffer(Unpooled.copiedBuffer(new CustomProtocol(123456L,
             "pong").toString(), CharsetUtil.UTF_8));
 
+    // 当连接正式建立的时候
+    @Override
+    public void handlerAdded(ChannelHandlerContext ctx) throws Exception {
+        super.handlerAdded(ctx);
+        LOGGER.info("连接已建立");
+    }
+
+    // 当连接正式断开的处理
+    @Override
+    public void handlerRemoved(ChannelHandlerContext ctx) throws Exception {
+        super.handlerRemoved(ctx);
+        LOGGER.info("连接已断开");
+    }
 
     /**
      * 取消绑定
@@ -28,7 +41,7 @@ public class HeartBeatSimpleHandle extends SimpleChannelInboundHandler<CustomPro
      */
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-
+        LOGGER.info("连接已取消");
         NettySocketHolder.remove((NioSocketChannel) ctx.channel());
     }
 
@@ -52,7 +65,7 @@ public class HeartBeatSimpleHandle extends SimpleChannelInboundHandler<CustomPro
 
     @Override
     protected void channelRead0(ChannelHandlerContext ctx, CustomProtocol customProtocol) throws Exception {
-        LOGGER.info("收到customProtocol={}", customProtocol);
+        LOGGER.info("收到customProtocol={}", customProtocol.toString());
 
         //保存客户端与 Channel 之间的关系
         NettySocketHolder.put(customProtocol.getId(),(NioSocketChannel)ctx.channel()) ;
