@@ -15,10 +15,10 @@ public final class UpdateUserLocationRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UpdateUserLocationRequest_descriptor;
+    internal_static_im_micro_proto_UpdateUserLocationRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UpdateUserLocationRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UpdateUserLocationRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class UpdateUserLocationRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n/request/user/update_user_location_requ" +
-      "est.proto\022\016im.turms.proto\032\036google/protob" +
+      "est.proto\022\016im.micro.proto\032\036google/protob" +
       "uf/wrappers.proto\"\233\001\n\031UpdateUserLocation" +
       "Request\022\020\n\010latitude\030\001 \001(\002\022\021\n\tlongitude\030\002" +
       " \001(\002\022*\n\004name\030\003 \001(\0132\034.google.protobuf.Str" +
@@ -42,11 +42,11 @@ public final class UpdateUserLocationRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_UpdateUserLocationRequest_descriptor =
+    internal_static_im_micro_proto_UpdateUserLocationRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UpdateUserLocationRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UpdateUserLocationRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UpdateUserLocationRequest_descriptor,
+        internal_static_im_micro_proto_UpdateUserLocationRequest_descriptor,
         new java.lang.String[] { "Latitude", "Longitude", "Name", "Address", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

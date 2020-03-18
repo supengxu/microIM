@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user;
 
 public interface UpdateUserRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UpdateUserRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UpdateUserRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -68,12 +68,12 @@ public interface UpdateUserRequestOrBuilder extends
   com.google.protobuf.StringValueOrBuilder getProfilePictureUrlOrBuilder();
 
   /**
-   * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+   * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
    * @return The enum numeric value on the wire for profileAccessStrategy.
    */
   int getProfileAccessStrategyValue();
   /**
-   * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+   * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
    * @return The profileAccessStrategy.
    */
   im.micro.access.constant.ProfileAccessStrategy getProfileAccessStrategy();

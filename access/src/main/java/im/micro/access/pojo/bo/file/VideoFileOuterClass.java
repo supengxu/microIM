@@ -15,15 +15,15 @@ public final class VideoFileOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_VideoFile_descriptor;
+    internal_static_im_micro_proto_VideoFile_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_VideoFile_fieldAccessorTable;
+      internal_static_im_micro_proto_VideoFile_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_VideoFile_Description_descriptor;
+    internal_static_im_micro_proto_VideoFile_Description_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_VideoFile_Description_fieldAccessorTable;
+      internal_static_im_micro_proto_VideoFile_Description_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -33,10 +33,10 @@ public final class VideoFileOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033model/file/video_file.proto\022\016im.turms." +
+      "\n\033model/file/video_file.proto\022\016im.micro." +
       "proto\032\036google/protobuf/wrappers.proto\"\227\002" +
-      "\n\tVideoFile\022:\n\013description\030\001 \001(\0132%.im.tu" +
-      "rms.proto.VideoFile.Description\022)\n\004data\030" +
+      "\n\tVideoFile\022:\n\013description\030\001 \001(\0132%.im.mi" +
+      "cro.proto.VideoFile.Description\022)\n\004data\030" +
       "\002 \001(\0132\033.google.protobuf.BytesValue\032\242\001\n\013D" +
       "escription\022\013\n\003url\030\001 \001(\t\022-\n\010duration\030\002 \001(" +
       "\0132\033.google.protobuf.Int32Value\022)\n\004size\030\003" +
@@ -50,17 +50,17 @@ public final class VideoFileOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_VideoFile_descriptor =
+    internal_static_im_micro_proto_VideoFile_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_VideoFile_fieldAccessorTable = new
+    internal_static_im_micro_proto_VideoFile_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_VideoFile_descriptor,
+        internal_static_im_micro_proto_VideoFile_descriptor,
         new java.lang.String[] { "Description", "Data", });
-    internal_static_im_turms_proto_VideoFile_Description_descriptor =
-      internal_static_im_turms_proto_VideoFile_descriptor.getNestedTypes().get(0);
-    internal_static_im_turms_proto_VideoFile_Description_fieldAccessorTable = new
+    internal_static_im_micro_proto_VideoFile_Description_descriptor =
+      internal_static_im_micro_proto_VideoFile_descriptor.getNestedTypes().get(0);
+    internal_static_im_micro_proto_VideoFile_Description_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_VideoFile_Description_descriptor,
+        internal_static_im_micro_proto_VideoFile_Description_descriptor,
         new java.lang.String[] { "Url", "Duration", "Size", "Format", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

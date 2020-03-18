@@ -4,16 +4,16 @@
 package im.micro.access.pojo.request.message;
 
 public interface UpdateTypingStatusRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UpdateTypingStatusRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UpdateTypingStatusRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 1;</code>
    * @return The enum numeric value on the wire for chatType.
    */
   int getChatTypeValue();
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 1;</code>
    * @return The chatType.
    */
   im.micro.access.constant.ChatType getChatType();

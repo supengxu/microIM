@@ -15,10 +15,10 @@ public final class UpdateGroupJoinQuestionRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UpdateGroupJoinQuestionRequest_descriptor;
+    internal_static_im_micro_proto_UpdateGroupJoinQuestionRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UpdateGroupJoinQuestionRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UpdateGroupJoinQuestionRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class UpdateGroupJoinQuestionRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nArequest/group/enrollment/update_group_" +
-      "join_question_request.proto\022\016im.turms.pr" +
+      "join_question_request.proto\022\016im.micro.pr" +
       "oto\032\036google/protobuf/wrappers.proto\"\242\001\n\036" +
       "UpdateGroupJoinQuestionRequest\022\023\n\013questi" +
       "on_id\030\001 \001(\003\022.\n\010question\030\002 \001(\0132\034.google.p" +
@@ -43,11 +43,11 @@ public final class UpdateGroupJoinQuestionRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_UpdateGroupJoinQuestionRequest_descriptor =
+    internal_static_im_micro_proto_UpdateGroupJoinQuestionRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UpdateGroupJoinQuestionRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UpdateGroupJoinQuestionRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UpdateGroupJoinQuestionRequest_descriptor,
+        internal_static_im_micro_proto_UpdateGroupJoinQuestionRequest_descriptor,
         new java.lang.String[] { "QuestionId", "Question", "Answers", "Score", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UpdateUserOnlineStatusRequest}
+ * Protobuf type {@code im.micro.proto.UpdateUserOnlineStatusRequest}
  */
 public  final class UpdateUserOnlineStatusRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UpdateUserOnlineStatusRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UpdateUserOnlineStatusRequest)
     UpdateUserOnlineStatusRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UpdateUserOnlineStatusRequest.newBuilder() to construct.
@@ -76,13 +76,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_descriptor;
+    return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequest.class, im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequest.Builder.class);
   }
@@ -90,14 +90,14 @@ private static final long serialVersionUID = 0L;
   public static final int USER_STATUS_FIELD_NUMBER = 1;
   private int userStatus_;
   /**
-   * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+   * <code>.im.micro.proto.UserStatus user_status = 1;</code>
    * @return The enum numeric value on the wire for userStatus.
    */
   public int getUserStatusValue() {
     return userStatus_;
   }
   /**
-   * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+   * <code>.im.micro.proto.UserStatus user_status = 1;</code>
    * @return The userStatus.
    */
   public im.micro.access.constant.UserStatus getUserStatus() {
@@ -261,21 +261,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UpdateUserOnlineStatusRequest}
+   * Protobuf type {@code im.micro.proto.UpdateUserOnlineStatusRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UpdateUserOnlineStatusRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UpdateUserOnlineStatusRequest)
       im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_descriptor;
+      return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequest.class, im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequest.Builder.class);
     }
@@ -306,7 +306,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_descriptor;
+      return im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequestOuterClass.internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_descriptor;
     }
 
     @java.lang.Override
@@ -409,14 +409,14 @@ private static final long serialVersionUID = 0L;
 
     private int userStatus_ = 0;
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 1;</code>
      * @return The enum numeric value on the wire for userStatus.
      */
     public int getUserStatusValue() {
       return userStatus_;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 1;</code>
      * @param value The enum numeric value on the wire for userStatus to set.
      * @return This builder for chaining.
      */
@@ -426,7 +426,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 1;</code>
      * @return The userStatus.
      */
     public im.micro.access.constant.UserStatus getUserStatus() {
@@ -435,7 +435,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.UserStatus.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 1;</code>
      * @param value The userStatus to set.
      * @return This builder for chaining.
      */
@@ -449,7 +449,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 1;</code>
      * @return This builder for chaining.
      */
     public Builder clearUserStatus() {
@@ -471,10 +471,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UpdateUserOnlineStatusRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UpdateUserOnlineStatusRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UpdateUserOnlineStatusRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UpdateUserOnlineStatusRequest)
   private static final im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.user.UpdateUserOnlineStatusRequest();

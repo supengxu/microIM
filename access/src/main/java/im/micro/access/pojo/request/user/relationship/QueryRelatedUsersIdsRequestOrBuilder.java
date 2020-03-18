@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user.relationship;
 
 public interface QueryRelatedUsersIdsRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryRelatedUsersIdsRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryRelatedUsersIdsRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

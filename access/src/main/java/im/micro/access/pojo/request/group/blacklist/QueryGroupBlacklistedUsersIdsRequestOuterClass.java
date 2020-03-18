@@ -15,10 +15,10 @@ public final class QueryGroupBlacklistedUsersIdsRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryGroupBlacklistedUsersIdsRequest_descriptor;
+    internal_static_im_micro_proto_QueryGroupBlacklistedUsersIdsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryGroupBlacklistedUsersIdsRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryGroupBlacklistedUsersIdsRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,8 +29,8 @@ public final class QueryGroupBlacklistedUsersIdsRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nGrequest/group/blacklist/query_group_bl" +
-      "acklisted_users_ids_request.proto\022\016im.tu" +
-      "rms.proto\032\036google/protobuf/wrappers.prot" +
+      "acklisted_users_ids_request.proto\022\016im.mi" +
+      "cro.proto\032\036google/protobuf/wrappers.prot" +
       "o\"p\n$QueryGroupBlacklistedUsersIdsReques" +
       "t\022\020\n\010group_id\030\001 \001(\003\0226\n\021last_updated_date" +
       "\030\002 \001(\0132\033.google.protobuf.Int64ValueB0\n,i" +
@@ -42,11 +42,11 @@ public final class QueryGroupBlacklistedUsersIdsRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryGroupBlacklistedUsersIdsRequest_descriptor =
+    internal_static_im_micro_proto_QueryGroupBlacklistedUsersIdsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryGroupBlacklistedUsersIdsRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryGroupBlacklistedUsersIdsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryGroupBlacklistedUsersIdsRequest_descriptor,
+        internal_static_im_micro_proto_QueryGroupBlacklistedUsersIdsRequest_descriptor,
         new java.lang.String[] { "GroupId", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

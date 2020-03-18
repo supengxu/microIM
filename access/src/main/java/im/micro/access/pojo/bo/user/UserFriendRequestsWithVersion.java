@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UserFriendRequestsWithVersion}
+ * Protobuf type {@code im.micro.proto.UserFriendRequestsWithVersion}
  */
 public  final class UserFriendRequestsWithVersion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UserFriendRequestsWithVersion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UserFriendRequestsWithVersion)
     UserFriendRequestsWithVersionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UserFriendRequestsWithVersion.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_turms_proto_UserFriendRequestsWithVersion_descriptor;
+    return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_micro_proto_UserFriendRequestsWithVersion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_turms_proto_UserFriendRequestsWithVersion_fieldAccessorTable
+    return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_micro_proto_UserFriendRequestsWithVersion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.user.UserFriendRequestsWithVersion.class, im.micro.access.pojo.bo.user.UserFriendRequestsWithVersion.Builder.class);
   }
@@ -110,32 +110,32 @@ private static final long serialVersionUID = 0L;
   public static final int USER_FRIEND_REQUESTS_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.user.UserFriendRequest> userFriendRequests_;
   /**
-   * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+   * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.user.UserFriendRequest> getUserFriendRequestsList() {
     return userFriendRequests_;
   }
   /**
-   * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+   * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.user.UserFriendRequestOrBuilder> 
       getUserFriendRequestsOrBuilderList() {
     return userFriendRequests_;
   }
   /**
-   * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+   * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
    */
   public int getUserFriendRequestsCount() {
     return userFriendRequests_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+   * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
    */
   public im.micro.access.pojo.bo.user.UserFriendRequest getUserFriendRequests(int index) {
     return userFriendRequests_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+   * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
    */
   public im.micro.access.pojo.bo.user.UserFriendRequestOrBuilder getUserFriendRequestsOrBuilder(
       int index) {
@@ -339,21 +339,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UserFriendRequestsWithVersion}
+   * Protobuf type {@code im.micro.proto.UserFriendRequestsWithVersion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UserFriendRequestsWithVersion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UserFriendRequestsWithVersion)
       im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_turms_proto_UserFriendRequestsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_micro_proto_UserFriendRequestsWithVersion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_turms_proto_UserFriendRequestsWithVersion_fieldAccessorTable
+      return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_micro_proto_UserFriendRequestsWithVersion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.user.UserFriendRequestsWithVersion.class, im.micro.access.pojo.bo.user.UserFriendRequestsWithVersion.Builder.class);
     }
@@ -395,7 +395,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_turms_proto_UserFriendRequestsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.user.UserFriendRequestsWithVersionOuterClass.internal_static_im_micro_proto_UserFriendRequestsWithVersion_descriptor;
     }
 
     @java.lang.Override
@@ -550,7 +550,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.user.UserFriendRequest, im.micro.access.pojo.bo.user.UserFriendRequest.Builder, im.micro.access.pojo.bo.user.UserFriendRequestOrBuilder> userFriendRequestsBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.user.UserFriendRequest> getUserFriendRequestsList() {
       if (userFriendRequestsBuilder_ == null) {
@@ -560,7 +560,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public int getUserFriendRequestsCount() {
       if (userFriendRequestsBuilder_ == null) {
@@ -570,7 +570,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserFriendRequest getUserFriendRequests(int index) {
       if (userFriendRequestsBuilder_ == null) {
@@ -580,7 +580,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder setUserFriendRequests(
         int index, im.micro.access.pojo.bo.user.UserFriendRequest value) {
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder setUserFriendRequests(
         int index, im.micro.access.pojo.bo.user.UserFriendRequest.Builder builderForValue) {
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder addUserFriendRequests(im.micro.access.pojo.bo.user.UserFriendRequest value) {
       if (userFriendRequestsBuilder_ == null) {
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder addUserFriendRequests(
         int index, im.micro.access.pojo.bo.user.UserFriendRequest value) {
@@ -644,7 +644,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder addUserFriendRequests(
         im.micro.access.pojo.bo.user.UserFriendRequest.Builder builderForValue) {
@@ -658,7 +658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder addUserFriendRequests(
         int index, im.micro.access.pojo.bo.user.UserFriendRequest.Builder builderForValue) {
@@ -672,7 +672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder addAllUserFriendRequests(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.user.UserFriendRequest> values) {
@@ -687,7 +687,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder clearUserFriendRequests() {
       if (userFriendRequestsBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public Builder removeUserFriendRequests(int index) {
       if (userFriendRequestsBuilder_ == null) {
@@ -713,14 +713,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserFriendRequest.Builder getUserFriendRequestsBuilder(
         int index) {
       return getUserFriendRequestsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserFriendRequestOrBuilder getUserFriendRequestsOrBuilder(
         int index) {
@@ -730,7 +730,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.user.UserFriendRequestOrBuilder> 
          getUserFriendRequestsOrBuilderList() {
@@ -741,14 +741,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserFriendRequest.Builder addUserFriendRequestsBuilder() {
       return getUserFriendRequestsFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.user.UserFriendRequest.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserFriendRequest.Builder addUserFriendRequestsBuilder(
         int index) {
@@ -756,7 +756,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.user.UserFriendRequest.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.UserFriendRequest user_friend_requests = 1;</code>
+     * <code>repeated .im.micro.proto.UserFriendRequest user_friend_requests = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.user.UserFriendRequest.Builder> 
          getUserFriendRequestsBuilderList() {
@@ -908,10 +908,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UserFriendRequestsWithVersion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UserFriendRequestsWithVersion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UserFriendRequestsWithVersion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UserFriendRequestsWithVersion)
   private static final im.micro.access.pojo.bo.user.UserFriendRequestsWithVersion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.user.UserFriendRequestsWithVersion();

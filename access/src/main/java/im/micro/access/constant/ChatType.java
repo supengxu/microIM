@@ -8,7 +8,7 @@ package im.micro.access.constant;
  * 聊天类型
  * </pre>
  *
- * Protobuf enum {@code im.turms.proto.ChatType}
+ * Protobuf enum {@code im.micro.proto.ChatType}
  */
 public enum ChatType
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -124,6 +124,6 @@ public enum ChatType
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:im.turms.proto.ChatType)
+  // @@protoc_insertion_point(enum_scope:im.micro.proto.ChatType)
 }
 

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UserRelationshipGroup}
+ * Protobuf type {@code im.micro.proto.UserRelationshipGroup}
  */
 public  final class UserRelationshipGroup extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UserRelationshipGroup)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UserRelationshipGroup)
     UserRelationshipGroupOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UserRelationshipGroup.newBuilder() to construct.
@@ -81,13 +81,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_turms_proto_UserRelationshipGroup_descriptor;
+    return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_micro_proto_UserRelationshipGroup_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_turms_proto_UserRelationshipGroup_fieldAccessorTable
+    return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_micro_proto_UserRelationshipGroup_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.user.UserRelationshipGroup.class, im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder.class);
   }
@@ -304,21 +304,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UserRelationshipGroup}
+   * Protobuf type {@code im.micro.proto.UserRelationshipGroup}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UserRelationshipGroup)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UserRelationshipGroup)
       im.micro.access.pojo.bo.user.UserRelationshipGroupOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_turms_proto_UserRelationshipGroup_descriptor;
+      return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_micro_proto_UserRelationshipGroup_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_turms_proto_UserRelationshipGroup_fieldAccessorTable
+      return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_micro_proto_UserRelationshipGroup_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.user.UserRelationshipGroup.class, im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder.class);
     }
@@ -351,7 +351,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_turms_proto_UserRelationshipGroup_descriptor;
+      return im.micro.access.pojo.bo.user.UserRelationshipGroupOuterClass.internal_static_im_micro_proto_UserRelationshipGroup_descriptor;
     }
 
     @java.lang.Override
@@ -575,10 +575,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UserRelationshipGroup)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UserRelationshipGroup)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UserRelationshipGroup)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UserRelationshipGroup)
   private static final im.micro.access.pojo.bo.user.UserRelationshipGroup DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.user.UserRelationshipGroup();

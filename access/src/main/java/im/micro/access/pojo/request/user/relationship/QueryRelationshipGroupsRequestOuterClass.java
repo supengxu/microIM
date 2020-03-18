@@ -15,10 +15,10 @@ public final class QueryRelationshipGroupsRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryRelationshipGroupsRequest_descriptor;
+    internal_static_im_micro_proto_QueryRelationshipGroupsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryRelationshipGroupsRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryRelationshipGroupsRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryRelationshipGroupsRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nArequest/user/relationship/query_relati" +
-      "onship_groups_request.proto\022\016im.turms.pr" +
+      "onship_groups_request.proto\022\016im.micro.pr" +
       "oto\032\036google/protobuf/wrappers.proto\"X\n\036Q" +
       "ueryRelationshipGroupsRequest\0226\n\021last_up" +
       "dated_date\030\001 \001(\0132\033.google.protobuf.Int64" +
@@ -41,11 +41,11 @@ public final class QueryRelationshipGroupsRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryRelationshipGroupsRequest_descriptor =
+    internal_static_im_micro_proto_QueryRelationshipGroupsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryRelationshipGroupsRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryRelationshipGroupsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryRelationshipGroupsRequest_descriptor,
+        internal_static_im_micro_proto_QueryRelationshipGroupsRequest_descriptor,
         new java.lang.String[] { "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

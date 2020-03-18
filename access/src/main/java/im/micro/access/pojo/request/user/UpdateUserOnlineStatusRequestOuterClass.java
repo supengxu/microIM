@@ -15,10 +15,10 @@ public final class UpdateUserOnlineStatusRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_descriptor;
+    internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,10 +29,10 @@ public final class UpdateUserOnlineStatusRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n4request/user/update_user_online_status" +
-      "_request.proto\022\016im.turms.proto\032\032constant" +
+      "_request.proto\022\016im.micro.proto\032\032constant" +
       "/user_status.proto\"P\n\035UpdateUserOnlineSt" +
-      "atusRequest\022/\n\013user_status\030\001 \001(\0162\032.im.tu" +
-      "rms.proto.UserStatusB%\n!im.micro.access." +
+      "atusRequest\022/\n\013user_status\030\001 \001(\0162\032.im.mi" +
+      "cro.proto.UserStatusB%\n!im.micro.access." +
       "pojo.request.userP\001b\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
@@ -40,11 +40,11 @@ public final class UpdateUserOnlineStatusRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           im.micro.access.constant.UserStatusOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_descriptor =
+    internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UpdateUserOnlineStatusRequest_descriptor,
+        internal_static_im_micro_proto_UpdateUserOnlineStatusRequest_descriptor,
         new java.lang.String[] { "UserStatus", });
     im.micro.access.constant.UserStatusOuterClass.getDescriptor();
   }

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.group;
 
 /**
- * Protobuf type {@code im.turms.proto.GroupJoinQuestionsWithVersion}
+ * Protobuf type {@code im.micro.proto.GroupJoinQuestionsWithVersion}
  */
 public  final class GroupJoinQuestionsWithVersion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.GroupJoinQuestionsWithVersion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.GroupJoinQuestionsWithVersion)
     GroupJoinQuestionsWithVersionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GroupJoinQuestionsWithVersion.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_descriptor;
+    return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_fieldAccessorTable
+    return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersion.class, im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersion.Builder.class);
   }
@@ -110,32 +110,32 @@ private static final long serialVersionUID = 0L;
   public static final int GROUP_JOIN_QUESTIONS_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.group.GroupJoinQuestion> groupJoinQuestions_;
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.group.GroupJoinQuestion> getGroupJoinQuestionsList() {
     return groupJoinQuestions_;
   }
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.group.GroupJoinQuestionOrBuilder> 
       getGroupJoinQuestionsOrBuilderList() {
     return groupJoinQuestions_;
   }
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   public int getGroupJoinQuestionsCount() {
     return groupJoinQuestions_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   public im.micro.access.pojo.bo.group.GroupJoinQuestion getGroupJoinQuestions(int index) {
     return groupJoinQuestions_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   public im.micro.access.pojo.bo.group.GroupJoinQuestionOrBuilder getGroupJoinQuestionsOrBuilder(
       int index) {
@@ -339,21 +339,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.GroupJoinQuestionsWithVersion}
+   * Protobuf type {@code im.micro.proto.GroupJoinQuestionsWithVersion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.GroupJoinQuestionsWithVersion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.GroupJoinQuestionsWithVersion)
       im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_fieldAccessorTable
+      return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersion.class, im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersion.Builder.class);
     }
@@ -395,7 +395,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersionOuterClass.internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_descriptor;
     }
 
     @java.lang.Override
@@ -550,7 +550,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.group.GroupJoinQuestion, im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder, im.micro.access.pojo.bo.group.GroupJoinQuestionOrBuilder> groupJoinQuestionsBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.group.GroupJoinQuestion> getGroupJoinQuestionsList() {
       if (groupJoinQuestionsBuilder_ == null) {
@@ -560,7 +560,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public int getGroupJoinQuestionsCount() {
       if (groupJoinQuestionsBuilder_ == null) {
@@ -570,7 +570,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupJoinQuestion getGroupJoinQuestions(int index) {
       if (groupJoinQuestionsBuilder_ == null) {
@@ -580,7 +580,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder setGroupJoinQuestions(
         int index, im.micro.access.pojo.bo.group.GroupJoinQuestion value) {
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder setGroupJoinQuestions(
         int index, im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder builderForValue) {
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder addGroupJoinQuestions(im.micro.access.pojo.bo.group.GroupJoinQuestion value) {
       if (groupJoinQuestionsBuilder_ == null) {
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder addGroupJoinQuestions(
         int index, im.micro.access.pojo.bo.group.GroupJoinQuestion value) {
@@ -644,7 +644,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder addGroupJoinQuestions(
         im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder builderForValue) {
@@ -658,7 +658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder addGroupJoinQuestions(
         int index, im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder builderForValue) {
@@ -672,7 +672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder addAllGroupJoinQuestions(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.group.GroupJoinQuestion> values) {
@@ -687,7 +687,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder clearGroupJoinQuestions() {
       if (groupJoinQuestionsBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public Builder removeGroupJoinQuestions(int index) {
       if (groupJoinQuestionsBuilder_ == null) {
@@ -713,14 +713,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder getGroupJoinQuestionsBuilder(
         int index) {
       return getGroupJoinQuestionsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupJoinQuestionOrBuilder getGroupJoinQuestionsOrBuilder(
         int index) {
@@ -730,7 +730,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.group.GroupJoinQuestionOrBuilder> 
          getGroupJoinQuestionsOrBuilderList() {
@@ -741,14 +741,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder addGroupJoinQuestionsBuilder() {
       return getGroupJoinQuestionsFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.group.GroupJoinQuestion.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder addGroupJoinQuestionsBuilder(
         int index) {
@@ -756,7 +756,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.group.GroupJoinQuestion.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+     * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder> 
          getGroupJoinQuestionsBuilderList() {
@@ -908,10 +908,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.GroupJoinQuestionsWithVersion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.GroupJoinQuestionsWithVersion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.GroupJoinQuestionsWithVersion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.GroupJoinQuestionsWithVersion)
   private static final im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.group.GroupJoinQuestionsWithVersion();

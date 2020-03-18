@@ -15,10 +15,10 @@ public final class QueryRelatedUsersIdsRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryRelatedUsersIdsRequest_descriptor;
+    internal_static_im_micro_proto_QueryRelatedUsersIdsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryRelatedUsersIdsRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryRelatedUsersIdsRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryRelatedUsersIdsRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n?request/user/relationship/query_relate" +
-      "d_users_ids_request.proto\022\016im.turms.prot" +
+      "d_users_ids_request.proto\022\016im.micro.prot" +
       "o\032\036google/protobuf/wrappers.proto\"\267\001\n\033Qu" +
       "eryRelatedUsersIdsRequest\022.\n\nis_blocked\030" +
       "\001 \001(\0132\032.google.protobuf.BoolValue\0220\n\013gro" +
@@ -43,11 +43,11 @@ public final class QueryRelatedUsersIdsRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryRelatedUsersIdsRequest_descriptor =
+    internal_static_im_micro_proto_QueryRelatedUsersIdsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryRelatedUsersIdsRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryRelatedUsersIdsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryRelatedUsersIdsRequest_descriptor,
+        internal_static_im_micro_proto_QueryRelatedUsersIdsRequest_descriptor,
         new java.lang.String[] { "IsBlocked", "GroupIndex", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

@@ -15,10 +15,10 @@ public final class QueryGroupJoinQuestionsRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryGroupJoinQuestionsRequest_descriptor;
+    internal_static_im_micro_proto_QueryGroupJoinQuestionsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryGroupJoinQuestionsRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryGroupJoinQuestionsRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryGroupJoinQuestionsRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nArequest/group/enrollment/query_group_j" +
-      "oin_questions_request.proto\022\016im.turms.pr" +
+      "oin_questions_request.proto\022\016im.micro.pr" +
       "oto\032\036google/protobuf/wrappers.proto\"\200\001\n\036" +
       "QueryGroupJoinQuestionsRequest\022\020\n\010group_" +
       "id\030\001 \001(\003\022\024\n\014with_answers\030\002 \001(\010\0226\n\021last_u" +
@@ -42,11 +42,11 @@ public final class QueryGroupJoinQuestionsRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryGroupJoinQuestionsRequest_descriptor =
+    internal_static_im_micro_proto_QueryGroupJoinQuestionsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryGroupJoinQuestionsRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryGroupJoinQuestionsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryGroupJoinQuestionsRequest_descriptor,
+        internal_static_im_micro_proto_QueryGroupJoinQuestionsRequest_descriptor,
         new java.lang.String[] { "GroupId", "WithAnswers", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

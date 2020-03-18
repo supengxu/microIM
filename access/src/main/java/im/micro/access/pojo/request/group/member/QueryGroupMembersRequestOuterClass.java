@@ -15,10 +15,10 @@ public final class QueryGroupMembersRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryGroupMembersRequest_descriptor;
+    internal_static_im_micro_proto_QueryGroupMembersRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryGroupMembersRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryGroupMembersRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryGroupMembersRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n6request/group/member/query_group_membe" +
-      "rs_request.proto\022\016im.turms.proto\032\036google" +
+      "rs_request.proto\022\016im.micro.proto\032\036google" +
       "/protobuf/wrappers.proto\"\260\001\n\030QueryGroupM" +
       "embersRequest\022\020\n\010group_id\030\001 \001(\003\0226\n\021last_" +
       "updated_date\030\002 \001(\0132\033.google.protobuf.Int" +
@@ -43,11 +43,11 @@ public final class QueryGroupMembersRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryGroupMembersRequest_descriptor =
+    internal_static_im_micro_proto_QueryGroupMembersRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryGroupMembersRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryGroupMembersRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryGroupMembersRequest_descriptor,
+        internal_static_im_micro_proto_QueryGroupMembersRequest_descriptor,
         new java.lang.String[] { "GroupId", "LastUpdatedDate", "GroupMembersIds", "WithStatus", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

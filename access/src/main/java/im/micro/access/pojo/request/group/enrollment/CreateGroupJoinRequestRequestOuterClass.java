@@ -15,10 +15,10 @@ public final class CreateGroupJoinRequestRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_CreateGroupJoinRequestRequest_descriptor;
+    internal_static_im_micro_proto_CreateGroupJoinRequestRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_CreateGroupJoinRequestRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_CreateGroupJoinRequestRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class CreateGroupJoinRequestRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n@request/group/enrollment/create_group_" +
-      "join_request_request.proto\022\016im.turms.pro" +
+      "join_request_request.proto\022\016im.micro.pro" +
       "to\"B\n\035CreateGroupJoinRequestRequest\022\020\n\010g" +
       "roup_id\030\001 \001(\003\022\017\n\007content\030\002 \001(\tB1\n-im.mic" +
       "ro.access.pojo.request.group.enrollmentP" +
@@ -39,11 +39,11 @@ public final class CreateGroupJoinRequestRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_CreateGroupJoinRequestRequest_descriptor =
+    internal_static_im_micro_proto_CreateGroupJoinRequestRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_CreateGroupJoinRequestRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_CreateGroupJoinRequestRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_CreateGroupJoinRequestRequest_descriptor,
+        internal_static_im_micro_proto_CreateGroupJoinRequestRequest_descriptor,
         new java.lang.String[] { "GroupId", "Content", });
   }
 

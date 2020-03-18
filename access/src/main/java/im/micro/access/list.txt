@@ -1,6 +1,7 @@
 AccessApplication.java
 build.bat
 config
+constant
 controller
 decode
 handle
@@ -8,6 +9,7 @@ holder
 init
 jar.txt
 list.txt
+pojo
 proto
 proto.txt
 protoc.exe

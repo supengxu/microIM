@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UserRelationshipGroupsWithVersion}
+ * Protobuf type {@code im.micro.proto.UserRelationshipGroupsWithVersion}
  */
 public  final class UserRelationshipGroupsWithVersion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UserRelationshipGroupsWithVersion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UserRelationshipGroupsWithVersion)
     UserRelationshipGroupsWithVersionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UserRelationshipGroupsWithVersion.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipGroupsWithVersion_descriptor;
+    return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipGroupsWithVersion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipGroupsWithVersion_fieldAccessorTable
+    return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipGroupsWithVersion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersion.class, im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersion.Builder.class);
   }
@@ -110,32 +110,32 @@ private static final long serialVersionUID = 0L;
   public static final int USER_RELATIONSHIP_GROUPS_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.user.UserRelationshipGroup> userRelationshipGroups_;
   /**
-   * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.user.UserRelationshipGroup> getUserRelationshipGroupsList() {
     return userRelationshipGroups_;
   }
   /**
-   * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.user.UserRelationshipGroupOrBuilder> 
       getUserRelationshipGroupsOrBuilderList() {
     return userRelationshipGroups_;
   }
   /**
-   * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
    */
   public int getUserRelationshipGroupsCount() {
     return userRelationshipGroups_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
    */
   public im.micro.access.pojo.bo.user.UserRelationshipGroup getUserRelationshipGroups(int index) {
     return userRelationshipGroups_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
    */
   public im.micro.access.pojo.bo.user.UserRelationshipGroupOrBuilder getUserRelationshipGroupsOrBuilder(
       int index) {
@@ -339,21 +339,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UserRelationshipGroupsWithVersion}
+   * Protobuf type {@code im.micro.proto.UserRelationshipGroupsWithVersion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UserRelationshipGroupsWithVersion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UserRelationshipGroupsWithVersion)
       im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipGroupsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipGroupsWithVersion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipGroupsWithVersion_fieldAccessorTable
+      return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipGroupsWithVersion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersion.class, im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersion.Builder.class);
     }
@@ -395,7 +395,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipGroupsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipGroupsWithVersion_descriptor;
     }
 
     @java.lang.Override
@@ -550,7 +550,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.user.UserRelationshipGroup, im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder, im.micro.access.pojo.bo.user.UserRelationshipGroupOrBuilder> userRelationshipGroupsBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.user.UserRelationshipGroup> getUserRelationshipGroupsList() {
       if (userRelationshipGroupsBuilder_ == null) {
@@ -560,7 +560,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public int getUserRelationshipGroupsCount() {
       if (userRelationshipGroupsBuilder_ == null) {
@@ -570,7 +570,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationshipGroup getUserRelationshipGroups(int index) {
       if (userRelationshipGroupsBuilder_ == null) {
@@ -580,7 +580,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder setUserRelationshipGroups(
         int index, im.micro.access.pojo.bo.user.UserRelationshipGroup value) {
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder setUserRelationshipGroups(
         int index, im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder builderForValue) {
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder addUserRelationshipGroups(im.micro.access.pojo.bo.user.UserRelationshipGroup value) {
       if (userRelationshipGroupsBuilder_ == null) {
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder addUserRelationshipGroups(
         int index, im.micro.access.pojo.bo.user.UserRelationshipGroup value) {
@@ -644,7 +644,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder addUserRelationshipGroups(
         im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder builderForValue) {
@@ -658,7 +658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder addUserRelationshipGroups(
         int index, im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder builderForValue) {
@@ -672,7 +672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder addAllUserRelationshipGroups(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.user.UserRelationshipGroup> values) {
@@ -687,7 +687,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder clearUserRelationshipGroups() {
       if (userRelationshipGroupsBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public Builder removeUserRelationshipGroups(int index) {
       if (userRelationshipGroupsBuilder_ == null) {
@@ -713,14 +713,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder getUserRelationshipGroupsBuilder(
         int index) {
       return getUserRelationshipGroupsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationshipGroupOrBuilder getUserRelationshipGroupsOrBuilder(
         int index) {
@@ -730,7 +730,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.user.UserRelationshipGroupOrBuilder> 
          getUserRelationshipGroupsOrBuilderList() {
@@ -741,14 +741,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder addUserRelationshipGroupsBuilder() {
       return getUserRelationshipGroupsFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.user.UserRelationshipGroup.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder addUserRelationshipGroupsBuilder(
         int index) {
@@ -756,7 +756,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.user.UserRelationshipGroup.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationshipGroup user_relationship_groups = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.user.UserRelationshipGroup.Builder> 
          getUserRelationshipGroupsBuilderList() {
@@ -908,10 +908,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UserRelationshipGroupsWithVersion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UserRelationshipGroupsWithVersion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UserRelationshipGroupsWithVersion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UserRelationshipGroupsWithVersion)
   private static final im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.user.UserRelationshipGroupsWithVersion();

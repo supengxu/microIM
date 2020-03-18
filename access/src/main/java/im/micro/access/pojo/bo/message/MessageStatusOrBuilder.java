@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.message;
 
 public interface MessageStatusOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.MessageStatus)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.MessageStatus)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -38,12 +38,12 @@ public interface MessageStatusOrBuilder extends
   com.google.protobuf.Int64ValueOrBuilder getToUserIdOrBuilder();
 
   /**
-   * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+   * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
    * @return The enum numeric value on the wire for deliveryStatus.
    */
   int getDeliveryStatusValue();
   /**
-   * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+   * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
    * @return The deliveryStatus.
    */
   im.micro.access.constant.MessageDeliveryStatus getDeliveryStatus();

@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.group.member;
 
 public interface DeleteGroupMemberRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.DeleteGroupMemberRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.DeleteGroupMemberRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.message;
 
 public interface MessagesWithTotalListOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.MessagesWithTotalList)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.MessagesWithTotalList)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.message.MessagesWithTotal> 
       getMessagesWithTotalListList();
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   im.micro.access.pojo.bo.message.MessagesWithTotal getMessagesWithTotalList(int index);
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   int getMessagesWithTotalListCount();
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.message.MessagesWithTotalOrBuilder> 
       getMessagesWithTotalListOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   im.micro.access.pojo.bo.message.MessagesWithTotalOrBuilder getMessagesWithTotalListOrBuilder(
       int index);

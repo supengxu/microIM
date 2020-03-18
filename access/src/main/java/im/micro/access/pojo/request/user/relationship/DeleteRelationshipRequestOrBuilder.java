@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user.relationship;
 
 public interface DeleteRelationshipRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.DeleteRelationshipRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.DeleteRelationshipRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

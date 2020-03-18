@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.group;
 
 /**
- * Protobuf type {@code im.turms.proto.GroupsWithVersion}
+ * Protobuf type {@code im.micro.proto.GroupsWithVersion}
  */
 public  final class GroupsWithVersion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.GroupsWithVersion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.GroupsWithVersion)
     GroupsWithVersionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GroupsWithVersion.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_turms_proto_GroupsWithVersion_descriptor;
+    return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_micro_proto_GroupsWithVersion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_turms_proto_GroupsWithVersion_fieldAccessorTable
+    return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_micro_proto_GroupsWithVersion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.group.GroupsWithVersion.class, im.micro.access.pojo.bo.group.GroupsWithVersion.Builder.class);
   }
@@ -110,32 +110,32 @@ private static final long serialVersionUID = 0L;
   public static final int GROUPS_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.group.Group> groups_;
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.group.Group> getGroupsList() {
     return groups_;
   }
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.group.GroupOrBuilder> 
       getGroupsOrBuilderList() {
     return groups_;
   }
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   public int getGroupsCount() {
     return groups_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   public im.micro.access.pojo.bo.group.Group getGroups(int index) {
     return groups_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   public im.micro.access.pojo.bo.group.GroupOrBuilder getGroupsOrBuilder(
       int index) {
@@ -339,21 +339,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.GroupsWithVersion}
+   * Protobuf type {@code im.micro.proto.GroupsWithVersion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.GroupsWithVersion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.GroupsWithVersion)
       im.micro.access.pojo.bo.group.GroupsWithVersionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_turms_proto_GroupsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_micro_proto_GroupsWithVersion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_turms_proto_GroupsWithVersion_fieldAccessorTable
+      return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_micro_proto_GroupsWithVersion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.group.GroupsWithVersion.class, im.micro.access.pojo.bo.group.GroupsWithVersion.Builder.class);
     }
@@ -395,7 +395,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_turms_proto_GroupsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.group.GroupsWithVersionOuterClass.internal_static_im_micro_proto_GroupsWithVersion_descriptor;
     }
 
     @java.lang.Override
@@ -550,7 +550,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.group.Group, im.micro.access.pojo.bo.group.Group.Builder, im.micro.access.pojo.bo.group.GroupOrBuilder> groupsBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.group.Group> getGroupsList() {
       if (groupsBuilder_ == null) {
@@ -560,7 +560,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public int getGroupsCount() {
       if (groupsBuilder_ == null) {
@@ -570,7 +570,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public im.micro.access.pojo.bo.group.Group getGroups(int index) {
       if (groupsBuilder_ == null) {
@@ -580,7 +580,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder setGroups(
         int index, im.micro.access.pojo.bo.group.Group value) {
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder setGroups(
         int index, im.micro.access.pojo.bo.group.Group.Builder builderForValue) {
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder addGroups(im.micro.access.pojo.bo.group.Group value) {
       if (groupsBuilder_ == null) {
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder addGroups(
         int index, im.micro.access.pojo.bo.group.Group value) {
@@ -644,7 +644,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder addGroups(
         im.micro.access.pojo.bo.group.Group.Builder builderForValue) {
@@ -658,7 +658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder addGroups(
         int index, im.micro.access.pojo.bo.group.Group.Builder builderForValue) {
@@ -672,7 +672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder addAllGroups(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.group.Group> values) {
@@ -687,7 +687,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder clearGroups() {
       if (groupsBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public Builder removeGroups(int index) {
       if (groupsBuilder_ == null) {
@@ -713,14 +713,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public im.micro.access.pojo.bo.group.Group.Builder getGroupsBuilder(
         int index) {
       return getGroupsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupOrBuilder getGroupsOrBuilder(
         int index) {
@@ -730,7 +730,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.group.GroupOrBuilder> 
          getGroupsOrBuilderList() {
@@ -741,14 +741,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public im.micro.access.pojo.bo.group.Group.Builder addGroupsBuilder() {
       return getGroupsFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.group.Group.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public im.micro.access.pojo.bo.group.Group.Builder addGroupsBuilder(
         int index) {
@@ -756,7 +756,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.group.Group.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.Group groups = 1;</code>
+     * <code>repeated .im.micro.proto.Group groups = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.group.Group.Builder> 
          getGroupsBuilderList() {
@@ -908,10 +908,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.GroupsWithVersion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.GroupsWithVersion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.GroupsWithVersion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.GroupsWithVersion)
   private static final im.micro.access.pojo.bo.group.GroupsWithVersion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.group.GroupsWithVersion();

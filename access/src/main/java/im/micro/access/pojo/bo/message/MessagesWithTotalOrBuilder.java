@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.message;
 
 public interface MessagesWithTotalOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.MessagesWithTotal)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.MessagesWithTotal)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -14,12 +14,12 @@ public interface MessagesWithTotalOrBuilder extends
   int getTotal();
 
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 2;</code>
    * @return The enum numeric value on the wire for chatType.
    */
   int getChatTypeValue();
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 2;</code>
    * @return The chatType.
    */
   im.micro.access.constant.ChatType getChatType();
@@ -31,25 +31,25 @@ public interface MessagesWithTotalOrBuilder extends
   long getFromId();
 
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   java.util.List<im.micro.access.pojo.bo.message.Message> 
       getMessagesList();
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   im.micro.access.pojo.bo.message.Message getMessages(int index);
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   int getMessagesCount();
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.message.MessageOrBuilder> 
       getMessagesOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   im.micro.access.pojo.bo.message.MessageOrBuilder getMessagesOrBuilder(
       int index);

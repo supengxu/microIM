@@ -15,10 +15,10 @@ public final class QueryJoinedGroupsIdsRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryJoinedGroupsIdsRequest_descriptor;
+    internal_static_im_micro_proto_QueryJoinedGroupsIdsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryJoinedGroupsIdsRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryJoinedGroupsIdsRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryJoinedGroupsIdsRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n3request/group/query_joined_groups_ids_" +
-      "request.proto\022\016im.turms.proto\032\036google/pr" +
+      "request.proto\022\016im.micro.proto\032\036google/pr" +
       "otobuf/wrappers.proto\"U\n\033QueryJoinedGrou" +
       "psIdsRequest\0226\n\021last_updated_date\030\001 \001(\0132" +
       "\033.google.protobuf.Int64ValueB&\n\"im.micro" +
@@ -40,11 +40,11 @@ public final class QueryJoinedGroupsIdsRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryJoinedGroupsIdsRequest_descriptor =
+    internal_static_im_micro_proto_QueryJoinedGroupsIdsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryJoinedGroupsIdsRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryJoinedGroupsIdsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryJoinedGroupsIdsRequest_descriptor,
+        internal_static_im_micro_proto_QueryJoinedGroupsIdsRequest_descriptor,
         new java.lang.String[] { "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

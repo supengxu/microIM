@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.group.enrollment;
 
 /**
- * Protobuf type {@code im.turms.proto.CreateGroupJoinRequestRequest}
+ * Protobuf type {@code im.micro.proto.CreateGroupJoinRequestRequest}
  */
 public  final class CreateGroupJoinRequestRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.CreateGroupJoinRequestRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.CreateGroupJoinRequestRequest)
     CreateGroupJoinRequestRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use CreateGroupJoinRequestRequest.newBuilder() to construct.
@@ -81,13 +81,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_turms_proto_CreateGroupJoinRequestRequest_descriptor;
+    return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_micro_proto_CreateGroupJoinRequestRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_turms_proto_CreateGroupJoinRequestRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_micro_proto_CreateGroupJoinRequestRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequest.class, im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequest.Builder.class);
   }
@@ -305,21 +305,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.CreateGroupJoinRequestRequest}
+   * Protobuf type {@code im.micro.proto.CreateGroupJoinRequestRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.CreateGroupJoinRequestRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.CreateGroupJoinRequestRequest)
       im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_turms_proto_CreateGroupJoinRequestRequest_descriptor;
+      return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_micro_proto_CreateGroupJoinRequestRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_turms_proto_CreateGroupJoinRequestRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_micro_proto_CreateGroupJoinRequestRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequest.class, im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequest.Builder.class);
     }
@@ -352,7 +352,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_turms_proto_CreateGroupJoinRequestRequest_descriptor;
+      return im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequestOuterClass.internal_static_im_micro_proto_CreateGroupJoinRequestRequest_descriptor;
     }
 
     @java.lang.Override
@@ -576,10 +576,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.CreateGroupJoinRequestRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.CreateGroupJoinRequestRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.CreateGroupJoinRequestRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.CreateGroupJoinRequestRequest)
   private static final im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.group.enrollment.CreateGroupJoinRequestRequest();

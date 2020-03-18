@@ -23,8 +23,8 @@ public final class ResponseActionOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036constant/response_action.proto\022\016im.tur" +
-      "ms.proto*5\n\016ResponseAction\022\n\n\006ACCEPT\020\000\022\013" +
+      "\n\036constant/response_action.proto\022\016im.mic" +
+      "ro.proto*5\n\016ResponseAction\022\n\n\006ACCEPT\020\000\022\013" +
       "\n\007DECLINE\020\001\022\n\n\006IGNORE\020\002B\034\n\030im.micro.acce" +
       "ss.constantP\001b\006proto3"
     };

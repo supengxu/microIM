@@ -15,10 +15,10 @@ public final class DeleteGroupRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_DeleteGroupRequest_descriptor;
+    internal_static_im_micro_proto_DeleteGroupRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_DeleteGroupRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_DeleteGroupRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class DeleteGroupRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n(request/group/delete_group_request.pro" +
-      "to\022\016im.turms.proto\"&\n\022DeleteGroupRequest" +
+      "to\022\016im.micro.proto\"&\n\022DeleteGroupRequest" +
       "\022\020\n\010group_id\030\001 \001(\003B&\n\"im.micro.access.po" +
       "jo.request.groupP\001b\006proto3"
     };
@@ -37,11 +37,11 @@ public final class DeleteGroupRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_DeleteGroupRequest_descriptor =
+    internal_static_im_micro_proto_DeleteGroupRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_DeleteGroupRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_DeleteGroupRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_DeleteGroupRequest_descriptor,
+        internal_static_im_micro_proto_DeleteGroupRequest_descriptor,
         new java.lang.String[] { "GroupId", });
   }
 

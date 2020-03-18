@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.message;
 
 /**
- * Protobuf type {@code im.turms.proto.Messages}
+ * Protobuf type {@code im.micro.proto.Messages}
  */
 public  final class Messages extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.Messages)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.Messages)
     MessagesOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Messages.newBuilder() to construct.
@@ -83,13 +83,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_turms_proto_Messages_descriptor;
+    return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_micro_proto_Messages_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_turms_proto_Messages_fieldAccessorTable
+    return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_micro_proto_Messages_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.message.Messages.class, im.micro.access.pojo.bo.message.Messages.Builder.class);
   }
@@ -97,32 +97,32 @@ private static final long serialVersionUID = 0L;
   public static final int MESSAGES_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.message.Message> messages_;
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.message.Message> getMessagesList() {
     return messages_;
   }
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.message.MessageOrBuilder> 
       getMessagesOrBuilderList() {
     return messages_;
   }
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   public int getMessagesCount() {
     return messages_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   public im.micro.access.pojo.bo.message.Message getMessages(int index) {
     return messages_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   public im.micro.access.pojo.bo.message.MessageOrBuilder getMessagesOrBuilder(
       int index) {
@@ -287,21 +287,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.Messages}
+   * Protobuf type {@code im.micro.proto.Messages}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.Messages)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.Messages)
       im.micro.access.pojo.bo.message.MessagesOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_turms_proto_Messages_descriptor;
+      return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_micro_proto_Messages_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_turms_proto_Messages_fieldAccessorTable
+      return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_micro_proto_Messages_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.message.Messages.class, im.micro.access.pojo.bo.message.Messages.Builder.class);
     }
@@ -337,7 +337,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_turms_proto_Messages_descriptor;
+      return im.micro.access.pojo.bo.message.MessagesOuterClass.internal_static_im_micro_proto_Messages_descriptor;
     }
 
     @java.lang.Override
@@ -484,7 +484,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.message.Message, im.micro.access.pojo.bo.message.Message.Builder, im.micro.access.pojo.bo.message.MessageOrBuilder> messagesBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.message.Message> getMessagesList() {
       if (messagesBuilder_ == null) {
@@ -494,7 +494,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public int getMessagesCount() {
       if (messagesBuilder_ == null) {
@@ -504,7 +504,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public im.micro.access.pojo.bo.message.Message getMessages(int index) {
       if (messagesBuilder_ == null) {
@@ -514,7 +514,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder setMessages(
         int index, im.micro.access.pojo.bo.message.Message value) {
@@ -531,7 +531,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder setMessages(
         int index, im.micro.access.pojo.bo.message.Message.Builder builderForValue) {
@@ -545,7 +545,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder addMessages(im.micro.access.pojo.bo.message.Message value) {
       if (messagesBuilder_ == null) {
@@ -561,7 +561,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder addMessages(
         int index, im.micro.access.pojo.bo.message.Message value) {
@@ -578,7 +578,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder addMessages(
         im.micro.access.pojo.bo.message.Message.Builder builderForValue) {
@@ -592,7 +592,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder addMessages(
         int index, im.micro.access.pojo.bo.message.Message.Builder builderForValue) {
@@ -606,7 +606,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder addAllMessages(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.message.Message> values) {
@@ -621,7 +621,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder clearMessages() {
       if (messagesBuilder_ == null) {
@@ -634,7 +634,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public Builder removeMessages(int index) {
       if (messagesBuilder_ == null) {
@@ -647,14 +647,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public im.micro.access.pojo.bo.message.Message.Builder getMessagesBuilder(
         int index) {
       return getMessagesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessageOrBuilder getMessagesOrBuilder(
         int index) {
@@ -664,7 +664,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.message.MessageOrBuilder> 
          getMessagesOrBuilderList() {
@@ -675,14 +675,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public im.micro.access.pojo.bo.message.Message.Builder addMessagesBuilder() {
       return getMessagesFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.message.Message.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public im.micro.access.pojo.bo.message.Message.Builder addMessagesBuilder(
         int index) {
@@ -690,7 +690,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.message.Message.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 1;</code>
+     * <code>repeated .im.micro.proto.Message messages = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.message.Message.Builder> 
          getMessagesBuilderList() {
@@ -723,10 +723,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.Messages)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.Messages)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.Messages)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.Messages)
   private static final im.micro.access.pojo.bo.message.Messages DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.message.Messages();

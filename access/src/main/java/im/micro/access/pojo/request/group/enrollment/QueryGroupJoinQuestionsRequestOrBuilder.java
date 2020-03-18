@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.group.enrollment;
 
 public interface QueryGroupJoinQuestionsRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryGroupJoinQuestionsRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryGroupJoinQuestionsRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

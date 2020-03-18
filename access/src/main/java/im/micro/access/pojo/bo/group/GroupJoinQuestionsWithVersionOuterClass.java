@@ -15,10 +15,10 @@ public final class GroupJoinQuestionsWithVersionOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_descriptor;
+    internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_fieldAccessorTable;
+      internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,11 +29,11 @@ public final class GroupJoinQuestionsWithVersionOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n3model/group/group_join_questions_with_" +
-      "version.proto\022\016im.turms.proto\032\036google/pr" +
+      "version.proto\022\016im.micro.proto\032\036google/pr" +
       "otobuf/wrappers.proto\032%model/group/group" +
       "_join_question.proto\"\230\001\n\035GroupJoinQuesti" +
       "onsWithVersion\022?\n\024group_join_questions\030\001" +
-      " \003(\0132!.im.turms.proto.GroupJoinQuestion\022" +
+      " \003(\0132!.im.micro.proto.GroupJoinQuestion\022" +
       "6\n\021last_updated_date\030\002 \001(\0132\033.google.prot" +
       "obuf.Int64ValueB!\n\035im.micro.access.pojo." +
       "bo.groupP\001b\006proto3"
@@ -44,11 +44,11 @@ public final class GroupJoinQuestionsWithVersionOuterClass {
           com.google.protobuf.WrappersProto.getDescriptor(),
           im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_descriptor =
+    internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_fieldAccessorTable = new
+    internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_GroupJoinQuestionsWithVersion_descriptor,
+        internal_static_im_micro_proto_GroupJoinQuestionsWithVersion_descriptor,
         new java.lang.String[] { "GroupJoinQuestions", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
     im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.getDescriptor();

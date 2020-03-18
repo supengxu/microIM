@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.group;
 
 /**
- * Protobuf type {@code im.turms.proto.GroupInvitationsWithVersion}
+ * Protobuf type {@code im.micro.proto.GroupInvitationsWithVersion}
  */
 public  final class GroupInvitationsWithVersion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.GroupInvitationsWithVersion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.GroupInvitationsWithVersion)
     GroupInvitationsWithVersionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GroupInvitationsWithVersion.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_turms_proto_GroupInvitationsWithVersion_descriptor;
+    return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_micro_proto_GroupInvitationsWithVersion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_turms_proto_GroupInvitationsWithVersion_fieldAccessorTable
+    return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_micro_proto_GroupInvitationsWithVersion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.group.GroupInvitationsWithVersion.class, im.micro.access.pojo.bo.group.GroupInvitationsWithVersion.Builder.class);
   }
@@ -110,32 +110,32 @@ private static final long serialVersionUID = 0L;
   public static final int GROUP_INVITATIONS_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.group.GroupInvitation> groupInvitations_;
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.group.GroupInvitation> getGroupInvitationsList() {
     return groupInvitations_;
   }
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.group.GroupInvitationOrBuilder> 
       getGroupInvitationsOrBuilderList() {
     return groupInvitations_;
   }
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   public int getGroupInvitationsCount() {
     return groupInvitations_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   public im.micro.access.pojo.bo.group.GroupInvitation getGroupInvitations(int index) {
     return groupInvitations_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   public im.micro.access.pojo.bo.group.GroupInvitationOrBuilder getGroupInvitationsOrBuilder(
       int index) {
@@ -339,21 +339,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.GroupInvitationsWithVersion}
+   * Protobuf type {@code im.micro.proto.GroupInvitationsWithVersion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.GroupInvitationsWithVersion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.GroupInvitationsWithVersion)
       im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_turms_proto_GroupInvitationsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_micro_proto_GroupInvitationsWithVersion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_turms_proto_GroupInvitationsWithVersion_fieldAccessorTable
+      return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_micro_proto_GroupInvitationsWithVersion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.group.GroupInvitationsWithVersion.class, im.micro.access.pojo.bo.group.GroupInvitationsWithVersion.Builder.class);
     }
@@ -395,7 +395,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_turms_proto_GroupInvitationsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.group.GroupInvitationsWithVersionOuterClass.internal_static_im_micro_proto_GroupInvitationsWithVersion_descriptor;
     }
 
     @java.lang.Override
@@ -550,7 +550,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.group.GroupInvitation, im.micro.access.pojo.bo.group.GroupInvitation.Builder, im.micro.access.pojo.bo.group.GroupInvitationOrBuilder> groupInvitationsBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.group.GroupInvitation> getGroupInvitationsList() {
       if (groupInvitationsBuilder_ == null) {
@@ -560,7 +560,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public int getGroupInvitationsCount() {
       if (groupInvitationsBuilder_ == null) {
@@ -570,7 +570,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupInvitation getGroupInvitations(int index) {
       if (groupInvitationsBuilder_ == null) {
@@ -580,7 +580,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder setGroupInvitations(
         int index, im.micro.access.pojo.bo.group.GroupInvitation value) {
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder setGroupInvitations(
         int index, im.micro.access.pojo.bo.group.GroupInvitation.Builder builderForValue) {
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder addGroupInvitations(im.micro.access.pojo.bo.group.GroupInvitation value) {
       if (groupInvitationsBuilder_ == null) {
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder addGroupInvitations(
         int index, im.micro.access.pojo.bo.group.GroupInvitation value) {
@@ -644,7 +644,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder addGroupInvitations(
         im.micro.access.pojo.bo.group.GroupInvitation.Builder builderForValue) {
@@ -658,7 +658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder addGroupInvitations(
         int index, im.micro.access.pojo.bo.group.GroupInvitation.Builder builderForValue) {
@@ -672,7 +672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder addAllGroupInvitations(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.group.GroupInvitation> values) {
@@ -687,7 +687,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder clearGroupInvitations() {
       if (groupInvitationsBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public Builder removeGroupInvitations(int index) {
       if (groupInvitationsBuilder_ == null) {
@@ -713,14 +713,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupInvitation.Builder getGroupInvitationsBuilder(
         int index) {
       return getGroupInvitationsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupInvitationOrBuilder getGroupInvitationsOrBuilder(
         int index) {
@@ -730,7 +730,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.group.GroupInvitationOrBuilder> 
          getGroupInvitationsOrBuilderList() {
@@ -741,14 +741,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupInvitation.Builder addGroupInvitationsBuilder() {
       return getGroupInvitationsFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.group.GroupInvitation.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public im.micro.access.pojo.bo.group.GroupInvitation.Builder addGroupInvitationsBuilder(
         int index) {
@@ -756,7 +756,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.group.GroupInvitation.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+     * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.group.GroupInvitation.Builder> 
          getGroupInvitationsBuilderList() {
@@ -908,10 +908,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.GroupInvitationsWithVersion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.GroupInvitationsWithVersion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.GroupInvitationsWithVersion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.GroupInvitationsWithVersion)
   private static final im.micro.access.pojo.bo.group.GroupInvitationsWithVersion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.group.GroupInvitationsWithVersion();

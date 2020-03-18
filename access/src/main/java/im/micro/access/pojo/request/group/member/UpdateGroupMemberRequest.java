@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.group.member;
 
 /**
- * Protobuf type {@code im.turms.proto.UpdateGroupMemberRequest}
+ * Protobuf type {@code im.micro.proto.UpdateGroupMemberRequest}
  */
 public  final class UpdateGroupMemberRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UpdateGroupMemberRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UpdateGroupMemberRequest)
     UpdateGroupMemberRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UpdateGroupMemberRequest.newBuilder() to construct.
@@ -112,13 +112,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_turms_proto_UpdateGroupMemberRequest_descriptor;
+    return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_micro_proto_UpdateGroupMemberRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_turms_proto_UpdateGroupMemberRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_micro_proto_UpdateGroupMemberRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.group.member.UpdateGroupMemberRequest.class, im.micro.access.pojo.request.group.member.UpdateGroupMemberRequest.Builder.class);
   }
@@ -169,14 +169,14 @@ private static final long serialVersionUID = 0L;
   public static final int ROLE_FIELD_NUMBER = 4;
   private int role_;
   /**
-   * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+   * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
    * @return The enum numeric value on the wire for role.
    */
   public int getRoleValue() {
     return role_;
   }
   /**
-   * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+   * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
    * @return The role.
    */
   public im.micro.access.constant.GroupMemberRole getRole() {
@@ -419,21 +419,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UpdateGroupMemberRequest}
+   * Protobuf type {@code im.micro.proto.UpdateGroupMemberRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UpdateGroupMemberRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UpdateGroupMemberRequest)
       im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_turms_proto_UpdateGroupMemberRequest_descriptor;
+      return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_micro_proto_UpdateGroupMemberRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_turms_proto_UpdateGroupMemberRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_micro_proto_UpdateGroupMemberRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.group.member.UpdateGroupMemberRequest.class, im.micro.access.pojo.request.group.member.UpdateGroupMemberRequest.Builder.class);
     }
@@ -480,7 +480,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_turms_proto_UpdateGroupMemberRequest_descriptor;
+      return im.micro.access.pojo.request.group.member.UpdateGroupMemberRequestOuterClass.internal_static_im_micro_proto_UpdateGroupMemberRequest_descriptor;
     }
 
     @java.lang.Override
@@ -786,14 +786,14 @@ private static final long serialVersionUID = 0L;
 
     private int role_ = 0;
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @return The enum numeric value on the wire for role.
      */
     public int getRoleValue() {
       return role_;
     }
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @param value The enum numeric value on the wire for role to set.
      * @return This builder for chaining.
      */
@@ -803,7 +803,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @return The role.
      */
     public im.micro.access.constant.GroupMemberRole getRole() {
@@ -812,7 +812,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.GroupMemberRole.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @param value The role to set.
      * @return This builder for chaining.
      */
@@ -826,7 +826,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @return This builder for chaining.
      */
     public Builder clearRole() {
@@ -967,10 +967,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UpdateGroupMemberRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UpdateGroupMemberRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UpdateGroupMemberRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UpdateGroupMemberRequest)
   private static final im.micro.access.pojo.request.group.member.UpdateGroupMemberRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.group.member.UpdateGroupMemberRequest();

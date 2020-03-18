@@ -4,21 +4,21 @@
 package im.micro.access.pojo.bo.file;
 
 public interface ImageFileOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.ImageFile)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.ImageFile)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.im.turms.proto.ImageFile.Description description = 1;</code>
+   * <code>.im.micro.proto.ImageFile.Description description = 1;</code>
    * @return Whether the description field is set.
    */
   boolean hasDescription();
   /**
-   * <code>.im.turms.proto.ImageFile.Description description = 1;</code>
+   * <code>.im.micro.proto.ImageFile.Description description = 1;</code>
    * @return The description.
    */
   im.micro.access.pojo.bo.file.ImageFile.Description getDescription();
   /**
-   * <code>.im.turms.proto.ImageFile.Description description = 1;</code>
+   * <code>.im.micro.proto.ImageFile.Description description = 1;</code>
    */
   im.micro.access.pojo.bo.file.ImageFile.DescriptionOrBuilder getDescriptionOrBuilder();
 

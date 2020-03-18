@@ -15,10 +15,10 @@ public final class UsersInfosWithVersionOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UsersInfosWithVersion_descriptor;
+    internal_static_im_micro_proto_UsersInfosWithVersion_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UsersInfosWithVersion_fieldAccessorTable;
+      internal_static_im_micro_proto_UsersInfosWithVersion_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,10 +29,10 @@ public final class UsersInfosWithVersionOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n)model/user/users_infos_with_version.pr" +
-      "oto\022\016im.turms.proto\032\036google/protobuf/wra" +
+      "oto\022\016im.micro.proto\032\036google/protobuf/wra" +
       "ppers.proto\032\032model/user/user_info.proto\"" +
       "}\n\025UsersInfosWithVersion\022,\n\nuser_infos\030\001" +
-      " \003(\0132\030.im.turms.proto.UserInfo\0226\n\021last_u" +
+      " \003(\0132\030.im.micro.proto.UserInfo\0226\n\021last_u" +
       "pdated_date\030\002 \001(\0132\033.google.protobuf.Int6" +
       "4ValueB \n\034im.micro.access.pojo.bo.userP\001" +
       "b\006proto3"
@@ -43,11 +43,11 @@ public final class UsersInfosWithVersionOuterClass {
           com.google.protobuf.WrappersProto.getDescriptor(),
           im.micro.access.pojo.bo.user.UserInfoOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_UsersInfosWithVersion_descriptor =
+    internal_static_im_micro_proto_UsersInfosWithVersion_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UsersInfosWithVersion_fieldAccessorTable = new
+    internal_static_im_micro_proto_UsersInfosWithVersion_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UsersInfosWithVersion_descriptor,
+        internal_static_im_micro_proto_UsersInfosWithVersion_descriptor,
         new java.lang.String[] { "UserInfos", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
     im.micro.access.pojo.bo.user.UserInfoOuterClass.getDescriptor();

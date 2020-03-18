@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user.relationship;
 
 public interface UpdateFriendRequestRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UpdateFriendRequestRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UpdateFriendRequestRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -14,12 +14,12 @@ public interface UpdateFriendRequestRequestOrBuilder extends
   long getRequestId();
 
   /**
-   * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+   * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
    * @return The enum numeric value on the wire for responseAction.
    */
   int getResponseActionValue();
   /**
-   * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+   * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
    * @return The responseAction.
    */
   im.micro.access.constant.ResponseAction getResponseAction();

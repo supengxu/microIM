@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.user;
 
 /**
- * Protobuf type {@code im.turms.proto.QueryUsersOnlineStatusRequest}
+ * Protobuf type {@code im.micro.proto.QueryUsersOnlineStatusRequest}
  */
 public  final class QueryUsersOnlineStatusRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.QueryUsersOnlineStatusRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.QueryUsersOnlineStatusRequest)
     QueryUsersOnlineStatusRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use QueryUsersOnlineStatusRequest.newBuilder() to construct.
@@ -95,13 +95,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_turms_proto_QueryUsersOnlineStatusRequest_descriptor;
+    return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_micro_proto_QueryUsersOnlineStatusRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_turms_proto_QueryUsersOnlineStatusRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_micro_proto_QueryUsersOnlineStatusRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequest.class, im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequest.Builder.class);
   }
@@ -306,21 +306,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.QueryUsersOnlineStatusRequest}
+   * Protobuf type {@code im.micro.proto.QueryUsersOnlineStatusRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.QueryUsersOnlineStatusRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.QueryUsersOnlineStatusRequest)
       im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_turms_proto_QueryUsersOnlineStatusRequest_descriptor;
+      return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_micro_proto_QueryUsersOnlineStatusRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_turms_proto_QueryUsersOnlineStatusRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_micro_proto_QueryUsersOnlineStatusRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequest.class, im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequest.Builder.class);
     }
@@ -351,7 +351,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_turms_proto_QueryUsersOnlineStatusRequest_descriptor;
+      return im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequestOuterClass.internal_static_im_micro_proto_QueryUsersOnlineStatusRequest_descriptor;
     }
 
     @java.lang.Override
@@ -556,10 +556,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.QueryUsersOnlineStatusRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.QueryUsersOnlineStatusRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.QueryUsersOnlineStatusRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.QueryUsersOnlineStatusRequest)
   private static final im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.user.QueryUsersOnlineStatusRequest();

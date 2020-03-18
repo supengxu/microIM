@@ -15,10 +15,10 @@ public final class CreateGroupJoinQuestionRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_CreateGroupJoinQuestionRequest_descriptor;
+    internal_static_im_micro_proto_CreateGroupJoinQuestionRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_CreateGroupJoinQuestionRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_CreateGroupJoinQuestionRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class CreateGroupJoinQuestionRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nArequest/group/enrollment/create_group_" +
-      "join_question_request.proto\022\016im.turms.pr" +
+      "join_question_request.proto\022\016im.micro.pr" +
       "oto\"d\n\036CreateGroupJoinQuestionRequest\022\020\n" +
       "\010group_id\030\001 \001(\003\022\020\n\010question\030\002 \001(\t\022\017\n\007ans" +
       "wers\030\003 \003(\t\022\r\n\005score\030\004 \001(\005B1\n-im.micro.ac" +
@@ -40,11 +40,11 @@ public final class CreateGroupJoinQuestionRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_CreateGroupJoinQuestionRequest_descriptor =
+    internal_static_im_micro_proto_CreateGroupJoinQuestionRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_CreateGroupJoinQuestionRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_CreateGroupJoinQuestionRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_CreateGroupJoinQuestionRequest_descriptor,
+        internal_static_im_micro_proto_CreateGroupJoinQuestionRequest_descriptor,
         new java.lang.String[] { "GroupId", "Question", "Answers", "Score", });
   }
 

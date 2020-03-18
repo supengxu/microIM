@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user;
 
 public interface QueryUserGroupInvitationsRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryUserGroupInvitationsRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryUserGroupInvitationsRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

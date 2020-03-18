@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.signal;
 
 /**
- * Protobuf type {@code im.turms.proto.Session}
+ * Protobuf type {@code im.micro.proto.Session}
  */
 public  final class Session extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.Session)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.Session)
     SessionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Session.newBuilder() to construct.
@@ -83,13 +83,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_turms_proto_Session_descriptor;
+    return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_micro_proto_Session_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_turms_proto_Session_fieldAccessorTable
+    return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_micro_proto_Session_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.signal.Session.class, im.micro.access.pojo.bo.signal.Session.Builder.class);
   }
@@ -331,21 +331,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.Session}
+   * Protobuf type {@code im.micro.proto.Session}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.Session)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.Session)
       im.micro.access.pojo.bo.signal.SessionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_turms_proto_Session_descriptor;
+      return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_micro_proto_Session_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_turms_proto_Session_fieldAccessorTable
+      return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_micro_proto_Session_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.signal.Session.class, im.micro.access.pojo.bo.signal.Session.Builder.class);
     }
@@ -378,7 +378,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_turms_proto_Session_descriptor;
+      return im.micro.access.pojo.bo.signal.SessionOuterClass.internal_static_im_micro_proto_Session_descriptor;
     }
 
     @java.lang.Override
@@ -649,10 +649,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.Session)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.Session)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.Session)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.Session)
   private static final im.micro.access.pojo.bo.signal.Session DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.signal.Session();

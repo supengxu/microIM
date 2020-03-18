@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UsersInfosWithVersion}
+ * Protobuf type {@code im.micro.proto.UsersInfosWithVersion}
  */
 public  final class UsersInfosWithVersion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UsersInfosWithVersion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UsersInfosWithVersion)
     UsersInfosWithVersionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UsersInfosWithVersion.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_turms_proto_UsersInfosWithVersion_descriptor;
+    return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_micro_proto_UsersInfosWithVersion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_turms_proto_UsersInfosWithVersion_fieldAccessorTable
+    return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_micro_proto_UsersInfosWithVersion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.user.UsersInfosWithVersion.class, im.micro.access.pojo.bo.user.UsersInfosWithVersion.Builder.class);
   }
@@ -110,32 +110,32 @@ private static final long serialVersionUID = 0L;
   public static final int USER_INFOS_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.user.UserInfo> userInfos_;
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.user.UserInfo> getUserInfosList() {
     return userInfos_;
   }
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.user.UserInfoOrBuilder> 
       getUserInfosOrBuilderList() {
     return userInfos_;
   }
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   public int getUserInfosCount() {
     return userInfos_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   public im.micro.access.pojo.bo.user.UserInfo getUserInfos(int index) {
     return userInfos_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   public im.micro.access.pojo.bo.user.UserInfoOrBuilder getUserInfosOrBuilder(
       int index) {
@@ -339,21 +339,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UsersInfosWithVersion}
+   * Protobuf type {@code im.micro.proto.UsersInfosWithVersion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UsersInfosWithVersion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UsersInfosWithVersion)
       im.micro.access.pojo.bo.user.UsersInfosWithVersionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_turms_proto_UsersInfosWithVersion_descriptor;
+      return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_micro_proto_UsersInfosWithVersion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_turms_proto_UsersInfosWithVersion_fieldAccessorTable
+      return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_micro_proto_UsersInfosWithVersion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.user.UsersInfosWithVersion.class, im.micro.access.pojo.bo.user.UsersInfosWithVersion.Builder.class);
     }
@@ -395,7 +395,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_turms_proto_UsersInfosWithVersion_descriptor;
+      return im.micro.access.pojo.bo.user.UsersInfosWithVersionOuterClass.internal_static_im_micro_proto_UsersInfosWithVersion_descriptor;
     }
 
     @java.lang.Override
@@ -550,7 +550,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.user.UserInfo, im.micro.access.pojo.bo.user.UserInfo.Builder, im.micro.access.pojo.bo.user.UserInfoOrBuilder> userInfosBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.user.UserInfo> getUserInfosList() {
       if (userInfosBuilder_ == null) {
@@ -560,7 +560,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public int getUserInfosCount() {
       if (userInfosBuilder_ == null) {
@@ -570,7 +570,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserInfo getUserInfos(int index) {
       if (userInfosBuilder_ == null) {
@@ -580,7 +580,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder setUserInfos(
         int index, im.micro.access.pojo.bo.user.UserInfo value) {
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder setUserInfos(
         int index, im.micro.access.pojo.bo.user.UserInfo.Builder builderForValue) {
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder addUserInfos(im.micro.access.pojo.bo.user.UserInfo value) {
       if (userInfosBuilder_ == null) {
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder addUserInfos(
         int index, im.micro.access.pojo.bo.user.UserInfo value) {
@@ -644,7 +644,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder addUserInfos(
         im.micro.access.pojo.bo.user.UserInfo.Builder builderForValue) {
@@ -658,7 +658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder addUserInfos(
         int index, im.micro.access.pojo.bo.user.UserInfo.Builder builderForValue) {
@@ -672,7 +672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder addAllUserInfos(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.user.UserInfo> values) {
@@ -687,7 +687,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder clearUserInfos() {
       if (userInfosBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public Builder removeUserInfos(int index) {
       if (userInfosBuilder_ == null) {
@@ -713,14 +713,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserInfo.Builder getUserInfosBuilder(
         int index) {
       return getUserInfosFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserInfoOrBuilder getUserInfosOrBuilder(
         int index) {
@@ -730,7 +730,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.user.UserInfoOrBuilder> 
          getUserInfosOrBuilderList() {
@@ -741,14 +741,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserInfo.Builder addUserInfosBuilder() {
       return getUserInfosFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.user.UserInfo.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserInfo.Builder addUserInfosBuilder(
         int index) {
@@ -756,7 +756,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.user.UserInfo.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+     * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.user.UserInfo.Builder> 
          getUserInfosBuilderList() {
@@ -908,10 +908,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UsersInfosWithVersion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UsersInfosWithVersion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UsersInfosWithVersion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UsersInfosWithVersion)
   private static final im.micro.access.pojo.bo.user.UsersInfosWithVersion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.user.UsersInfosWithVersion();

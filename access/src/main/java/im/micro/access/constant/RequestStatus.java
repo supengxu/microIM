@@ -4,7 +4,7 @@
 package im.micro.access.constant;
 
 /**
- * Protobuf enum {@code im.turms.proto.RequestStatus}
+ * Protobuf enum {@code im.micro.proto.RequestStatus}
  */
 public enum RequestStatus
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -149,6 +149,6 @@ public enum RequestStatus
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:im.turms.proto.RequestStatus)
+  // @@protoc_insertion_point(enum_scope:im.micro.proto.RequestStatus)
 }
 

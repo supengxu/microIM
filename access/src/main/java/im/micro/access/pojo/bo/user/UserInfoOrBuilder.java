@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.user;
 
 public interface UserInfoOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UserInfo)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UserInfo)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -113,12 +113,12 @@ public interface UserInfoOrBuilder extends
   com.google.protobuf.BoolValueOrBuilder getActiveOrBuilder();
 
   /**
-   * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 8;</code>
+   * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 8;</code>
    * @return The enum numeric value on the wire for profileAccessStrategy.
    */
   int getProfileAccessStrategyValue();
   /**
-   * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 8;</code>
+   * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 8;</code>
    * @return The profileAccessStrategy.
    */
   im.micro.access.constant.ProfileAccessStrategy getProfileAccessStrategy();

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.message;
 
 /**
- * Protobuf type {@code im.turms.proto.CreateMessageRequest}
+ * Protobuf type {@code im.micro.proto.CreateMessageRequest}
  */
 public  final class CreateMessageRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.CreateMessageRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.CreateMessageRequest)
     CreateMessageRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use CreateMessageRequest.newBuilder() to construct.
@@ -151,13 +151,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_turms_proto_CreateMessageRequest_descriptor;
+    return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_micro_proto_CreateMessageRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_turms_proto_CreateMessageRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_micro_proto_CreateMessageRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.message.CreateMessageRequest.class, im.micro.access.pojo.request.message.CreateMessageRequest.Builder.class);
   }
@@ -188,14 +188,14 @@ private static final long serialVersionUID = 0L;
   public static final int CHAT_TYPE_FIELD_NUMBER = 2;
   private int chatType_;
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 2;</code>
    * @return The enum numeric value on the wire for chatType.
    */
   public int getChatTypeValue() {
     return chatType_;
   }
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 2;</code>
    * @return The chatType.
    */
   public im.micro.access.constant.ChatType getChatType() {
@@ -592,21 +592,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.CreateMessageRequest}
+   * Protobuf type {@code im.micro.proto.CreateMessageRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.CreateMessageRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.CreateMessageRequest)
       im.micro.access.pojo.request.message.CreateMessageRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_turms_proto_CreateMessageRequest_descriptor;
+      return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_micro_proto_CreateMessageRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_turms_proto_CreateMessageRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_micro_proto_CreateMessageRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.message.CreateMessageRequest.class, im.micro.access.pojo.request.message.CreateMessageRequest.Builder.class);
     }
@@ -667,7 +667,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_turms_proto_CreateMessageRequest_descriptor;
+      return im.micro.access.pojo.request.message.CreateMessageRequestOuterClass.internal_static_im_micro_proto_CreateMessageRequest_descriptor;
     }
 
     @java.lang.Override
@@ -946,14 +946,14 @@ private static final long serialVersionUID = 0L;
 
     private int chatType_ = 0;
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @return The enum numeric value on the wire for chatType.
      */
     public int getChatTypeValue() {
       return chatType_;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @param value The enum numeric value on the wire for chatType to set.
      * @return This builder for chaining.
      */
@@ -963,7 +963,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @return The chatType.
      */
     public im.micro.access.constant.ChatType getChatType() {
@@ -972,7 +972,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.ChatType.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @param value The chatType to set.
      * @return This builder for chaining.
      */
@@ -986,7 +986,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @return This builder for chaining.
      */
     public Builder clearChatType() {
@@ -1546,10 +1546,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.CreateMessageRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.CreateMessageRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.CreateMessageRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.CreateMessageRequest)
   private static final im.micro.access.pojo.request.message.CreateMessageRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.message.CreateMessageRequest();

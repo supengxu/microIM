@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.signal;
 
 /**
- * Protobuf type {@code im.turms.proto.AckRequest}
+ * Protobuf type {@code im.micro.proto.AckRequest}
  */
 public  final class AckRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.AckRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.AckRequest)
     AckRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use AckRequest.newBuilder() to construct.
@@ -95,13 +95,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_turms_proto_AckRequest_descriptor;
+    return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_micro_proto_AckRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_turms_proto_AckRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_micro_proto_AckRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.signal.AckRequest.class, im.micro.access.pojo.request.signal.AckRequest.Builder.class);
   }
@@ -306,21 +306,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.AckRequest}
+   * Protobuf type {@code im.micro.proto.AckRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.AckRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.AckRequest)
       im.micro.access.pojo.request.signal.AckRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_turms_proto_AckRequest_descriptor;
+      return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_micro_proto_AckRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_turms_proto_AckRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_micro_proto_AckRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.signal.AckRequest.class, im.micro.access.pojo.request.signal.AckRequest.Builder.class);
     }
@@ -351,7 +351,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_turms_proto_AckRequest_descriptor;
+      return im.micro.access.pojo.request.signal.AckRequestOuterClass.internal_static_im_micro_proto_AckRequest_descriptor;
     }
 
     @java.lang.Override
@@ -556,10 +556,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.AckRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.AckRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.AckRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.AckRequest)
   private static final im.micro.access.pojo.request.signal.AckRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.signal.AckRequest();

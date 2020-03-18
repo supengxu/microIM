@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.group;
 
 public interface GroupOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.Group)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.Group)
     com.google.protobuf.MessageOrBuilder {
 
   /**

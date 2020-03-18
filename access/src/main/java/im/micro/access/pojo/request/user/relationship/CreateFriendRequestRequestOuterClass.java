@@ -15,10 +15,10 @@ public final class CreateFriendRequestRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_CreateFriendRequestRequest_descriptor;
+    internal_static_im_micro_proto_CreateFriendRequestRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_CreateFriendRequestRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_CreateFriendRequestRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class CreateFriendRequestRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n=request/user/relationship/create_frien" +
-      "d_request_request.proto\022\016im.turms.proto\"" +
+      "d_request_request.proto\022\016im.micro.proto\"" +
       "C\n\032CreateFriendRequestRequest\022\024\n\014recipie" +
       "nt_id\030\001 \001(\003\022\017\n\007content\030\002 \001(\tB2\n.im.micro" +
       ".access.pojo.request.user.relationshipP\001" +
@@ -39,11 +39,11 @@ public final class CreateFriendRequestRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_CreateFriendRequestRequest_descriptor =
+    internal_static_im_micro_proto_CreateFriendRequestRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_CreateFriendRequestRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_CreateFriendRequestRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_CreateFriendRequestRequest_descriptor,
+        internal_static_im_micro_proto_CreateFriendRequestRequest_descriptor,
         new java.lang.String[] { "RecipientId", "Content", });
   }
 

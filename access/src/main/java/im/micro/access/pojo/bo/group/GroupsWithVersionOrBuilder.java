@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.group;
 
 public interface GroupsWithVersionOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.GroupsWithVersion)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.GroupsWithVersion)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.group.Group> 
       getGroupsList();
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   im.micro.access.pojo.bo.group.Group getGroups(int index);
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   int getGroupsCount();
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.group.GroupOrBuilder> 
       getGroupsOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.Group groups = 1;</code>
+   * <code>repeated .im.micro.proto.Group groups = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupOrBuilder getGroupsOrBuilder(
       int index);

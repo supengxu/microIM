@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.user;
 
 public interface UsersOnlineStatusesOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UsersOnlineStatuses)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UsersOnlineStatuses)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.UserStatusDetail user_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.UserStatusDetail user_statuses = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.user.UserStatusDetail> 
       getUserStatusesList();
   /**
-   * <code>repeated .im.turms.proto.UserStatusDetail user_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.UserStatusDetail user_statuses = 1;</code>
    */
   im.micro.access.pojo.bo.user.UserStatusDetail getUserStatuses(int index);
   /**
-   * <code>repeated .im.turms.proto.UserStatusDetail user_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.UserStatusDetail user_statuses = 1;</code>
    */
   int getUserStatusesCount();
   /**
-   * <code>repeated .im.turms.proto.UserStatusDetail user_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.UserStatusDetail user_statuses = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.user.UserStatusDetailOrBuilder> 
       getUserStatusesOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.UserStatusDetail user_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.UserStatusDetail user_statuses = 1;</code>
    */
   im.micro.access.pojo.bo.user.UserStatusDetailOrBuilder getUserStatusesOrBuilder(
       int index);

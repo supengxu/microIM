@@ -15,10 +15,10 @@ public final class CreateGroupRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_CreateGroupRequest_descriptor;
+    internal_static_im_micro_proto_CreateGroupRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_CreateGroupRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_CreateGroupRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class CreateGroupRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n(request/group/create_group_request.pro" +
-      "to\022\016im.turms.proto\032\036google/protobuf/wrap" +
+      "to\022\016im.micro.proto\032\036google/protobuf/wrap" +
       "pers.proto\"\332\002\n\022CreateGroupRequest\022\014\n\004nam" +
       "e\030\001 \001(\t\022+\n\005intro\030\002 \001(\0132\034.google.protobuf" +
       ".StringValue\0222\n\014announcement\030\003 \001(\0132\034.goo" +
@@ -47,11 +47,11 @@ public final class CreateGroupRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_CreateGroupRequest_descriptor =
+    internal_static_im_micro_proto_CreateGroupRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_CreateGroupRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_CreateGroupRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_CreateGroupRequest_descriptor,
+        internal_static_im_micro_proto_CreateGroupRequest_descriptor,
         new java.lang.String[] { "Name", "Intro", "Announcement", "ProfilePictureUrl", "MinimumScore", "GroupTypeId", "MuteEndDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

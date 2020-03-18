@@ -15,10 +15,10 @@ public final class DeleteGroupInvitationRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_DeleteGroupInvitationRequest_descriptor;
+    internal_static_im_micro_proto_DeleteGroupInvitationRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_DeleteGroupInvitationRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_DeleteGroupInvitationRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class DeleteGroupInvitationRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n>request/group/enrollment/delete_group_" +
-      "invitation_request.proto\022\016im.turms.proto" +
+      "invitation_request.proto\022\016im.micro.proto" +
       "\"5\n\034DeleteGroupInvitationRequest\022\025\n\rinvi" +
       "tation_id\030\001 \001(\003B1\n-im.micro.access.pojo." +
       "request.group.enrollmentP\001b\006proto3"
@@ -38,11 +38,11 @@ public final class DeleteGroupInvitationRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_DeleteGroupInvitationRequest_descriptor =
+    internal_static_im_micro_proto_DeleteGroupInvitationRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_DeleteGroupInvitationRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_DeleteGroupInvitationRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_DeleteGroupInvitationRequest_descriptor,
+        internal_static_im_micro_proto_DeleteGroupInvitationRequest_descriptor,
         new java.lang.String[] { "InvitationId", });
   }
 

@@ -15,10 +15,10 @@ public final class UserRelationshipOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UserRelationship_descriptor;
+    internal_static_im_micro_proto_UserRelationship_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UserRelationship_fieldAccessorTable;
+      internal_static_im_micro_proto_UserRelationship_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class UserRelationshipOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\"model/user/user_relationship.proto\022\016im" +
-      ".turms.proto\032\036google/protobuf/wrappers.p" +
+      ".micro.proto\032\036google/protobuf/wrappers.p" +
       "roto\"\222\002\n\020UserRelationship\022-\n\010owner_id\030\001 " +
       "\001(\0132\033.google.protobuf.Int64Value\0224\n\017rela" +
       "ted_user_id\030\002 \001(\0132\033.google.protobuf.Int6" +
@@ -45,11 +45,11 @@ public final class UserRelationshipOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_UserRelationship_descriptor =
+    internal_static_im_micro_proto_UserRelationship_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UserRelationship_fieldAccessorTable = new
+    internal_static_im_micro_proto_UserRelationship_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UserRelationship_descriptor,
+        internal_static_im_micro_proto_UserRelationship_descriptor,
         new java.lang.String[] { "OwnerId", "RelatedUserId", "IsBlocked", "GroupIndex", "EstablishmentDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

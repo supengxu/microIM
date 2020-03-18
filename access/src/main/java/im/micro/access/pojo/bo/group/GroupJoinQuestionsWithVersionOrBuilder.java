@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.group;
 
 public interface GroupJoinQuestionsWithVersionOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.GroupJoinQuestionsWithVersion)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.GroupJoinQuestionsWithVersion)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.group.GroupJoinQuestion> 
       getGroupJoinQuestionsList();
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupJoinQuestion getGroupJoinQuestions(int index);
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   int getGroupJoinQuestionsCount();
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.group.GroupJoinQuestionOrBuilder> 
       getGroupJoinQuestionsOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.GroupJoinQuestion group_join_questions = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinQuestion group_join_questions = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupJoinQuestionOrBuilder getGroupJoinQuestionsOrBuilder(
       int index);

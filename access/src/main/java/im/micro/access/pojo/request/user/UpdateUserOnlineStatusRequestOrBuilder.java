@@ -4,16 +4,16 @@
 package im.micro.access.pojo.request.user;
 
 public interface UpdateUserOnlineStatusRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UpdateUserOnlineStatusRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UpdateUserOnlineStatusRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+   * <code>.im.micro.proto.UserStatus user_status = 1;</code>
    * @return The enum numeric value on the wire for userStatus.
    */
   int getUserStatusValue();
   /**
-   * <code>.im.turms.proto.UserStatus user_status = 1;</code>
+   * <code>.im.micro.proto.UserStatus user_status = 1;</code>
    * @return The userStatus.
    */
   im.micro.access.constant.UserStatus getUserStatus();

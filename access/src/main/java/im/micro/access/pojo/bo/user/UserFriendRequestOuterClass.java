@@ -15,10 +15,10 @@ public final class UserFriendRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UserFriendRequest_descriptor;
+    internal_static_im_micro_proto_UserFriendRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UserFriendRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UserFriendRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,13 +29,13 @@ public final class UserFriendRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n$model/user/user_friend_request.proto\022\016" +
-      "im.turms.proto\032\036google/protobuf/wrappers" +
+      "im.micro.proto\032\036google/protobuf/wrappers" +
       ".proto\032\035constant/request_status.proto\"\240\003" +
       "\n\021UserFriendRequest\022\'\n\002id\030\001 \001(\0132\033.google" +
       ".protobuf.Int64Value\0222\n\rcreation_date\030\002 " +
       "\001(\0132\033.google.protobuf.Int64Value\022-\n\007cont" +
       "ent\030\003 \001(\0132\034.google.protobuf.StringValue\022" +
-      "5\n\016request_status\030\004 \001(\0162\035.im.turms.proto" +
+      "5\n\016request_status\030\004 \001(\0162\035.im.micro.proto" +
       ".RequestStatus\022,\n\006reason\030\005 \001(\0132\034.google." +
       "protobuf.StringValue\0224\n\017expiration_date\030" +
       "\006 \001(\0132\033.google.protobuf.Int64Value\0221\n\014re" +
@@ -50,11 +50,11 @@ public final class UserFriendRequestOuterClass {
           com.google.protobuf.WrappersProto.getDescriptor(),
           im.micro.access.constant.RequestStatusOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_UserFriendRequest_descriptor =
+    internal_static_im_micro_proto_UserFriendRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UserFriendRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UserFriendRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UserFriendRequest_descriptor,
+        internal_static_im_micro_proto_UserFriendRequest_descriptor,
         new java.lang.String[] { "Id", "CreationDate", "Content", "RequestStatus", "Reason", "ExpirationDate", "RequesterId", "RecipientId", });
     com.google.protobuf.WrappersProto.getDescriptor();
     im.micro.access.constant.RequestStatusOuterClass.getDescriptor();

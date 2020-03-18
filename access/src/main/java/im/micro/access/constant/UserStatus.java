@@ -8,7 +8,7 @@ package im.micro.access.constant;
  * 用户状态（参照QQ的用户状态）
  * </pre>
  *
- * Protobuf enum {@code im.turms.proto.UserStatus}
+ * Protobuf enum {@code im.micro.proto.UserStatus}
  */
 public enum UserStatus
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -209,6 +209,6 @@ public enum UserStatus
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:im.turms.proto.UserStatus)
+  // @@protoc_insertion_point(enum_scope:im.micro.proto.UserStatus)
 }
 

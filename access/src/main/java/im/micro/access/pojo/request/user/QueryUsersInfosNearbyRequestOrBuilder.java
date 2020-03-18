@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user;
 
 public interface QueryUsersInfosNearbyRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryUsersInfosNearbyRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryUsersInfosNearbyRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

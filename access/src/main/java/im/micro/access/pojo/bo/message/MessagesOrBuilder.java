@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.message;
 
 public interface MessagesOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.Messages)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.Messages)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.message.Message> 
       getMessagesList();
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   im.micro.access.pojo.bo.message.Message getMessages(int index);
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   int getMessagesCount();
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.message.MessageOrBuilder> 
       getMessagesOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.Message messages = 1;</code>
+   * <code>repeated .im.micro.proto.Message messages = 1;</code>
    */
   im.micro.access.pojo.bo.message.MessageOrBuilder getMessagesOrBuilder(
       int index);

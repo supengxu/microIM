@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.user;
 
 public interface UserFriendRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UserFriendRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UserFriendRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -53,12 +53,12 @@ public interface UserFriendRequestOrBuilder extends
   com.google.protobuf.StringValueOrBuilder getContentOrBuilder();
 
   /**
-   * <code>.im.turms.proto.RequestStatus request_status = 4;</code>
+   * <code>.im.micro.proto.RequestStatus request_status = 4;</code>
    * @return The enum numeric value on the wire for requestStatus.
    */
   int getRequestStatusValue();
   /**
-   * <code>.im.turms.proto.RequestStatus request_status = 4;</code>
+   * <code>.im.micro.proto.RequestStatus request_status = 4;</code>
    * @return The requestStatus.
    */
   im.micro.access.constant.RequestStatus getRequestStatus();

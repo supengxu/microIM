@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.group;
 
 /**
- * Protobuf type {@code im.turms.proto.GroupJoinQuestion}
+ * Protobuf type {@code im.micro.proto.GroupJoinQuestion}
  */
 public  final class GroupJoinQuestion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.GroupJoinQuestion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.GroupJoinQuestion)
     GroupJoinQuestionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GroupJoinQuestion.newBuilder() to construct.
@@ -135,13 +135,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_turms_proto_GroupJoinQuestion_descriptor;
+    return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_micro_proto_GroupJoinQuestion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_turms_proto_GroupJoinQuestion_fieldAccessorTable
+    return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_micro_proto_GroupJoinQuestion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.group.GroupJoinQuestion.class, im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder.class);
   }
@@ -495,21 +495,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.GroupJoinQuestion}
+   * Protobuf type {@code im.micro.proto.GroupJoinQuestion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.GroupJoinQuestion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.GroupJoinQuestion)
       im.micro.access.pojo.bo.group.GroupJoinQuestionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_turms_proto_GroupJoinQuestion_descriptor;
+      return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_micro_proto_GroupJoinQuestion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_turms_proto_GroupJoinQuestion_fieldAccessorTable
+      return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_micro_proto_GroupJoinQuestion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.group.GroupJoinQuestion.class, im.micro.access.pojo.bo.group.GroupJoinQuestion.Builder.class);
     }
@@ -569,7 +569,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_turms_proto_GroupJoinQuestion_descriptor;
+      return im.micro.access.pojo.bo.group.GroupJoinQuestionOuterClass.internal_static_im_micro_proto_GroupJoinQuestion_descriptor;
     }
 
     @java.lang.Override
@@ -1463,10 +1463,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.GroupJoinQuestion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.GroupJoinQuestion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.GroupJoinQuestion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.GroupJoinQuestion)
   private static final im.micro.access.pojo.bo.group.GroupJoinQuestion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.group.GroupJoinQuestion();

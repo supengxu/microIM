@@ -15,10 +15,10 @@ public final class UpdateGroupRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UpdateGroupRequest_descriptor;
+    internal_static_im_micro_proto_UpdateGroupRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UpdateGroupRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UpdateGroupRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class UpdateGroupRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n(request/group/update_group_request.pro" +
-      "to\022\016im.turms.proto\032\036google/protobuf/wrap" +
+      "to\022\016im.micro.proto\032\036google/protobuf/wrap" +
       "pers.proto\"\374\003\n\022UpdateGroupRequest\022\020\n\010gro" +
       "up_id\030\001 \001(\003\0220\n\ngroup_name\030\002 \001(\0132\034.google" +
       ".protobuf.StringValue\022+\n\005intro\030\003 \001(\0132\034.g" +
@@ -51,11 +51,11 @@ public final class UpdateGroupRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_UpdateGroupRequest_descriptor =
+    internal_static_im_micro_proto_UpdateGroupRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UpdateGroupRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UpdateGroupRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UpdateGroupRequest_descriptor,
+        internal_static_im_micro_proto_UpdateGroupRequest_descriptor,
         new java.lang.String[] { "GroupId", "GroupName", "Intro", "Announcement", "ProfilePictureUrl", "MinimumScore", "GroupTypeId", "MuteEndDate", "SuccessorId", "QuitAfterTransfer", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

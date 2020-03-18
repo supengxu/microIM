@@ -8,7 +8,7 @@ package im.micro.access.constant;
  * 消息投送状态
  * </pre>
  *
- * Protobuf enum {@code im.turms.proto.MessageDeliveryStatus}
+ * Protobuf enum {@code im.micro.proto.MessageDeliveryStatus}
  */
 public enum MessageDeliveryStatus
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -175,6 +175,6 @@ public enum MessageDeliveryStatus
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:im.turms.proto.MessageDeliveryStatus)
+  // @@protoc_insertion_point(enum_scope:im.micro.proto.MessageDeliveryStatus)
 }
 

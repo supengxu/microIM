@@ -8,7 +8,7 @@ package im.micro.access.constant;
  * 群聊人员角色
  * </pre>
  *
- * Protobuf enum {@code im.turms.proto.GroupMemberRole}
+ * Protobuf enum {@code im.micro.proto.GroupMemberRole}
  */
 public enum GroupMemberRole
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -175,6 +175,6 @@ public enum GroupMemberRole
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:im.turms.proto.GroupMemberRole)
+  // @@protoc_insertion_point(enum_scope:im.micro.proto.GroupMemberRole)
 }
 

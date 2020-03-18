@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user.relationship;
 
 public interface CreateRelationshipRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.CreateRelationshipRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.CreateRelationshipRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.message;
 
 /**
- * Protobuf type {@code im.turms.proto.MessageStatus}
+ * Protobuf type {@code im.micro.proto.MessageStatus}
  */
 public  final class MessageStatus extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.MessageStatus)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.MessageStatus)
     MessageStatusOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use MessageStatus.newBuilder() to construct.
@@ -141,13 +141,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_turms_proto_MessageStatus_descriptor;
+    return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_micro_proto_MessageStatus_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_turms_proto_MessageStatus_fieldAccessorTable
+    return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_micro_proto_MessageStatus_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.message.MessageStatus.class, im.micro.access.pojo.bo.message.MessageStatus.Builder.class);
   }
@@ -201,14 +201,14 @@ private static final long serialVersionUID = 0L;
   public static final int DELIVERY_STATUS_FIELD_NUMBER = 3;
   private int deliveryStatus_;
   /**
-   * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+   * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
    * @return The enum numeric value on the wire for deliveryStatus.
    */
   public int getDeliveryStatusValue() {
     return deliveryStatus_;
   }
   /**
-   * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+   * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
    * @return The deliveryStatus.
    */
   public im.micro.access.constant.MessageDeliveryStatus getDeliveryStatus() {
@@ -521,21 +521,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.MessageStatus}
+   * Protobuf type {@code im.micro.proto.MessageStatus}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.MessageStatus)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.MessageStatus)
       im.micro.access.pojo.bo.message.MessageStatusOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_turms_proto_MessageStatus_descriptor;
+      return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_micro_proto_MessageStatus_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_turms_proto_MessageStatus_fieldAccessorTable
+      return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_micro_proto_MessageStatus_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.message.MessageStatus.class, im.micro.access.pojo.bo.message.MessageStatus.Builder.class);
     }
@@ -596,7 +596,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_turms_proto_MessageStatus_descriptor;
+      return im.micro.access.pojo.bo.message.MessageStatusOuterClass.internal_static_im_micro_proto_MessageStatus_descriptor;
     }
 
     @java.lang.Override
@@ -977,14 +977,14 @@ private static final long serialVersionUID = 0L;
 
     private int deliveryStatus_ = 0;
     /**
-     * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+     * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
      * @return The enum numeric value on the wire for deliveryStatus.
      */
     public int getDeliveryStatusValue() {
       return deliveryStatus_;
     }
     /**
-     * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+     * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
      * @param value The enum numeric value on the wire for deliveryStatus to set.
      * @return This builder for chaining.
      */
@@ -994,7 +994,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+     * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
      * @return The deliveryStatus.
      */
     public im.micro.access.constant.MessageDeliveryStatus getDeliveryStatus() {
@@ -1003,7 +1003,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.MessageDeliveryStatus.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+     * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
      * @param value The deliveryStatus to set.
      * @return This builder for chaining.
      */
@@ -1017,7 +1017,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 3;</code>
+     * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 3;</code>
      * @return This builder for chaining.
      */
     public Builder clearDeliveryStatus() {
@@ -1396,10 +1396,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.MessageStatus)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.MessageStatus)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.MessageStatus)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.MessageStatus)
   private static final im.micro.access.pojo.bo.message.MessageStatus DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.message.MessageStatus();

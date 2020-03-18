@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UpdateUserRequest}
+ * Protobuf type {@code im.micro.proto.UpdateUserRequest}
  */
 public  final class UpdateUserRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UpdateUserRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UpdateUserRequest)
     UpdateUserRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UpdateUserRequest.newBuilder() to construct.
@@ -128,13 +128,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_turms_proto_UpdateUserRequest_descriptor;
+    return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_micro_proto_UpdateUserRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_turms_proto_UpdateUserRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_micro_proto_UpdateUserRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.user.UpdateUserRequest.class, im.micro.access.pojo.request.user.UpdateUserRequest.Builder.class);
   }
@@ -234,14 +234,14 @@ private static final long serialVersionUID = 0L;
   public static final int PROFILE_ACCESS_STRATEGY_FIELD_NUMBER = 5;
   private int profileAccessStrategy_;
   /**
-   * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+   * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
    * @return The enum numeric value on the wire for profileAccessStrategy.
    */
   public int getProfileAccessStrategyValue() {
     return profileAccessStrategy_;
   }
   /**
-   * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+   * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
    * @return The profileAccessStrategy.
    */
   public im.micro.access.constant.ProfileAccessStrategy getProfileAccessStrategy() {
@@ -469,21 +469,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UpdateUserRequest}
+   * Protobuf type {@code im.micro.proto.UpdateUserRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UpdateUserRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UpdateUserRequest)
       im.micro.access.pojo.request.user.UpdateUserRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_turms_proto_UpdateUserRequest_descriptor;
+      return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_micro_proto_UpdateUserRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_turms_proto_UpdateUserRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_micro_proto_UpdateUserRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.user.UpdateUserRequest.class, im.micro.access.pojo.request.user.UpdateUserRequest.Builder.class);
     }
@@ -538,7 +538,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_turms_proto_UpdateUserRequest_descriptor;
+      return im.micro.access.pojo.request.user.UpdateUserRequestOuterClass.internal_static_im_micro_proto_UpdateUserRequest_descriptor;
     }
 
     @java.lang.Override
@@ -1149,14 +1149,14 @@ private static final long serialVersionUID = 0L;
 
     private int profileAccessStrategy_ = 0;
     /**
-     * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+     * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
      * @return The enum numeric value on the wire for profileAccessStrategy.
      */
     public int getProfileAccessStrategyValue() {
       return profileAccessStrategy_;
     }
     /**
-     * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+     * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
      * @param value The enum numeric value on the wire for profileAccessStrategy to set.
      * @return This builder for chaining.
      */
@@ -1166,7 +1166,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+     * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
      * @return The profileAccessStrategy.
      */
     public im.micro.access.constant.ProfileAccessStrategy getProfileAccessStrategy() {
@@ -1175,7 +1175,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.ProfileAccessStrategy.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+     * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
      * @param value The profileAccessStrategy to set.
      * @return This builder for chaining.
      */
@@ -1189,7 +1189,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
+     * <code>.im.micro.proto.ProfileAccessStrategy profile_access_strategy = 5;</code>
      * @return This builder for chaining.
      */
     public Builder clearProfileAccessStrategy() {
@@ -1211,10 +1211,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UpdateUserRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UpdateUserRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UpdateUserRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UpdateUserRequest)
   private static final im.micro.access.pojo.request.user.UpdateUserRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.user.UpdateUserRequest();

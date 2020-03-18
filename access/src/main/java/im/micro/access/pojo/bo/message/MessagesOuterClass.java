@@ -15,10 +15,10 @@ public final class MessagesOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_Messages_descriptor;
+    internal_static_im_micro_proto_Messages_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_Messages_fieldAccessorTable;
+      internal_static_im_micro_proto_Messages_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -28,9 +28,9 @@ public final class MessagesOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\034model/message/messages.proto\022\016im.turms" +
+      "\n\034model/message/messages.proto\022\016im.micro" +
       ".proto\032\033model/message/message.proto\"5\n\010M" +
-      "essages\022)\n\010messages\030\001 \003(\0132\027.im.turms.pro" +
+      "essages\022)\n\010messages\030\001 \003(\0132\027.im.micro.pro" +
       "to.MessageB#\n\037im.micro.access.pojo.bo.me" +
       "ssageP\001b\006proto3"
     };
@@ -39,11 +39,11 @@ public final class MessagesOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           im.micro.access.pojo.bo.message.MessageOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_Messages_descriptor =
+    internal_static_im_micro_proto_Messages_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_Messages_fieldAccessorTable = new
+    internal_static_im_micro_proto_Messages_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_Messages_descriptor,
+        internal_static_im_micro_proto_Messages_descriptor,
         new java.lang.String[] { "Messages", });
     im.micro.access.pojo.bo.message.MessageOuterClass.getDescriptor();
   }

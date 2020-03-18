@@ -15,10 +15,10 @@ public final class UpdateRelationshipGroupRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UpdateRelationshipGroupRequest_descriptor;
+    internal_static_im_micro_proto_UpdateRelationshipGroupRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UpdateRelationshipGroupRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UpdateRelationshipGroupRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class UpdateRelationshipGroupRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nArequest/user/relationship/update_relat" +
-      "ionship_group_request.proto\022\016im.turms.pr" +
+      "ionship_group_request.proto\022\016im.micro.pr" +
       "oto\"G\n\036UpdateRelationshipGroupRequest\022\023\n" +
       "\013group_index\030\001 \001(\005\022\020\n\010new_name\030\002 \001(\tB2\n." +
       "im.micro.access.pojo.request.user.relati" +
@@ -39,11 +39,11 @@ public final class UpdateRelationshipGroupRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_UpdateRelationshipGroupRequest_descriptor =
+    internal_static_im_micro_proto_UpdateRelationshipGroupRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UpdateRelationshipGroupRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UpdateRelationshipGroupRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UpdateRelationshipGroupRequest_descriptor,
+        internal_static_im_micro_proto_UpdateRelationshipGroupRequest_descriptor,
         new java.lang.String[] { "GroupIndex", "NewName", });
   }
 

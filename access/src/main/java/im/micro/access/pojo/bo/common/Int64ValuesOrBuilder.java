@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.common;
 
 public interface Int64ValuesOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.Int64Values)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.Int64Values)
     com.google.protobuf.MessageOrBuilder {
 
   /**

@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user.relationship;
 
 public interface QueryFriendRequestsRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryFriendRequestsRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryFriendRequestsRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

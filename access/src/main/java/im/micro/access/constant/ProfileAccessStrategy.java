@@ -8,7 +8,7 @@ package im.micro.access.constant;
  * 个人简介常量
  * </pre>
  *
- * Protobuf enum {@code im.turms.proto.ProfileAccessStrategy}
+ * Protobuf enum {@code im.micro.proto.ProfileAccessStrategy}
  */
 public enum ProfileAccessStrategy
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -141,6 +141,6 @@ public enum ProfileAccessStrategy
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:im.turms.proto.ProfileAccessStrategy)
+  // @@protoc_insertion_point(enum_scope:im.micro.proto.ProfileAccessStrategy)
 }
 

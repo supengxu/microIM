@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.group.enrollment;
 
 public interface CheckGroupJoinQuestionsAnswersRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.CheckGroupJoinQuestionsAnswersRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.CheckGroupJoinQuestionsAnswersRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

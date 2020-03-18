@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package im.turms.proto;
+package im.micro.proto;
 
 option java_package = "im.micro.access.pojo.request.group";
 option java_multiple_files = true;

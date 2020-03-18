@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.group;
 
 /**
- * Protobuf type {@code im.turms.proto.GroupMember}
+ * Protobuf type {@code im.micro.proto.GroupMember}
  */
 public  final class GroupMember extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.GroupMember)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.GroupMember)
     GroupMemberOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GroupMember.newBuilder() to construct.
@@ -176,13 +176,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_turms_proto_GroupMember_descriptor;
+    return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_micro_proto_GroupMember_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_turms_proto_GroupMember_fieldAccessorTable
+    return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_micro_proto_GroupMember_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.group.GroupMember.class, im.micro.access.pojo.bo.group.GroupMember.Builder.class);
   }
@@ -259,14 +259,14 @@ private static final long serialVersionUID = 0L;
   public static final int ROLE_FIELD_NUMBER = 4;
   private int role_;
   /**
-   * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+   * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
    * @return The enum numeric value on the wire for role.
    */
   public int getRoleValue() {
     return role_;
   }
   /**
-   * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+   * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
    * @return The role.
    */
   public im.micro.access.constant.GroupMemberRole getRole() {
@@ -324,14 +324,14 @@ private static final long serialVersionUID = 0L;
   public static final int USER_STATUS_FIELD_NUMBER = 7;
   private int userStatus_;
   /**
-   * <code>.im.turms.proto.UserStatus user_status = 7;</code>
+   * <code>.im.micro.proto.UserStatus user_status = 7;</code>
    * @return The enum numeric value on the wire for userStatus.
    */
   public int getUserStatusValue() {
     return userStatus_;
   }
   /**
-   * <code>.im.turms.proto.UserStatus user_status = 7;</code>
+   * <code>.im.micro.proto.UserStatus user_status = 7;</code>
    * @return The userStatus.
    */
   public im.micro.access.constant.UserStatus getUserStatus() {
@@ -353,7 +353,7 @@ private static final long serialVersionUID = 0L;
             }
           };
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
    * @return A list containing the usingDeviceTypes.
    */
   public java.util.List<im.micro.access.constant.DeviceType> getUsingDeviceTypesList() {
@@ -361,14 +361,14 @@ private static final long serialVersionUID = 0L;
         java.lang.Integer, im.micro.access.constant.DeviceType>(usingDeviceTypes_, usingDeviceTypes_converter_);
   }
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
    * @return The count of usingDeviceTypes.
    */
   public int getUsingDeviceTypesCount() {
     return usingDeviceTypes_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
    * @param index The index of the element to return.
    * @return The usingDeviceTypes at the given index.
    */
@@ -376,7 +376,7 @@ private static final long serialVersionUID = 0L;
     return usingDeviceTypes_converter_.convert(usingDeviceTypes_.get(index));
   }
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
    * @return A list containing the enum numeric values on the wire for usingDeviceTypes.
    */
   public java.util.List<java.lang.Integer>
@@ -384,7 +384,7 @@ private static final long serialVersionUID = 0L;
     return usingDeviceTypes_;
   }
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
    * @param index The index of the value to return.
    * @return The enum numeric value on the wire of usingDeviceTypes at the given index.
    */
@@ -663,21 +663,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.GroupMember}
+   * Protobuf type {@code im.micro.proto.GroupMember}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.GroupMember)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.GroupMember)
       im.micro.access.pojo.bo.group.GroupMemberOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_turms_proto_GroupMember_descriptor;
+      return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_micro_proto_GroupMember_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_turms_proto_GroupMember_fieldAccessorTable
+      return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_micro_proto_GroupMember_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.group.GroupMember.class, im.micro.access.pojo.bo.group.GroupMember.Builder.class);
     }
@@ -742,7 +742,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_turms_proto_GroupMember_descriptor;
+      return im.micro.access.pojo.bo.group.GroupMemberOuterClass.internal_static_im_micro_proto_GroupMember_descriptor;
     }
 
     @java.lang.Override
@@ -1263,14 +1263,14 @@ private static final long serialVersionUID = 0L;
 
     private int role_ = 0;
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @return The enum numeric value on the wire for role.
      */
     public int getRoleValue() {
       return role_;
     }
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @param value The enum numeric value on the wire for role to set.
      * @return This builder for chaining.
      */
@@ -1280,7 +1280,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @return The role.
      */
     public im.micro.access.constant.GroupMemberRole getRole() {
@@ -1289,7 +1289,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.GroupMemberRole.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @param value The role to set.
      * @return This builder for chaining.
      */
@@ -1303,7 +1303,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+     * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
      * @return This builder for chaining.
      */
     public Builder clearRole() {
@@ -1553,14 +1553,14 @@ private static final long serialVersionUID = 0L;
 
     private int userStatus_ = 0;
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 7;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 7;</code>
      * @return The enum numeric value on the wire for userStatus.
      */
     public int getUserStatusValue() {
       return userStatus_;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 7;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 7;</code>
      * @param value The enum numeric value on the wire for userStatus to set.
      * @return This builder for chaining.
      */
@@ -1570,7 +1570,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 7;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 7;</code>
      * @return The userStatus.
      */
     public im.micro.access.constant.UserStatus getUserStatus() {
@@ -1579,7 +1579,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.UserStatus.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 7;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 7;</code>
      * @param value The userStatus to set.
      * @return This builder for chaining.
      */
@@ -1593,7 +1593,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 7;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 7;</code>
      * @return This builder for chaining.
      */
     public Builder clearUserStatus() {
@@ -1612,7 +1612,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @return A list containing the usingDeviceTypes.
      */
     public java.util.List<im.micro.access.constant.DeviceType> getUsingDeviceTypesList() {
@@ -1620,14 +1620,14 @@ private static final long serialVersionUID = 0L;
           java.lang.Integer, im.micro.access.constant.DeviceType>(usingDeviceTypes_, usingDeviceTypes_converter_);
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @return The count of usingDeviceTypes.
      */
     public int getUsingDeviceTypesCount() {
       return usingDeviceTypes_.size();
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @param index The index of the element to return.
      * @return The usingDeviceTypes at the given index.
      */
@@ -1635,7 +1635,7 @@ private static final long serialVersionUID = 0L;
       return usingDeviceTypes_converter_.convert(usingDeviceTypes_.get(index));
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @param index The index to set the value at.
      * @param value The usingDeviceTypes to set.
      * @return This builder for chaining.
@@ -1651,7 +1651,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @param value The usingDeviceTypes to add.
      * @return This builder for chaining.
      */
@@ -1665,7 +1665,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @param values The usingDeviceTypes to add.
      * @return This builder for chaining.
      */
@@ -1679,7 +1679,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @return This builder for chaining.
      */
     public Builder clearUsingDeviceTypes() {
@@ -1689,7 +1689,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @return A list containing the enum numeric values on the wire for usingDeviceTypes.
      */
     public java.util.List<java.lang.Integer>
@@ -1697,7 +1697,7 @@ private static final long serialVersionUID = 0L;
       return java.util.Collections.unmodifiableList(usingDeviceTypes_);
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @param index The index of the value to return.
      * @return The enum numeric value on the wire of usingDeviceTypes at the given index.
      */
@@ -1705,7 +1705,7 @@ private static final long serialVersionUID = 0L;
       return usingDeviceTypes_.get(index);
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @param index The index of the value to return.
      * @return The enum numeric value on the wire of usingDeviceTypes at the given index.
      * @return This builder for chaining.
@@ -1718,7 +1718,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @param value The enum numeric value on the wire for usingDeviceTypes to add.
      * @return This builder for chaining.
      */
@@ -1729,7 +1729,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 8;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 8;</code>
      * @param values The enum numeric values on the wire for usingDeviceTypes to add.
      * @return This builder for chaining.
      */
@@ -1755,10 +1755,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.GroupMember)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.GroupMember)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.GroupMember)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.GroupMember)
   private static final im.micro.access.pojo.bo.group.GroupMember DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.group.GroupMember();

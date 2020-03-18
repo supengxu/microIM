@@ -15,10 +15,10 @@ public final class UpdateTypingStatusRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UpdateTypingStatusRequest_descriptor;
+    internal_static_im_micro_proto_UpdateTypingStatusRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UpdateTypingStatusRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UpdateTypingStatusRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,9 +29,9 @@ public final class UpdateTypingStatusRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n2request/message/update_typing_status_r" +
-      "equest.proto\022\016im.turms.proto\032\030constant/c" +
+      "equest.proto\022\016im.micro.proto\032\030constant/c" +
       "hat_type.proto\"W\n\031UpdateTypingStatusRequ" +
-      "est\022+\n\tchat_type\030\001 \001(\0162\030.im.turms.proto." +
+      "est\022+\n\tchat_type\030\001 \001(\0162\030.im.micro.proto." +
       "ChatType\022\r\n\005to_id\030\002 \001(\003B(\n$im.micro.acce" +
       "ss.pojo.request.messageP\001b\006proto3"
     };
@@ -40,11 +40,11 @@ public final class UpdateTypingStatusRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           im.micro.access.constant.ChatTypeOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_UpdateTypingStatusRequest_descriptor =
+    internal_static_im_micro_proto_UpdateTypingStatusRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UpdateTypingStatusRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UpdateTypingStatusRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UpdateTypingStatusRequest_descriptor,
+        internal_static_im_micro_proto_UpdateTypingStatusRequest_descriptor,
         new java.lang.String[] { "ChatType", "ToId", });
     im.micro.access.constant.ChatTypeOuterClass.getDescriptor();
   }

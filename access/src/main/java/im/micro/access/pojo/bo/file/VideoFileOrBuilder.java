@@ -4,21 +4,21 @@
 package im.micro.access.pojo.bo.file;
 
 public interface VideoFileOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.VideoFile)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.VideoFile)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+   * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
    * @return Whether the description field is set.
    */
   boolean hasDescription();
   /**
-   * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+   * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
    * @return The description.
    */
   im.micro.access.pojo.bo.file.VideoFile.Description getDescription();
   /**
-   * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+   * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
    */
   im.micro.access.pojo.bo.file.VideoFile.DescriptionOrBuilder getDescriptionOrBuilder();
 

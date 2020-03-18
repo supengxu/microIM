@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user.relationship;
 
 public interface QueryRelationshipGroupsRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryRelationshipGroupsRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryRelationshipGroupsRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

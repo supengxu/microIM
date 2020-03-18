@@ -15,10 +15,10 @@ public final class GroupJoinQuestionOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_GroupJoinQuestion_descriptor;
+    internal_static_im_micro_proto_GroupJoinQuestion_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_GroupJoinQuestion_fieldAccessorTable;
+      internal_static_im_micro_proto_GroupJoinQuestion_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class GroupJoinQuestionOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n%model/group/group_join_question.proto\022" +
-      "\016im.turms.proto\032\036google/protobuf/wrapper" +
+      "\016im.micro.proto\032\036google/protobuf/wrapper" +
       "s.proto\"\366\001\n\021GroupJoinQuestion\022\'\n\002id\030\001 \001(" +
       "\0132\033.google.protobuf.Int64Value\022-\n\010group_" +
       "id\030\002 \001(\0132\033.google.protobuf.Int64Value\022.\n" +
@@ -44,11 +44,11 @@ public final class GroupJoinQuestionOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_GroupJoinQuestion_descriptor =
+    internal_static_im_micro_proto_GroupJoinQuestion_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_GroupJoinQuestion_fieldAccessorTable = new
+    internal_static_im_micro_proto_GroupJoinQuestion_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_GroupJoinQuestion_descriptor,
+        internal_static_im_micro_proto_GroupJoinQuestion_descriptor,
         new java.lang.String[] { "Id", "GroupId", "Question", "Answers", "Score", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

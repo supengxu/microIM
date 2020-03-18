@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.group;
 
 public interface GroupMembersWithVersionOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.GroupMembersWithVersion)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.GroupMembersWithVersion)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.GroupMember group_members = 1;</code>
+   * <code>repeated .im.micro.proto.GroupMember group_members = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.group.GroupMember> 
       getGroupMembersList();
   /**
-   * <code>repeated .im.turms.proto.GroupMember group_members = 1;</code>
+   * <code>repeated .im.micro.proto.GroupMember group_members = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupMember getGroupMembers(int index);
   /**
-   * <code>repeated .im.turms.proto.GroupMember group_members = 1;</code>
+   * <code>repeated .im.micro.proto.GroupMember group_members = 1;</code>
    */
   int getGroupMembersCount();
   /**
-   * <code>repeated .im.turms.proto.GroupMember group_members = 1;</code>
+   * <code>repeated .im.micro.proto.GroupMember group_members = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.group.GroupMemberOrBuilder> 
       getGroupMembersOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.GroupMember group_members = 1;</code>
+   * <code>repeated .im.micro.proto.GroupMember group_members = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupMemberOrBuilder getGroupMembersOrBuilder(
       int index);

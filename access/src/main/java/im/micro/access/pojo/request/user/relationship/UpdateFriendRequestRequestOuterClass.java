@@ -15,10 +15,10 @@ public final class UpdateFriendRequestRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UpdateFriendRequestRequest_descriptor;
+    internal_static_im_micro_proto_UpdateFriendRequestRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UpdateFriendRequestRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UpdateFriendRequestRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,11 +29,11 @@ public final class UpdateFriendRequestRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n=request/user/relationship/update_frien" +
-      "d_request_request.proto\022\016im.turms.proto\032" +
+      "d_request_request.proto\022\016im.micro.proto\032" +
       "\036google/protobuf/wrappers.proto\032\036constan" +
       "t/response_action.proto\"\225\001\n\032UpdateFriend" +
       "RequestRequest\022\021\n\trequestId\030\001 \001(\003\0226\n\016res" +
-      "ponseAction\030\002 \001(\0162\036.im.turms.proto.Respo" +
+      "ponseAction\030\002 \001(\0162\036.im.micro.proto.Respo" +
       "nseAction\022,\n\006reason\030\003 \001(\0132\034.google.proto" +
       "buf.StringValueB2\n.im.micro.access.pojo." +
       "request.user.relationshipP\001b\006proto3"
@@ -44,11 +44,11 @@ public final class UpdateFriendRequestRequestOuterClass {
           com.google.protobuf.WrappersProto.getDescriptor(),
           im.micro.access.constant.ResponseActionOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_UpdateFriendRequestRequest_descriptor =
+    internal_static_im_micro_proto_UpdateFriendRequestRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UpdateFriendRequestRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UpdateFriendRequestRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UpdateFriendRequestRequest_descriptor,
+        internal_static_im_micro_proto_UpdateFriendRequestRequest_descriptor,
         new java.lang.String[] { "RequestId", "ResponseAction", "Reason", });
     com.google.protobuf.WrappersProto.getDescriptor();
     im.micro.access.constant.ResponseActionOuterClass.getDescriptor();

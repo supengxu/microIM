@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.signal;
 
 public interface AcknowledgeOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.Acknowledge)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.Acknowledge)
     com.google.protobuf.MessageOrBuilder {
 
   /**

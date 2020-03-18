@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.message;
 
 public interface UpdateMessageRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UpdateMessageRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UpdateMessageRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

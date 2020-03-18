@@ -4,21 +4,21 @@
 package im.micro.access.pojo.bo.file;
 
 public interface AudioFileOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.AudioFile)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.AudioFile)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+   * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
    * @return Whether the description field is set.
    */
   boolean hasDescription();
   /**
-   * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+   * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
    * @return The description.
    */
   im.micro.access.pojo.bo.file.AudioFile.Description getDescription();
   /**
-   * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+   * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
    */
   im.micro.access.pojo.bo.file.AudioFile.DescriptionOrBuilder getDescriptionOrBuilder();
 

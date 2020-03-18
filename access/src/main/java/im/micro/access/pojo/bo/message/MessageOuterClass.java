@@ -15,10 +15,10 @@ public final class MessageOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_Message_descriptor;
+    internal_static_im_micro_proto_Message_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_Message_fieldAccessorTable;
+      internal_static_im_micro_proto_Message_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -28,7 +28,7 @@ public final class MessageOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\033model/message/message.proto\022\016im.turms." +
+      "\n\033model/message/message.proto\022\016im.micro." +
       "proto\032\036google/protobuf/wrappers.proto\"\275\003" +
       "\n\007Message\022\'\n\002id\030\001 \001(\0132\033.google.protobuf." +
       "Int64Value\0222\n\rdelivery_date\030\002 \001(\0132\033.goog" +
@@ -49,11 +49,11 @@ public final class MessageOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_Message_descriptor =
+    internal_static_im_micro_proto_Message_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_Message_fieldAccessorTable = new
+    internal_static_im_micro_proto_Message_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_Message_descriptor,
+        internal_static_im_micro_proto_Message_descriptor,
         new java.lang.String[] { "Id", "DeliveryDate", "DeletionDate", "Text", "SenderId", "GroupId", "IsSystemMessage", "RecipientId", "Records", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

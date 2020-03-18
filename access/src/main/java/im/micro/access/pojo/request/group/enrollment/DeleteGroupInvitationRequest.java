@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.group.enrollment;
 
 /**
- * Protobuf type {@code im.turms.proto.DeleteGroupInvitationRequest}
+ * Protobuf type {@code im.micro.proto.DeleteGroupInvitationRequest}
  */
 public  final class DeleteGroupInvitationRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.DeleteGroupInvitationRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.DeleteGroupInvitationRequest)
     DeleteGroupInvitationRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use DeleteGroupInvitationRequest.newBuilder() to construct.
@@ -74,13 +74,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_turms_proto_DeleteGroupInvitationRequest_descriptor;
+    return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_micro_proto_DeleteGroupInvitationRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_turms_proto_DeleteGroupInvitationRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_micro_proto_DeleteGroupInvitationRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequest.class, im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequest.Builder.class);
   }
@@ -252,21 +252,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.DeleteGroupInvitationRequest}
+   * Protobuf type {@code im.micro.proto.DeleteGroupInvitationRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.DeleteGroupInvitationRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.DeleteGroupInvitationRequest)
       im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_turms_proto_DeleteGroupInvitationRequest_descriptor;
+      return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_micro_proto_DeleteGroupInvitationRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_turms_proto_DeleteGroupInvitationRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_micro_proto_DeleteGroupInvitationRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequest.class, im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequest.Builder.class);
     }
@@ -297,7 +297,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_turms_proto_DeleteGroupInvitationRequest_descriptor;
+      return im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequestOuterClass.internal_static_im_micro_proto_DeleteGroupInvitationRequest_descriptor;
     }
 
     @java.lang.Override
@@ -440,10 +440,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.DeleteGroupInvitationRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.DeleteGroupInvitationRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.DeleteGroupInvitationRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.DeleteGroupInvitationRequest)
   private static final im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.group.enrollment.DeleteGroupInvitationRequest();

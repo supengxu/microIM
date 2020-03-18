@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.message;
 
 /**
- * Protobuf type {@code im.turms.proto.Message}
+ * Protobuf type {@code im.micro.proto.Message}
  */
 public  final class Message extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.Message)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.Message)
     MessageOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Message.newBuilder() to construct.
@@ -187,13 +187,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_turms_proto_Message_descriptor;
+    return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_micro_proto_Message_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_turms_proto_Message_fieldAccessorTable
+    return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_micro_proto_Message_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.message.Message.class, im.micro.access.pojo.bo.message.Message.Builder.class);
   }
@@ -703,21 +703,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.Message}
+   * Protobuf type {@code im.micro.proto.Message}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.Message)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.Message)
       im.micro.access.pojo.bo.message.MessageOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_turms_proto_Message_descriptor;
+      return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_micro_proto_Message_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_turms_proto_Message_fieldAccessorTable
+      return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_micro_proto_Message_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.message.Message.class, im.micro.access.pojo.bo.message.Message.Builder.class);
     }
@@ -801,7 +801,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_turms_proto_Message_descriptor;
+      return im.micro.access.pojo.bo.message.MessageOuterClass.internal_static_im_micro_proto_Message_descriptor;
     }
 
     @java.lang.Override
@@ -2203,10 +2203,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.Message)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.Message)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.Message)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.Message)
   private static final im.micro.access.pojo.bo.message.Message DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.message.Message();

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.message;
 
 /**
- * Protobuf type {@code im.turms.proto.MessagesWithTotal}
+ * Protobuf type {@code im.micro.proto.MessagesWithTotal}
  */
 public  final class MessagesWithTotal extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.MessagesWithTotal)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.MessagesWithTotal)
     MessagesWithTotalOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use MessagesWithTotal.newBuilder() to construct.
@@ -100,13 +100,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_turms_proto_MessagesWithTotal_descriptor;
+    return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_micro_proto_MessagesWithTotal_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_turms_proto_MessagesWithTotal_fieldAccessorTable
+    return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_micro_proto_MessagesWithTotal_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.message.MessagesWithTotal.class, im.micro.access.pojo.bo.message.MessagesWithTotal.Builder.class);
   }
@@ -124,14 +124,14 @@ private static final long serialVersionUID = 0L;
   public static final int CHAT_TYPE_FIELD_NUMBER = 2;
   private int chatType_;
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 2;</code>
    * @return The enum numeric value on the wire for chatType.
    */
   public int getChatTypeValue() {
     return chatType_;
   }
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 2;</code>
    * @return The chatType.
    */
   public im.micro.access.constant.ChatType getChatType() {
@@ -153,32 +153,32 @@ private static final long serialVersionUID = 0L;
   public static final int MESSAGES_FIELD_NUMBER = 4;
   private java.util.List<im.micro.access.pojo.bo.message.Message> messages_;
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.message.Message> getMessagesList() {
     return messages_;
   }
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.message.MessageOrBuilder> 
       getMessagesOrBuilderList() {
     return messages_;
   }
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   public int getMessagesCount() {
     return messages_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   public im.micro.access.pojo.bo.message.Message getMessages(int index) {
     return messages_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.Message messages = 4;</code>
+   * <code>repeated .im.micro.proto.Message messages = 4;</code>
    */
   public im.micro.access.pojo.bo.message.MessageOrBuilder getMessagesOrBuilder(
       int index) {
@@ -376,21 +376,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.MessagesWithTotal}
+   * Protobuf type {@code im.micro.proto.MessagesWithTotal}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.MessagesWithTotal)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.MessagesWithTotal)
       im.micro.access.pojo.bo.message.MessagesWithTotalOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_turms_proto_MessagesWithTotal_descriptor;
+      return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_micro_proto_MessagesWithTotal_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_turms_proto_MessagesWithTotal_fieldAccessorTable
+      return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_micro_proto_MessagesWithTotal_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.message.MessagesWithTotal.class, im.micro.access.pojo.bo.message.MessagesWithTotal.Builder.class);
     }
@@ -432,7 +432,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_turms_proto_MessagesWithTotal_descriptor;
+      return im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.internal_static_im_micro_proto_MessagesWithTotal_descriptor;
     }
 
     @java.lang.Override
@@ -610,14 +610,14 @@ private static final long serialVersionUID = 0L;
 
     private int chatType_ = 0;
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @return The enum numeric value on the wire for chatType.
      */
     public int getChatTypeValue() {
       return chatType_;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @param value The enum numeric value on the wire for chatType to set.
      * @return This builder for chaining.
      */
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @return The chatType.
      */
     public im.micro.access.constant.ChatType getChatType() {
@@ -636,7 +636,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.ChatType.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @param value The chatType to set.
      * @return This builder for chaining.
      */
@@ -650,7 +650,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 2;</code>
      * @return This builder for chaining.
      */
     public Builder clearChatType() {
@@ -703,7 +703,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.message.Message, im.micro.access.pojo.bo.message.Message.Builder, im.micro.access.pojo.bo.message.MessageOrBuilder> messagesBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.message.Message> getMessagesList() {
       if (messagesBuilder_ == null) {
@@ -713,7 +713,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public int getMessagesCount() {
       if (messagesBuilder_ == null) {
@@ -723,7 +723,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public im.micro.access.pojo.bo.message.Message getMessages(int index) {
       if (messagesBuilder_ == null) {
@@ -733,7 +733,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder setMessages(
         int index, im.micro.access.pojo.bo.message.Message value) {
@@ -750,7 +750,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder setMessages(
         int index, im.micro.access.pojo.bo.message.Message.Builder builderForValue) {
@@ -764,7 +764,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder addMessages(im.micro.access.pojo.bo.message.Message value) {
       if (messagesBuilder_ == null) {
@@ -780,7 +780,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder addMessages(
         int index, im.micro.access.pojo.bo.message.Message value) {
@@ -797,7 +797,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder addMessages(
         im.micro.access.pojo.bo.message.Message.Builder builderForValue) {
@@ -811,7 +811,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder addMessages(
         int index, im.micro.access.pojo.bo.message.Message.Builder builderForValue) {
@@ -825,7 +825,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder addAllMessages(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.message.Message> values) {
@@ -840,7 +840,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder clearMessages() {
       if (messagesBuilder_ == null) {
@@ -853,7 +853,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public Builder removeMessages(int index) {
       if (messagesBuilder_ == null) {
@@ -866,14 +866,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public im.micro.access.pojo.bo.message.Message.Builder getMessagesBuilder(
         int index) {
       return getMessagesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public im.micro.access.pojo.bo.message.MessageOrBuilder getMessagesOrBuilder(
         int index) {
@@ -883,7 +883,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.message.MessageOrBuilder> 
          getMessagesOrBuilderList() {
@@ -894,14 +894,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public im.micro.access.pojo.bo.message.Message.Builder addMessagesBuilder() {
       return getMessagesFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.message.Message.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public im.micro.access.pojo.bo.message.Message.Builder addMessagesBuilder(
         int index) {
@@ -909,7 +909,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.message.Message.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.Message messages = 4;</code>
+     * <code>repeated .im.micro.proto.Message messages = 4;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.message.Message.Builder> 
          getMessagesBuilderList() {
@@ -942,10 +942,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.MessagesWithTotal)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.MessagesWithTotal)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.MessagesWithTotal)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.MessagesWithTotal)
   private static final im.micro.access.pojo.bo.message.MessagesWithTotal DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.message.MessagesWithTotal();

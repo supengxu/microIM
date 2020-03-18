@@ -15,10 +15,10 @@ public final class UserLocationOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UserLocation_descriptor;
+    internal_static_im_micro_proto_UserLocation_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UserLocation_fieldAccessorTable;
+      internal_static_im_micro_proto_UserLocation_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -28,8 +28,8 @@ public final class UserLocationOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\036model/user/user_location.proto\022\016im.tur" +
-      "ms.proto\032\036google/protobuf/wrappers.proto" +
+      "\n\036model/user/user_location.proto\022\016im.mic" +
+      "ro.proto\032\036google/protobuf/wrappers.proto" +
       "\"\276\001\n\014UserLocation\022\020\n\010latitude\030\001 \001(\002\022\021\n\tl" +
       "ongitude\030\002 \001(\002\022*\n\004name\030\003 \001(\0132\034.google.pr" +
       "otobuf.StringValue\022-\n\007address\030\004 \001(\0132\034.go" +
@@ -42,11 +42,11 @@ public final class UserLocationOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_UserLocation_descriptor =
+    internal_static_im_micro_proto_UserLocation_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UserLocation_fieldAccessorTable = new
+    internal_static_im_micro_proto_UserLocation_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UserLocation_descriptor,
+        internal_static_im_micro_proto_UserLocation_descriptor,
         new java.lang.String[] { "Latitude", "Longitude", "Name", "Address", "Timestamp", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.message;
 
 /**
- * Protobuf type {@code im.turms.proto.MessagesWithTotalList}
+ * Protobuf type {@code im.micro.proto.MessagesWithTotalList}
  */
 public  final class MessagesWithTotalList extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.MessagesWithTotalList)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.MessagesWithTotalList)
     MessagesWithTotalListOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use MessagesWithTotalList.newBuilder() to construct.
@@ -83,13 +83,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_turms_proto_MessagesWithTotalList_descriptor;
+    return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_micro_proto_MessagesWithTotalList_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_turms_proto_MessagesWithTotalList_fieldAccessorTable
+    return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_micro_proto_MessagesWithTotalList_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.message.MessagesWithTotalList.class, im.micro.access.pojo.bo.message.MessagesWithTotalList.Builder.class);
   }
@@ -97,32 +97,32 @@ private static final long serialVersionUID = 0L;
   public static final int MESSAGES_WITH_TOTAL_LIST_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.message.MessagesWithTotal> messagesWithTotalList_;
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.message.MessagesWithTotal> getMessagesWithTotalListList() {
     return messagesWithTotalList_;
   }
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.message.MessagesWithTotalOrBuilder> 
       getMessagesWithTotalListOrBuilderList() {
     return messagesWithTotalList_;
   }
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   public int getMessagesWithTotalListCount() {
     return messagesWithTotalList_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   public im.micro.access.pojo.bo.message.MessagesWithTotal getMessagesWithTotalList(int index) {
     return messagesWithTotalList_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+   * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
    */
   public im.micro.access.pojo.bo.message.MessagesWithTotalOrBuilder getMessagesWithTotalListOrBuilder(
       int index) {
@@ -287,21 +287,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.MessagesWithTotalList}
+   * Protobuf type {@code im.micro.proto.MessagesWithTotalList}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.MessagesWithTotalList)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.MessagesWithTotalList)
       im.micro.access.pojo.bo.message.MessagesWithTotalListOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_turms_proto_MessagesWithTotalList_descriptor;
+      return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_micro_proto_MessagesWithTotalList_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_turms_proto_MessagesWithTotalList_fieldAccessorTable
+      return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_micro_proto_MessagesWithTotalList_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.message.MessagesWithTotalList.class, im.micro.access.pojo.bo.message.MessagesWithTotalList.Builder.class);
     }
@@ -337,7 +337,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_turms_proto_MessagesWithTotalList_descriptor;
+      return im.micro.access.pojo.bo.message.MessagesWithTotalListOuterClass.internal_static_im_micro_proto_MessagesWithTotalList_descriptor;
     }
 
     @java.lang.Override
@@ -484,7 +484,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.message.MessagesWithTotal, im.micro.access.pojo.bo.message.MessagesWithTotal.Builder, im.micro.access.pojo.bo.message.MessagesWithTotalOrBuilder> messagesWithTotalListBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.message.MessagesWithTotal> getMessagesWithTotalListList() {
       if (messagesWithTotalListBuilder_ == null) {
@@ -494,7 +494,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public int getMessagesWithTotalListCount() {
       if (messagesWithTotalListBuilder_ == null) {
@@ -504,7 +504,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessagesWithTotal getMessagesWithTotalList(int index) {
       if (messagesWithTotalListBuilder_ == null) {
@@ -514,7 +514,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder setMessagesWithTotalList(
         int index, im.micro.access.pojo.bo.message.MessagesWithTotal value) {
@@ -531,7 +531,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder setMessagesWithTotalList(
         int index, im.micro.access.pojo.bo.message.MessagesWithTotal.Builder builderForValue) {
@@ -545,7 +545,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder addMessagesWithTotalList(im.micro.access.pojo.bo.message.MessagesWithTotal value) {
       if (messagesWithTotalListBuilder_ == null) {
@@ -561,7 +561,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder addMessagesWithTotalList(
         int index, im.micro.access.pojo.bo.message.MessagesWithTotal value) {
@@ -578,7 +578,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder addMessagesWithTotalList(
         im.micro.access.pojo.bo.message.MessagesWithTotal.Builder builderForValue) {
@@ -592,7 +592,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder addMessagesWithTotalList(
         int index, im.micro.access.pojo.bo.message.MessagesWithTotal.Builder builderForValue) {
@@ -606,7 +606,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder addAllMessagesWithTotalList(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.message.MessagesWithTotal> values) {
@@ -621,7 +621,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder clearMessagesWithTotalList() {
       if (messagesWithTotalListBuilder_ == null) {
@@ -634,7 +634,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public Builder removeMessagesWithTotalList(int index) {
       if (messagesWithTotalListBuilder_ == null) {
@@ -647,14 +647,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessagesWithTotal.Builder getMessagesWithTotalListBuilder(
         int index) {
       return getMessagesWithTotalListFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessagesWithTotalOrBuilder getMessagesWithTotalListOrBuilder(
         int index) {
@@ -664,7 +664,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.message.MessagesWithTotalOrBuilder> 
          getMessagesWithTotalListOrBuilderList() {
@@ -675,14 +675,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessagesWithTotal.Builder addMessagesWithTotalListBuilder() {
       return getMessagesWithTotalListFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.message.MessagesWithTotal.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessagesWithTotal.Builder addMessagesWithTotalListBuilder(
         int index) {
@@ -690,7 +690,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.message.MessagesWithTotal.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.MessagesWithTotal messages_with_total_list = 1;</code>
+     * <code>repeated .im.micro.proto.MessagesWithTotal messages_with_total_list = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.message.MessagesWithTotal.Builder> 
          getMessagesWithTotalListBuilderList() {
@@ -723,10 +723,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.MessagesWithTotalList)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.MessagesWithTotalList)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.MessagesWithTotalList)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.MessagesWithTotalList)
   private static final im.micro.access.pojo.bo.message.MessagesWithTotalList DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.message.MessagesWithTotalList();

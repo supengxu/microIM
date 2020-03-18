@@ -15,10 +15,10 @@ public final class DeleteGroupJoinRequestRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_DeleteGroupJoinRequestRequest_descriptor;
+    internal_static_im_micro_proto_DeleteGroupJoinRequestRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_DeleteGroupJoinRequestRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_DeleteGroupJoinRequestRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class DeleteGroupJoinRequestRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n@request/group/enrollment/delete_group_" +
-      "join_request_request.proto\022\016im.turms.pro" +
+      "join_request_request.proto\022\016im.micro.pro" +
       "to\"3\n\035DeleteGroupJoinRequestRequest\022\022\n\nr" +
       "equest_id\030\001 \001(\003B1\n-im.micro.access.pojo." +
       "request.group.enrollmentP\001b\006proto3"
@@ -38,11 +38,11 @@ public final class DeleteGroupJoinRequestRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_DeleteGroupJoinRequestRequest_descriptor =
+    internal_static_im_micro_proto_DeleteGroupJoinRequestRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_DeleteGroupJoinRequestRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_DeleteGroupJoinRequestRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_DeleteGroupJoinRequestRequest_descriptor,
+        internal_static_im_micro_proto_DeleteGroupJoinRequestRequest_descriptor,
         new java.lang.String[] { "RequestId", });
   }
 

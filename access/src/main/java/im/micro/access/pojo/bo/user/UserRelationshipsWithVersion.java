@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UserRelationshipsWithVersion}
+ * Protobuf type {@code im.micro.proto.UserRelationshipsWithVersion}
  */
 public  final class UserRelationshipsWithVersion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UserRelationshipsWithVersion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UserRelationshipsWithVersion)
     UserRelationshipsWithVersionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UserRelationshipsWithVersion.newBuilder() to construct.
@@ -96,13 +96,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipsWithVersion_descriptor;
+    return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipsWithVersion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipsWithVersion_fieldAccessorTable
+    return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipsWithVersion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.user.UserRelationshipsWithVersion.class, im.micro.access.pojo.bo.user.UserRelationshipsWithVersion.Builder.class);
   }
@@ -110,32 +110,32 @@ private static final long serialVersionUID = 0L;
   public static final int USER_RELATIONSHIPS_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.user.UserRelationship> userRelationships_;
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.user.UserRelationship> getUserRelationshipsList() {
     return userRelationships_;
   }
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.user.UserRelationshipOrBuilder> 
       getUserRelationshipsOrBuilderList() {
     return userRelationships_;
   }
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   public int getUserRelationshipsCount() {
     return userRelationships_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   public im.micro.access.pojo.bo.user.UserRelationship getUserRelationships(int index) {
     return userRelationships_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   public im.micro.access.pojo.bo.user.UserRelationshipOrBuilder getUserRelationshipsOrBuilder(
       int index) {
@@ -339,21 +339,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UserRelationshipsWithVersion}
+   * Protobuf type {@code im.micro.proto.UserRelationshipsWithVersion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UserRelationshipsWithVersion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UserRelationshipsWithVersion)
       im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipsWithVersion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipsWithVersion_fieldAccessorTable
+      return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipsWithVersion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.user.UserRelationshipsWithVersion.class, im.micro.access.pojo.bo.user.UserRelationshipsWithVersion.Builder.class);
     }
@@ -395,7 +395,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_turms_proto_UserRelationshipsWithVersion_descriptor;
+      return im.micro.access.pojo.bo.user.UserRelationshipsWithVersionOuterClass.internal_static_im_micro_proto_UserRelationshipsWithVersion_descriptor;
     }
 
     @java.lang.Override
@@ -550,7 +550,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.user.UserRelationship, im.micro.access.pojo.bo.user.UserRelationship.Builder, im.micro.access.pojo.bo.user.UserRelationshipOrBuilder> userRelationshipsBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.user.UserRelationship> getUserRelationshipsList() {
       if (userRelationshipsBuilder_ == null) {
@@ -560,7 +560,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public int getUserRelationshipsCount() {
       if (userRelationshipsBuilder_ == null) {
@@ -570,7 +570,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationship getUserRelationships(int index) {
       if (userRelationshipsBuilder_ == null) {
@@ -580,7 +580,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder setUserRelationships(
         int index, im.micro.access.pojo.bo.user.UserRelationship value) {
@@ -597,7 +597,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder setUserRelationships(
         int index, im.micro.access.pojo.bo.user.UserRelationship.Builder builderForValue) {
@@ -611,7 +611,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder addUserRelationships(im.micro.access.pojo.bo.user.UserRelationship value) {
       if (userRelationshipsBuilder_ == null) {
@@ -627,7 +627,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder addUserRelationships(
         int index, im.micro.access.pojo.bo.user.UserRelationship value) {
@@ -644,7 +644,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder addUserRelationships(
         im.micro.access.pojo.bo.user.UserRelationship.Builder builderForValue) {
@@ -658,7 +658,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder addUserRelationships(
         int index, im.micro.access.pojo.bo.user.UserRelationship.Builder builderForValue) {
@@ -672,7 +672,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder addAllUserRelationships(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.user.UserRelationship> values) {
@@ -687,7 +687,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder clearUserRelationships() {
       if (userRelationshipsBuilder_ == null) {
@@ -700,7 +700,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public Builder removeUserRelationships(int index) {
       if (userRelationshipsBuilder_ == null) {
@@ -713,14 +713,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationship.Builder getUserRelationshipsBuilder(
         int index) {
       return getUserRelationshipsFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationshipOrBuilder getUserRelationshipsOrBuilder(
         int index) {
@@ -730,7 +730,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.user.UserRelationshipOrBuilder> 
          getUserRelationshipsOrBuilderList() {
@@ -741,14 +741,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationship.Builder addUserRelationshipsBuilder() {
       return getUserRelationshipsFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.user.UserRelationship.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public im.micro.access.pojo.bo.user.UserRelationship.Builder addUserRelationshipsBuilder(
         int index) {
@@ -756,7 +756,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.user.UserRelationship.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+     * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.user.UserRelationship.Builder> 
          getUserRelationshipsBuilderList() {
@@ -908,10 +908,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UserRelationshipsWithVersion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UserRelationshipsWithVersion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UserRelationshipsWithVersion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UserRelationshipsWithVersion)
   private static final im.micro.access.pojo.bo.user.UserRelationshipsWithVersion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.user.UserRelationshipsWithVersion();

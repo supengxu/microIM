@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.message;
 
 public interface QueryMessagesRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryMessagesRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryMessagesRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -40,12 +40,12 @@ public interface QueryMessagesRequestOrBuilder extends
   com.google.protobuf.Int32ValueOrBuilder getSizeOrBuilder();
 
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 3;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 3;</code>
    * @return The enum numeric value on the wire for chatType.
    */
   int getChatTypeValue();
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 3;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 3;</code>
    * @return The chatType.
    */
   im.micro.access.constant.ChatType getChatType();
@@ -111,12 +111,12 @@ public interface QueryMessagesRequestOrBuilder extends
   com.google.protobuf.Int64ValueOrBuilder getDeliveryDateBeforeOrBuilder();
 
   /**
-   * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 8;</code>
+   * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 8;</code>
    * @return The enum numeric value on the wire for deliveryStatus.
    */
   int getDeliveryStatusValue();
   /**
-   * <code>.im.turms.proto.MessageDeliveryStatus delivery_status = 8;</code>
+   * <code>.im.micro.proto.MessageDeliveryStatus delivery_status = 8;</code>
    * @return The deliveryStatus.
    */
   im.micro.access.constant.MessageDeliveryStatus getDeliveryStatus();

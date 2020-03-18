@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.group;
 
 /**
- * Protobuf type {@code im.turms.proto.GroupInvitation}
+ * Protobuf type {@code im.micro.proto.GroupInvitation}
  */
 public  final class GroupInvitation extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.GroupInvitation)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.GroupInvitation)
     GroupInvitationOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use GroupInvitation.newBuilder() to construct.
@@ -167,13 +167,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_turms_proto_GroupInvitation_descriptor;
+    return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_micro_proto_GroupInvitation_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_turms_proto_GroupInvitation_fieldAccessorTable
+    return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_micro_proto_GroupInvitation_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.group.GroupInvitation.class, im.micro.access.pojo.bo.group.GroupInvitation.Builder.class);
   }
@@ -250,14 +250,14 @@ private static final long serialVersionUID = 0L;
   public static final int STATUS_FIELD_NUMBER = 4;
   private int status_;
   /**
-   * <code>.im.turms.proto.RequestStatus status = 4;</code>
+   * <code>.im.micro.proto.RequestStatus status = 4;</code>
    * @return The enum numeric value on the wire for status.
    */
   public int getStatusValue() {
     return status_;
   }
   /**
-   * <code>.im.turms.proto.RequestStatus status = 4;</code>
+   * <code>.im.micro.proto.RequestStatus status = 4;</code>
    * @return The status.
    */
   public im.micro.access.constant.RequestStatus getStatus() {
@@ -625,21 +625,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.GroupInvitation}
+   * Protobuf type {@code im.micro.proto.GroupInvitation}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.GroupInvitation)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.GroupInvitation)
       im.micro.access.pojo.bo.group.GroupInvitationOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_turms_proto_GroupInvitation_descriptor;
+      return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_micro_proto_GroupInvitation_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_turms_proto_GroupInvitation_fieldAccessorTable
+      return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_micro_proto_GroupInvitation_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.group.GroupInvitation.class, im.micro.access.pojo.bo.group.GroupInvitation.Builder.class);
     }
@@ -712,7 +712,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_turms_proto_GroupInvitation_descriptor;
+      return im.micro.access.pojo.bo.group.GroupInvitationOuterClass.internal_static_im_micro_proto_GroupInvitation_descriptor;
     }
 
     @java.lang.Override
@@ -1228,14 +1228,14 @@ private static final long serialVersionUID = 0L;
 
     private int status_ = 0;
     /**
-     * <code>.im.turms.proto.RequestStatus status = 4;</code>
+     * <code>.im.micro.proto.RequestStatus status = 4;</code>
      * @return The enum numeric value on the wire for status.
      */
     public int getStatusValue() {
       return status_;
     }
     /**
-     * <code>.im.turms.proto.RequestStatus status = 4;</code>
+     * <code>.im.micro.proto.RequestStatus status = 4;</code>
      * @param value The enum numeric value on the wire for status to set.
      * @return This builder for chaining.
      */
@@ -1245,7 +1245,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.RequestStatus status = 4;</code>
+     * <code>.im.micro.proto.RequestStatus status = 4;</code>
      * @return The status.
      */
     public im.micro.access.constant.RequestStatus getStatus() {
@@ -1254,7 +1254,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.RequestStatus.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.RequestStatus status = 4;</code>
+     * <code>.im.micro.proto.RequestStatus status = 4;</code>
      * @param value The status to set.
      * @return This builder for chaining.
      */
@@ -1268,7 +1268,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.RequestStatus status = 4;</code>
+     * <code>.im.micro.proto.RequestStatus status = 4;</code>
      * @return This builder for chaining.
      */
     public Builder clearStatus() {
@@ -1766,10 +1766,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.GroupInvitation)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.GroupInvitation)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.GroupInvitation)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.GroupInvitation)
   private static final im.micro.access.pojo.bo.group.GroupInvitation DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.group.GroupInvitation();

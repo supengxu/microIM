@@ -23,7 +23,7 @@ public final class ChatTypeOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\030constant/chat_type.proto\022\016im.turms.pro" +
+      "\n\030constant/chat_type.proto\022\016im.micro.pro" +
       "to*\"\n\010ChatType\022\013\n\007PRIVATE\020\000\022\t\n\005GROUP\020\001B\034" +
       "\n\030im.micro.access.constantP\001b\006proto3"
     };

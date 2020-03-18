@@ -15,10 +15,10 @@ public final class GroupMembersWithVersionOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_GroupMembersWithVersion_descriptor;
+    internal_static_im_micro_proto_GroupMembersWithVersion_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_GroupMembersWithVersion_fieldAccessorTable;
+      internal_static_im_micro_proto_GroupMembersWithVersion_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,10 +29,10 @@ public final class GroupMembersWithVersionOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n,model/group/group_members_with_version" +
-      ".proto\022\016im.turms.proto\032\036google/protobuf/" +
+      ".proto\022\016im.micro.proto\032\036google/protobuf/" +
       "wrappers.proto\032\036model/group/group_member" +
       ".proto\"\205\001\n\027GroupMembersWithVersion\0222\n\rgr" +
-      "oup_members\030\001 \003(\0132\033.im.turms.proto.Group" +
+      "oup_members\030\001 \003(\0132\033.im.micro.proto.Group" +
       "Member\0226\n\021last_updated_date\030\002 \001(\0132\033.goog" +
       "le.protobuf.Int64ValueB!\n\035im.micro.acces" +
       "s.pojo.bo.groupP\001b\006proto3"
@@ -43,11 +43,11 @@ public final class GroupMembersWithVersionOuterClass {
           com.google.protobuf.WrappersProto.getDescriptor(),
           im.micro.access.pojo.bo.group.GroupMemberOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_GroupMembersWithVersion_descriptor =
+    internal_static_im_micro_proto_GroupMembersWithVersion_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_GroupMembersWithVersion_fieldAccessorTable = new
+    internal_static_im_micro_proto_GroupMembersWithVersion_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_GroupMembersWithVersion_descriptor,
+        internal_static_im_micro_proto_GroupMembersWithVersion_descriptor,
         new java.lang.String[] { "GroupMembers", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
     im.micro.access.pojo.bo.group.GroupMemberOuterClass.getDescriptor();

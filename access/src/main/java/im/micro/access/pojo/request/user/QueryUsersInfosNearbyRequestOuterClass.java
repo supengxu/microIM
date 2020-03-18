@@ -15,10 +15,10 @@ public final class QueryUsersInfosNearbyRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryUsersInfosNearbyRequest_descriptor;
+    internal_static_im_micro_proto_QueryUsersInfosNearbyRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryUsersInfosNearbyRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryUsersInfosNearbyRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryUsersInfosNearbyRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n3request/user/query_users_infos_nearby_" +
-      "request.proto\022\016im.turms.proto\032\036google/pr" +
+      "request.proto\022\016im.micro.proto\032\036google/pr" +
       "otobuf/wrappers.proto\"\243\001\n\034QueryUsersInfo" +
       "sNearbyRequest\022\020\n\010latitude\030\001 \001(\002\022\021\n\tlong" +
       "itude\030\002 \001(\002\022-\n\010distance\030\003 \001(\0132\033.google.p" +
@@ -42,11 +42,11 @@ public final class QueryUsersInfosNearbyRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryUsersInfosNearbyRequest_descriptor =
+    internal_static_im_micro_proto_QueryUsersInfosNearbyRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryUsersInfosNearbyRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryUsersInfosNearbyRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryUsersInfosNearbyRequest_descriptor,
+        internal_static_im_micro_proto_QueryUsersInfosNearbyRequest_descriptor,
         new java.lang.String[] { "Latitude", "Longitude", "Distance", "MaxNumber", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

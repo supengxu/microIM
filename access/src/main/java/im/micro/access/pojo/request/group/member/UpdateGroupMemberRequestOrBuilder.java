@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.group.member;
 
 public interface UpdateGroupMemberRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UpdateGroupMemberRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UpdateGroupMemberRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -35,12 +35,12 @@ public interface UpdateGroupMemberRequestOrBuilder extends
   com.google.protobuf.StringValueOrBuilder getNameOrBuilder();
 
   /**
-   * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+   * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
    * @return The enum numeric value on the wire for role.
    */
   int getRoleValue();
   /**
-   * <code>.im.turms.proto.GroupMemberRole role = 4;</code>
+   * <code>.im.micro.proto.GroupMemberRole role = 4;</code>
    * @return The role.
    */
   im.micro.access.constant.GroupMemberRole getRole();

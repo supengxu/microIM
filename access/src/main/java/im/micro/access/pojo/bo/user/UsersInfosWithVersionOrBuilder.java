@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.user;
 
 public interface UsersInfosWithVersionOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UsersInfosWithVersion)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UsersInfosWithVersion)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.user.UserInfo> 
       getUserInfosList();
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   im.micro.access.pojo.bo.user.UserInfo getUserInfos(int index);
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   int getUserInfosCount();
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.user.UserInfoOrBuilder> 
       getUserInfosOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.UserInfo user_infos = 1;</code>
+   * <code>repeated .im.micro.proto.UserInfo user_infos = 1;</code>
    */
   im.micro.access.pojo.bo.user.UserInfoOrBuilder getUserInfosOrBuilder(
       int index);

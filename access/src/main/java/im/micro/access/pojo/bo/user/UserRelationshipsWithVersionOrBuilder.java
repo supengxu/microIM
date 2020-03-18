@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.user;
 
 public interface UserRelationshipsWithVersionOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UserRelationshipsWithVersion)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UserRelationshipsWithVersion)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.user.UserRelationship> 
       getUserRelationshipsList();
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   im.micro.access.pojo.bo.user.UserRelationship getUserRelationships(int index);
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   int getUserRelationshipsCount();
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.user.UserRelationshipOrBuilder> 
       getUserRelationshipsOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.UserRelationship user_relationships = 1;</code>
+   * <code>repeated .im.micro.proto.UserRelationship user_relationships = 1;</code>
    */
   im.micro.access.pojo.bo.user.UserRelationshipOrBuilder getUserRelationshipsOrBuilder(
       int index);

@@ -15,10 +15,10 @@ public final class QueryRelationshipsRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryRelationshipsRequest_descriptor;
+    internal_static_im_micro_proto_QueryRelationshipsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryRelationshipsRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryRelationshipsRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryRelationshipsRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n;request/user/relationship/query_relati" +
-      "onships_request.proto\022\016im.turms.proto\032\036g" +
+      "onships_request.proto\022\016im.micro.proto\032\036g" +
       "oogle/protobuf/wrappers.proto\"\320\001\n\031QueryR" +
       "elationshipsRequest\022\031\n\021related_users_ids" +
       "\030\001 \003(\003\022.\n\nis_blocked\030\002 \001(\0132\032.google.prot" +
@@ -44,11 +44,11 @@ public final class QueryRelationshipsRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryRelationshipsRequest_descriptor =
+    internal_static_im_micro_proto_QueryRelationshipsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryRelationshipsRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryRelationshipsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryRelationshipsRequest_descriptor,
+        internal_static_im_micro_proto_QueryRelationshipsRequest_descriptor,
         new java.lang.String[] { "RelatedUsersIds", "IsBlocked", "GroupIndex", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

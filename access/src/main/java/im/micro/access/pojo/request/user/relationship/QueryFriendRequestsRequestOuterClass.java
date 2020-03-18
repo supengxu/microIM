@@ -15,10 +15,10 @@ public final class QueryFriendRequestsRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryFriendRequestsRequest_descriptor;
+    internal_static_im_micro_proto_QueryFriendRequestsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryFriendRequestsRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryFriendRequestsRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryFriendRequestsRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n=request/user/relationship/query_friend" +
-      "_requests_request.proto\022\016im.turms.proto\032" +
+      "_requests_request.proto\022\016im.micro.proto\032" +
       "\036google/protobuf/wrappers.proto\"T\n\032Query" +
       "FriendRequestsRequest\0226\n\021last_updated_da" +
       "te\030\001 \001(\0132\033.google.protobuf.Int64ValueB2\n" +
@@ -41,11 +41,11 @@ public final class QueryFriendRequestsRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryFriendRequestsRequest_descriptor =
+    internal_static_im_micro_proto_QueryFriendRequestsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryFriendRequestsRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryFriendRequestsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryFriendRequestsRequest_descriptor,
+        internal_static_im_micro_proto_QueryFriendRequestsRequest_descriptor,
         new java.lang.String[] { "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

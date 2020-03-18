@@ -15,10 +15,10 @@ public final class GroupOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_Group_descriptor;
+    internal_static_im_micro_proto_Group_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_Group_fieldAccessorTable;
+      internal_static_im_micro_proto_Group_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -28,7 +28,7 @@ public final class GroupOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\027model/group/group.proto\022\016im.turms.prot" +
+      "\n\027model/group/group.proto\022\016im.micro.prot" +
       "o\032\036google/protobuf/wrappers.proto\"\316\004\n\005Gr" +
       "oup\022\'\n\002id\030\001 \001(\0132\033.google.protobuf.Int64V" +
       "alue\022,\n\007type_id\030\002 \001(\0132\033.google.protobuf." +
@@ -52,11 +52,11 @@ public final class GroupOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_Group_descriptor =
+    internal_static_im_micro_proto_Group_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_Group_fieldAccessorTable = new
+    internal_static_im_micro_proto_Group_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_Group_descriptor,
+        internal_static_im_micro_proto_Group_descriptor,
         new java.lang.String[] { "Id", "TypeId", "CreatorId", "OwnerId", "Name", "Intro", "Announcement", "ProfilePictureUrl", "CreationDate", "DeletionDate", "MuteEndDate", "Active", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

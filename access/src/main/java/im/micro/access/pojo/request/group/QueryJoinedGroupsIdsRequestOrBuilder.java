@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.group;
 
 public interface QueryJoinedGroupsIdsRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryJoinedGroupsIdsRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryJoinedGroupsIdsRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

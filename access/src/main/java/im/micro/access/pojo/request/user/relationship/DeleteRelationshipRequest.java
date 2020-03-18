@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.user.relationship;
 
 /**
- * Protobuf type {@code im.turms.proto.DeleteRelationshipRequest}
+ * Protobuf type {@code im.micro.proto.DeleteRelationshipRequest}
  */
 public  final class DeleteRelationshipRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.DeleteRelationshipRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.DeleteRelationshipRequest)
     DeleteRelationshipRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use DeleteRelationshipRequest.newBuilder() to construct.
@@ -100,13 +100,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_turms_proto_DeleteRelationshipRequest_descriptor;
+    return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_micro_proto_DeleteRelationshipRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_turms_proto_DeleteRelationshipRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_micro_proto_DeleteRelationshipRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequest.class, im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequest.Builder.class);
   }
@@ -356,21 +356,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.DeleteRelationshipRequest}
+   * Protobuf type {@code im.micro.proto.DeleteRelationshipRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.DeleteRelationshipRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.DeleteRelationshipRequest)
       im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_turms_proto_DeleteRelationshipRequest_descriptor;
+      return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_micro_proto_DeleteRelationshipRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_turms_proto_DeleteRelationshipRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_micro_proto_DeleteRelationshipRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequest.class, im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequest.Builder.class);
     }
@@ -413,7 +413,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_turms_proto_DeleteRelationshipRequest_descriptor;
+      return im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequestOuterClass.internal_static_im_micro_proto_DeleteRelationshipRequest_descriptor;
     }
 
     @java.lang.Override
@@ -810,10 +810,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.DeleteRelationshipRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.DeleteRelationshipRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.DeleteRelationshipRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.DeleteRelationshipRequest)
   private static final im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.user.relationship.DeleteRelationshipRequest();

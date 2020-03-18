@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.file;
 
 /**
- * Protobuf type {@code im.turms.proto.AudioFile}
+ * Protobuf type {@code im.micro.proto.AudioFile}
  */
 public  final class AudioFile extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.AudioFile)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.AudioFile)
     AudioFileOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use AudioFile.newBuilder() to construct.
@@ -95,19 +95,19 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_descriptor;
+    return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_fieldAccessorTable
+    return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.file.AudioFile.class, im.micro.access.pojo.bo.file.AudioFile.Builder.class);
   }
 
   public interface DescriptionOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:im.turms.proto.AudioFile.Description)
+      // @@protoc_insertion_point(interface_extends:im.micro.proto.AudioFile.Description)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -168,11 +168,11 @@ private static final long serialVersionUID = 0L;
     com.google.protobuf.StringValueOrBuilder getFormatOrBuilder();
   }
   /**
-   * Protobuf type {@code im.turms.proto.AudioFile.Description}
+   * Protobuf type {@code im.micro.proto.AudioFile.Description}
    */
   public  static final class Description extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:im.turms.proto.AudioFile.Description)
+      // @@protoc_insertion_point(message_implements:im.micro.proto.AudioFile.Description)
       DescriptionOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use Description.newBuilder() to construct.
@@ -279,13 +279,13 @@ private static final long serialVersionUID = 0L;
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_Description_descriptor;
+      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_Description_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_Description_fieldAccessorTable
+      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_Description_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.file.AudioFile.Description.class, im.micro.access.pojo.bo.file.AudioFile.Description.Builder.class);
     }
@@ -598,21 +598,21 @@ private static final long serialVersionUID = 0L;
       return builder;
     }
     /**
-     * Protobuf type {@code im.turms.proto.AudioFile.Description}
+     * Protobuf type {@code im.micro.proto.AudioFile.Description}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:im.turms.proto.AudioFile.Description)
+        // @@protoc_insertion_point(builder_implements:im.micro.proto.AudioFile.Description)
         im.micro.access.pojo.bo.file.AudioFile.DescriptionOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_Description_descriptor;
+        return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_Description_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_Description_fieldAccessorTable
+        return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_Description_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 im.micro.access.pojo.bo.file.AudioFile.Description.class, im.micro.access.pojo.bo.file.AudioFile.Description.Builder.class);
       }
@@ -661,7 +661,7 @@ private static final long serialVersionUID = 0L;
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_Description_descriptor;
+        return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_Description_descriptor;
       }
 
       @java.lang.Override
@@ -1232,10 +1232,10 @@ private static final long serialVersionUID = 0L;
       }
 
 
-      // @@protoc_insertion_point(builder_scope:im.turms.proto.AudioFile.Description)
+      // @@protoc_insertion_point(builder_scope:im.micro.proto.AudioFile.Description)
     }
 
-    // @@protoc_insertion_point(class_scope:im.turms.proto.AudioFile.Description)
+    // @@protoc_insertion_point(class_scope:im.micro.proto.AudioFile.Description)
     private static final im.micro.access.pojo.bo.file.AudioFile.Description DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new im.micro.access.pojo.bo.file.AudioFile.Description();
@@ -1275,21 +1275,21 @@ private static final long serialVersionUID = 0L;
   public static final int DESCRIPTION_FIELD_NUMBER = 1;
   private im.micro.access.pojo.bo.file.AudioFile.Description description_;
   /**
-   * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+   * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
    * @return Whether the description field is set.
    */
   public boolean hasDescription() {
     return description_ != null;
   }
   /**
-   * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+   * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
    * @return The description.
    */
   public im.micro.access.pojo.bo.file.AudioFile.Description getDescription() {
     return description_ == null ? im.micro.access.pojo.bo.file.AudioFile.Description.getDefaultInstance() : description_;
   }
   /**
-   * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+   * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
    */
   public im.micro.access.pojo.bo.file.AudioFile.DescriptionOrBuilder getDescriptionOrBuilder() {
     return getDescription();
@@ -1495,21 +1495,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.AudioFile}
+   * Protobuf type {@code im.micro.proto.AudioFile}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.AudioFile)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.AudioFile)
       im.micro.access.pojo.bo.file.AudioFileOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_descriptor;
+      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_fieldAccessorTable
+      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.file.AudioFile.class, im.micro.access.pojo.bo.file.AudioFile.Builder.class);
     }
@@ -1550,7 +1550,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_turms_proto_AudioFile_descriptor;
+      return im.micro.access.pojo.bo.file.AudioFileOuterClass.internal_static_im_micro_proto_AudioFile_descriptor;
     }
 
     @java.lang.Override
@@ -1667,14 +1667,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         im.micro.access.pojo.bo.file.AudioFile.Description, im.micro.access.pojo.bo.file.AudioFile.Description.Builder, im.micro.access.pojo.bo.file.AudioFile.DescriptionOrBuilder> descriptionBuilder_;
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      * @return Whether the description field is set.
      */
     public boolean hasDescription() {
       return descriptionBuilder_ != null || description_ != null;
     }
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      * @return The description.
      */
     public im.micro.access.pojo.bo.file.AudioFile.Description getDescription() {
@@ -1685,7 +1685,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      */
     public Builder setDescription(im.micro.access.pojo.bo.file.AudioFile.Description value) {
       if (descriptionBuilder_ == null) {
@@ -1701,7 +1701,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      */
     public Builder setDescription(
         im.micro.access.pojo.bo.file.AudioFile.Description.Builder builderForValue) {
@@ -1715,7 +1715,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      */
     public Builder mergeDescription(im.micro.access.pojo.bo.file.AudioFile.Description value) {
       if (descriptionBuilder_ == null) {
@@ -1733,7 +1733,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      */
     public Builder clearDescription() {
       if (descriptionBuilder_ == null) {
@@ -1747,7 +1747,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      */
     public im.micro.access.pojo.bo.file.AudioFile.Description.Builder getDescriptionBuilder() {
       
@@ -1755,7 +1755,7 @@ private static final long serialVersionUID = 0L;
       return getDescriptionFieldBuilder().getBuilder();
     }
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      */
     public im.micro.access.pojo.bo.file.AudioFile.DescriptionOrBuilder getDescriptionOrBuilder() {
       if (descriptionBuilder_ != null) {
@@ -1766,7 +1766,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.im.turms.proto.AudioFile.Description description = 1;</code>
+     * <code>.im.micro.proto.AudioFile.Description description = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         im.micro.access.pojo.bo.file.AudioFile.Description, im.micro.access.pojo.bo.file.AudioFile.Description.Builder, im.micro.access.pojo.bo.file.AudioFile.DescriptionOrBuilder> 
@@ -1913,10 +1913,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.AudioFile)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.AudioFile)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.AudioFile)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.AudioFile)
   private static final im.micro.access.pojo.bo.file.AudioFile DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.file.AudioFile();

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.message;
 
 /**
- * Protobuf type {@code im.turms.proto.MessageStatuses}
+ * Protobuf type {@code im.micro.proto.MessageStatuses}
  */
 public  final class MessageStatuses extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.MessageStatuses)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.MessageStatuses)
     MessageStatusesOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use MessageStatuses.newBuilder() to construct.
@@ -83,13 +83,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_turms_proto_MessageStatuses_descriptor;
+    return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_micro_proto_MessageStatuses_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_turms_proto_MessageStatuses_fieldAccessorTable
+    return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_micro_proto_MessageStatuses_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.message.MessageStatuses.class, im.micro.access.pojo.bo.message.MessageStatuses.Builder.class);
   }
@@ -97,32 +97,32 @@ private static final long serialVersionUID = 0L;
   public static final int MESSAGE_STATUSES_FIELD_NUMBER = 1;
   private java.util.List<im.micro.access.pojo.bo.message.MessageStatus> messageStatuses_;
   /**
-   * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
    */
   public java.util.List<im.micro.access.pojo.bo.message.MessageStatus> getMessageStatusesList() {
     return messageStatuses_;
   }
   /**
-   * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
    */
   public java.util.List<? extends im.micro.access.pojo.bo.message.MessageStatusOrBuilder> 
       getMessageStatusesOrBuilderList() {
     return messageStatuses_;
   }
   /**
-   * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
    */
   public int getMessageStatusesCount() {
     return messageStatuses_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
    */
   public im.micro.access.pojo.bo.message.MessageStatus getMessageStatuses(int index) {
     return messageStatuses_.get(index);
   }
   /**
-   * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+   * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
    */
   public im.micro.access.pojo.bo.message.MessageStatusOrBuilder getMessageStatusesOrBuilder(
       int index) {
@@ -287,21 +287,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.MessageStatuses}
+   * Protobuf type {@code im.micro.proto.MessageStatuses}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.MessageStatuses)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.MessageStatuses)
       im.micro.access.pojo.bo.message.MessageStatusesOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_turms_proto_MessageStatuses_descriptor;
+      return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_micro_proto_MessageStatuses_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_turms_proto_MessageStatuses_fieldAccessorTable
+      return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_micro_proto_MessageStatuses_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.message.MessageStatuses.class, im.micro.access.pojo.bo.message.MessageStatuses.Builder.class);
     }
@@ -337,7 +337,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_turms_proto_MessageStatuses_descriptor;
+      return im.micro.access.pojo.bo.message.MessageStatusesOuterClass.internal_static_im_micro_proto_MessageStatuses_descriptor;
     }
 
     @java.lang.Override
@@ -484,7 +484,7 @@ private static final long serialVersionUID = 0L;
         im.micro.access.pojo.bo.message.MessageStatus, im.micro.access.pojo.bo.message.MessageStatus.Builder, im.micro.access.pojo.bo.message.MessageStatusOrBuilder> messageStatusesBuilder_;
 
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.message.MessageStatus> getMessageStatusesList() {
       if (messageStatusesBuilder_ == null) {
@@ -494,7 +494,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public int getMessageStatusesCount() {
       if (messageStatusesBuilder_ == null) {
@@ -504,7 +504,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessageStatus getMessageStatuses(int index) {
       if (messageStatusesBuilder_ == null) {
@@ -514,7 +514,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder setMessageStatuses(
         int index, im.micro.access.pojo.bo.message.MessageStatus value) {
@@ -531,7 +531,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder setMessageStatuses(
         int index, im.micro.access.pojo.bo.message.MessageStatus.Builder builderForValue) {
@@ -545,7 +545,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder addMessageStatuses(im.micro.access.pojo.bo.message.MessageStatus value) {
       if (messageStatusesBuilder_ == null) {
@@ -561,7 +561,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder addMessageStatuses(
         int index, im.micro.access.pojo.bo.message.MessageStatus value) {
@@ -578,7 +578,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder addMessageStatuses(
         im.micro.access.pojo.bo.message.MessageStatus.Builder builderForValue) {
@@ -592,7 +592,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder addMessageStatuses(
         int index, im.micro.access.pojo.bo.message.MessageStatus.Builder builderForValue) {
@@ -606,7 +606,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder addAllMessageStatuses(
         java.lang.Iterable<? extends im.micro.access.pojo.bo.message.MessageStatus> values) {
@@ -621,7 +621,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder clearMessageStatuses() {
       if (messageStatusesBuilder_ == null) {
@@ -634,7 +634,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public Builder removeMessageStatuses(int index) {
       if (messageStatusesBuilder_ == null) {
@@ -647,14 +647,14 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessageStatus.Builder getMessageStatusesBuilder(
         int index) {
       return getMessageStatusesFieldBuilder().getBuilder(index);
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessageStatusOrBuilder getMessageStatusesOrBuilder(
         int index) {
@@ -664,7 +664,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public java.util.List<? extends im.micro.access.pojo.bo.message.MessageStatusOrBuilder> 
          getMessageStatusesOrBuilderList() {
@@ -675,14 +675,14 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessageStatus.Builder addMessageStatusesBuilder() {
       return getMessageStatusesFieldBuilder().addBuilder(
           im.micro.access.pojo.bo.message.MessageStatus.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public im.micro.access.pojo.bo.message.MessageStatus.Builder addMessageStatusesBuilder(
         int index) {
@@ -690,7 +690,7 @@ private static final long serialVersionUID = 0L;
           index, im.micro.access.pojo.bo.message.MessageStatus.getDefaultInstance());
     }
     /**
-     * <code>repeated .im.turms.proto.MessageStatus message_statuses = 1;</code>
+     * <code>repeated .im.micro.proto.MessageStatus message_statuses = 1;</code>
      */
     public java.util.List<im.micro.access.pojo.bo.message.MessageStatus.Builder> 
          getMessageStatusesBuilderList() {
@@ -723,10 +723,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.MessageStatuses)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.MessageStatuses)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.MessageStatuses)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.MessageStatuses)
   private static final im.micro.access.pojo.bo.message.MessageStatuses DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.message.MessageStatuses();

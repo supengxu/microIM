@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.user.relationship;
 
 /**
- * Protobuf type {@code im.turms.proto.QueryRelationshipsRequest}
+ * Protobuf type {@code im.micro.proto.QueryRelationshipsRequest}
  */
 public  final class QueryRelationshipsRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.QueryRelationshipsRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.QueryRelationshipsRequest)
     QueryRelationshipsRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use QueryRelationshipsRequest.newBuilder() to construct.
@@ -134,13 +134,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_turms_proto_QueryRelationshipsRequest_descriptor;
+    return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_micro_proto_QueryRelationshipsRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_turms_proto_QueryRelationshipsRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_micro_proto_QueryRelationshipsRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequest.class, im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequest.Builder.class);
   }
@@ -462,21 +462,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.QueryRelationshipsRequest}
+   * Protobuf type {@code im.micro.proto.QueryRelationshipsRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.QueryRelationshipsRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.QueryRelationshipsRequest)
       im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_turms_proto_QueryRelationshipsRequest_descriptor;
+      return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_micro_proto_QueryRelationshipsRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_turms_proto_QueryRelationshipsRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_micro_proto_QueryRelationshipsRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequest.class, im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequest.Builder.class);
     }
@@ -525,7 +525,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_turms_proto_QueryRelationshipsRequest_descriptor;
+      return im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequestOuterClass.internal_static_im_micro_proto_QueryRelationshipsRequest_descriptor;
     }
 
     @java.lang.Override
@@ -1111,10 +1111,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.QueryRelationshipsRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.QueryRelationshipsRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.QueryRelationshipsRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.QueryRelationshipsRequest)
   private static final im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.user.relationship.QueryRelationshipsRequest();

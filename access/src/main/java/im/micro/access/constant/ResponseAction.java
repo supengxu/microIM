@@ -4,7 +4,7 @@
 package im.micro.access.constant;
 
 /**
- * Protobuf enum {@code im.turms.proto.ResponseAction}
+ * Protobuf enum {@code im.micro.proto.ResponseAction}
  */
 public enum ResponseAction
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -113,6 +113,6 @@ public enum ResponseAction
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:im.turms.proto.ResponseAction)
+  // @@protoc_insertion_point(enum_scope:im.micro.proto.ResponseAction)
 }
 

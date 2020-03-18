@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user;
 
 public interface QueryUserProfileRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryUserProfileRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryUserProfileRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

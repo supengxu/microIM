@@ -23,8 +23,8 @@ public final class RequestStatusOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\035constant/request_status.proto\022\016im.turm" +
-      "s.proto*~\n\rRequestStatus\022\013\n\007PENDING\020\000\022\014\n" +
+      "\n\035constant/request_status.proto\022\016im.micr" +
+      "o.proto*~\n\rRequestStatus\022\013\n\007PENDING\020\000\022\014\n" +
       "\010ACCEPTED\020\001\022\034\n\030ACCEPTED_WITHOUT_CONFIRM\020" +
       "\002\022\014\n\010DECLINED\020\003\022\013\n\007IGNORED\020\004\022\013\n\007EXPIRED\020" +
       "\005\022\014\n\010CANCELED\020\006B\034\n\030im.micro.access.const" +

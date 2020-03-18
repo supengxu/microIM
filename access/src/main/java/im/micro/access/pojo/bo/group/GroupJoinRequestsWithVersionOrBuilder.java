@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.group;
 
 public interface GroupJoinRequestsWithVersionOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.GroupJoinRequestsWithVersion)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.GroupJoinRequestsWithVersion)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.GroupJoinRequest group_join_requests = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinRequest group_join_requests = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.group.GroupJoinRequest> 
       getGroupJoinRequestsList();
   /**
-   * <code>repeated .im.turms.proto.GroupJoinRequest group_join_requests = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinRequest group_join_requests = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupJoinRequest getGroupJoinRequests(int index);
   /**
-   * <code>repeated .im.turms.proto.GroupJoinRequest group_join_requests = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinRequest group_join_requests = 1;</code>
    */
   int getGroupJoinRequestsCount();
   /**
-   * <code>repeated .im.turms.proto.GroupJoinRequest group_join_requests = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinRequest group_join_requests = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.group.GroupJoinRequestOrBuilder> 
       getGroupJoinRequestsOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.GroupJoinRequest group_join_requests = 1;</code>
+   * <code>repeated .im.micro.proto.GroupJoinRequest group_join_requests = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupJoinRequestOrBuilder getGroupJoinRequestsOrBuilder(
       int index);

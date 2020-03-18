@@ -15,10 +15,10 @@ public final class GroupInvitationsWithVersionOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_GroupInvitationsWithVersion_descriptor;
+    internal_static_im_micro_proto_GroupInvitationsWithVersion_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_GroupInvitationsWithVersion_fieldAccessorTable;
+      internal_static_im_micro_proto_GroupInvitationsWithVersion_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,11 +29,11 @@ public final class GroupInvitationsWithVersionOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n0model/group/group_invitations_with_ver" +
-      "sion.proto\022\016im.turms.proto\032\036google/proto" +
+      "sion.proto\022\016im.micro.proto\032\036google/proto" +
       "buf/wrappers.proto\032\"model/group/group_in" +
       "vitation.proto\"\221\001\n\033GroupInvitationsWithV" +
-      "ersion\022:\n\021group_invitations\030\001 \003(\0132\037.im.t" +
-      "urms.proto.GroupInvitation\0226\n\021last_updat" +
+      "ersion\022:\n\021group_invitations\030\001 \003(\0132\037.im.m" +
+      "icro.proto.GroupInvitation\0226\n\021last_updat" +
       "ed_date\030\002 \001(\0132\033.google.protobuf.Int64Val" +
       "ueB!\n\035im.micro.access.pojo.bo.groupP\001b\006p" +
       "roto3"
@@ -44,11 +44,11 @@ public final class GroupInvitationsWithVersionOuterClass {
           com.google.protobuf.WrappersProto.getDescriptor(),
           im.micro.access.pojo.bo.group.GroupInvitationOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_GroupInvitationsWithVersion_descriptor =
+    internal_static_im_micro_proto_GroupInvitationsWithVersion_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_GroupInvitationsWithVersion_fieldAccessorTable = new
+    internal_static_im_micro_proto_GroupInvitationsWithVersion_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_GroupInvitationsWithVersion_descriptor,
+        internal_static_im_micro_proto_GroupInvitationsWithVersion_descriptor,
         new java.lang.String[] { "GroupInvitations", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
     im.micro.access.pojo.bo.group.GroupInvitationOuterClass.getDescriptor();

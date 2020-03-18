@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.group.member;
 
 public interface QueryGroupMembersRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryGroupMembersRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryGroupMembersRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

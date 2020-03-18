@@ -15,10 +15,10 @@ public final class SessionOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_Session_descriptor;
+    internal_static_im_micro_proto_Session_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_Session_fieldAccessorTable;
+      internal_static_im_micro_proto_Session_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -28,7 +28,7 @@ public final class SessionOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\032model/signal/session.proto\022\016im.turms.p" +
+      "\n\032model/signal/session.proto\022\016im.micro.p" +
       "roto\".\n\007Session\022\022\n\nsession_id\030\001 \001(\t\022\017\n\007a" +
       "ddress\030\002 \001(\tB\"\n\036im.micro.access.pojo.bo." +
       "signalP\001b\006proto3"
@@ -37,11 +37,11 @@ public final class SessionOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_Session_descriptor =
+    internal_static_im_micro_proto_Session_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_Session_fieldAccessorTable = new
+    internal_static_im_micro_proto_Session_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_Session_descriptor,
+        internal_static_im_micro_proto_Session_descriptor,
         new java.lang.String[] { "SessionId", "Address", });
   }
 

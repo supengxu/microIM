@@ -15,10 +15,10 @@ public final class Int64ValuesOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_Int64Values_descriptor;
+    internal_static_im_micro_proto_Int64Values_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_Int64Values_fieldAccessorTable;
+      internal_static_im_micro_proto_Int64Values_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -28,8 +28,8 @@ public final class Int64ValuesOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\037model/common/int64_values.proto\022\016im.tu" +
-      "rms.proto\"\035\n\013Int64Values\022\016\n\006values\030\001 \003(\003" +
+      "\n\037model/common/int64_values.proto\022\016im.mi" +
+      "cro.proto\"\035\n\013Int64Values\022\016\n\006values\030\001 \003(\003" +
       "B\"\n\036im.micro.access.pojo.bo.commonP\001b\006pr" +
       "oto3"
     };
@@ -37,11 +37,11 @@ public final class Int64ValuesOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_Int64Values_descriptor =
+    internal_static_im_micro_proto_Int64Values_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_Int64Values_fieldAccessorTable = new
+    internal_static_im_micro_proto_Int64Values_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_Int64Values_descriptor,
+        internal_static_im_micro_proto_Int64Values_descriptor,
         new java.lang.String[] { "Values", });
   }
 

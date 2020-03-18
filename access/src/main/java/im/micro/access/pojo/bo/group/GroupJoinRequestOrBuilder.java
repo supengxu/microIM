@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.group;
 
 public interface GroupJoinRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.GroupJoinRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.GroupJoinRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -53,12 +53,12 @@ public interface GroupJoinRequestOrBuilder extends
   com.google.protobuf.StringValueOrBuilder getContentOrBuilder();
 
   /**
-   * <code>.im.turms.proto.RequestStatus status = 4;</code>
+   * <code>.im.micro.proto.RequestStatus status = 4;</code>
    * @return The enum numeric value on the wire for status.
    */
   int getStatusValue();
   /**
-   * <code>.im.turms.proto.RequestStatus status = 4;</code>
+   * <code>.im.micro.proto.RequestStatus status = 4;</code>
    * @return The status.
    */
   im.micro.access.constant.RequestStatus getStatus();

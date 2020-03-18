@@ -15,10 +15,10 @@ public final class QueryGroupInvitationsRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_QueryGroupInvitationsRequest_descriptor;
+    internal_static_im_micro_proto_QueryGroupInvitationsRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_QueryGroupInvitationsRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_QueryGroupInvitationsRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class QueryGroupInvitationsRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n>request/group/enrollment/query_group_i" +
-      "nvitations_request.proto\022\016im.turms.proto" +
+      "nvitations_request.proto\022\016im.micro.proto" +
       "\032\036google/protobuf/wrappers.proto\"h\n\034Quer" +
       "yGroupInvitationsRequest\022\020\n\010group_id\030\001 \001" +
       "(\003\0226\n\021last_updated_date\030\002 \001(\0132\033.google.p" +
@@ -41,11 +41,11 @@ public final class QueryGroupInvitationsRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_QueryGroupInvitationsRequest_descriptor =
+    internal_static_im_micro_proto_QueryGroupInvitationsRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_QueryGroupInvitationsRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_QueryGroupInvitationsRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_QueryGroupInvitationsRequest_descriptor,
+        internal_static_im_micro_proto_QueryGroupInvitationsRequest_descriptor,
         new java.lang.String[] { "GroupId", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

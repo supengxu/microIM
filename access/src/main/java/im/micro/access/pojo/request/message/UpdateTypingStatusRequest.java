@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.message;
 
 /**
- * Protobuf type {@code im.turms.proto.UpdateTypingStatusRequest}
+ * Protobuf type {@code im.micro.proto.UpdateTypingStatusRequest}
  */
 public  final class UpdateTypingStatusRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UpdateTypingStatusRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UpdateTypingStatusRequest)
     UpdateTypingStatusRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UpdateTypingStatusRequest.newBuilder() to construct.
@@ -81,13 +81,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_turms_proto_UpdateTypingStatusRequest_descriptor;
+    return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_micro_proto_UpdateTypingStatusRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_turms_proto_UpdateTypingStatusRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_micro_proto_UpdateTypingStatusRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.message.UpdateTypingStatusRequest.class, im.micro.access.pojo.request.message.UpdateTypingStatusRequest.Builder.class);
   }
@@ -95,14 +95,14 @@ private static final long serialVersionUID = 0L;
   public static final int CHAT_TYPE_FIELD_NUMBER = 1;
   private int chatType_;
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 1;</code>
    * @return The enum numeric value on the wire for chatType.
    */
   public int getChatTypeValue() {
     return chatType_;
   }
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 1;</code>
    * @return The chatType.
    */
   public im.micro.access.constant.ChatType getChatType() {
@@ -288,21 +288,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UpdateTypingStatusRequest}
+   * Protobuf type {@code im.micro.proto.UpdateTypingStatusRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UpdateTypingStatusRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UpdateTypingStatusRequest)
       im.micro.access.pojo.request.message.UpdateTypingStatusRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_turms_proto_UpdateTypingStatusRequest_descriptor;
+      return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_micro_proto_UpdateTypingStatusRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_turms_proto_UpdateTypingStatusRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_micro_proto_UpdateTypingStatusRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.message.UpdateTypingStatusRequest.class, im.micro.access.pojo.request.message.UpdateTypingStatusRequest.Builder.class);
     }
@@ -335,7 +335,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_turms_proto_UpdateTypingStatusRequest_descriptor;
+      return im.micro.access.pojo.request.message.UpdateTypingStatusRequestOuterClass.internal_static_im_micro_proto_UpdateTypingStatusRequest_descriptor;
     }
 
     @java.lang.Override
@@ -442,14 +442,14 @@ private static final long serialVersionUID = 0L;
 
     private int chatType_ = 0;
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 1;</code>
      * @return The enum numeric value on the wire for chatType.
      */
     public int getChatTypeValue() {
       return chatType_;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 1;</code>
      * @param value The enum numeric value on the wire for chatType to set.
      * @return This builder for chaining.
      */
@@ -459,7 +459,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 1;</code>
      * @return The chatType.
      */
     public im.micro.access.constant.ChatType getChatType() {
@@ -468,7 +468,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.ChatType.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 1;</code>
      * @param value The chatType to set.
      * @return This builder for chaining.
      */
@@ -482,7 +482,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ChatType chat_type = 1;</code>
+     * <code>.im.micro.proto.ChatType chat_type = 1;</code>
      * @return This builder for chaining.
      */
     public Builder clearChatType() {
@@ -534,10 +534,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UpdateTypingStatusRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UpdateTypingStatusRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UpdateTypingStatusRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UpdateTypingStatusRequest)
   private static final im.micro.access.pojo.request.message.UpdateTypingStatusRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.message.UpdateTypingStatusRequest();

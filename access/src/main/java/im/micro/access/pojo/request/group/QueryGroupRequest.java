@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.group;
 
 /**
- * Protobuf type {@code im.turms.proto.QueryGroupRequest}
+ * Protobuf type {@code im.micro.proto.QueryGroupRequest}
  */
 public  final class QueryGroupRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.QueryGroupRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.QueryGroupRequest)
     QueryGroupRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use QueryGroupRequest.newBuilder() to construct.
@@ -87,13 +87,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_turms_proto_QueryGroupRequest_descriptor;
+    return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_micro_proto_QueryGroupRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_turms_proto_QueryGroupRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_micro_proto_QueryGroupRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.group.QueryGroupRequest.class, im.micro.access.pojo.request.group.QueryGroupRequest.Builder.class);
   }
@@ -304,21 +304,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.QueryGroupRequest}
+   * Protobuf type {@code im.micro.proto.QueryGroupRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.QueryGroupRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.QueryGroupRequest)
       im.micro.access.pojo.request.group.QueryGroupRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_turms_proto_QueryGroupRequest_descriptor;
+      return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_micro_proto_QueryGroupRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_turms_proto_QueryGroupRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_micro_proto_QueryGroupRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.group.QueryGroupRequest.class, im.micro.access.pojo.request.group.QueryGroupRequest.Builder.class);
     }
@@ -355,7 +355,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_turms_proto_QueryGroupRequest_descriptor;
+      return im.micro.access.pojo.request.group.QueryGroupRequestOuterClass.internal_static_im_micro_proto_QueryGroupRequest_descriptor;
     }
 
     @java.lang.Override
@@ -625,10 +625,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.QueryGroupRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.QueryGroupRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.QueryGroupRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.QueryGroupRequest)
   private static final im.micro.access.pojo.request.group.QueryGroupRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.group.QueryGroupRequest();

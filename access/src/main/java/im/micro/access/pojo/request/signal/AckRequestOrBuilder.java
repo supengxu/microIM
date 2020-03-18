@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.signal;
 
 public interface AckRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.AckRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.AckRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

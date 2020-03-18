@@ -15,10 +15,10 @@ public final class DeleteGroupJoinQuestionRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_DeleteGroupJoinQuestionRequest_descriptor;
+    internal_static_im_micro_proto_DeleteGroupJoinQuestionRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_DeleteGroupJoinQuestionRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_DeleteGroupJoinQuestionRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class DeleteGroupJoinQuestionRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nArequest/group/enrollment/delete_group_" +
-      "join_question_request.proto\022\016im.turms.pr" +
+      "join_question_request.proto\022\016im.micro.pr" +
       "oto\"5\n\036DeleteGroupJoinQuestionRequest\022\023\n" +
       "\013question_id\030\001 \001(\003B1\n-im.micro.access.po" +
       "jo.request.group.enrollmentP\001b\006proto3"
@@ -38,11 +38,11 @@ public final class DeleteGroupJoinQuestionRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_DeleteGroupJoinQuestionRequest_descriptor =
+    internal_static_im_micro_proto_DeleteGroupJoinQuestionRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_DeleteGroupJoinQuestionRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_DeleteGroupJoinQuestionRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_DeleteGroupJoinQuestionRequest_descriptor,
+        internal_static_im_micro_proto_DeleteGroupJoinQuestionRequest_descriptor,
         new java.lang.String[] { "QuestionId", });
   }
 

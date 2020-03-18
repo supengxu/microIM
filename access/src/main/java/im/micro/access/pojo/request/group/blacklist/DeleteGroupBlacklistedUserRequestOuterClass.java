@@ -15,10 +15,10 @@ public final class DeleteGroupBlacklistedUserRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_descriptor;
+    internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class DeleteGroupBlacklistedUserRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nCrequest/group/blacklist/delete_group_b" +
-      "lacklisted_user_request.proto\022\016im.turms." +
+      "lacklisted_user_request.proto\022\016im.micro." +
       "proto\"T\n!DeleteGroupBlacklistedUserReque" +
       "st\022\020\n\010group_id\030\001 \001(\003\022\035\n\025unblacklisted_us" +
       "er_id\030\002 \001(\003B0\n,im.micro.access.pojo.requ" +
@@ -39,11 +39,11 @@ public final class DeleteGroupBlacklistedUserRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_descriptor =
+    internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_descriptor,
+        internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_descriptor,
         new java.lang.String[] { "GroupId", "UnblacklistedUserId", });
   }
 

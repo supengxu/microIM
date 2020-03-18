@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user;
 
 public interface QueryUsersOnlineStatusRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryUsersOnlineStatusRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryUsersOnlineStatusRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

@@ -8,7 +8,7 @@ package im.micro.access.constant;
  * 设备烈性
  * </pre>
  *
- * Protobuf enum {@code im.turms.proto.DeviceType}
+ * Protobuf enum {@code im.micro.proto.DeviceType}
  */
 public enum DeviceType
     implements com.google.protobuf.ProtocolMessageEnum {
@@ -192,6 +192,6 @@ public enum DeviceType
     this.value = value;
   }
 
-  // @@protoc_insertion_point(enum_scope:im.turms.proto.DeviceType)
+  // @@protoc_insertion_point(enum_scope:im.micro.proto.DeviceType)
 }
 

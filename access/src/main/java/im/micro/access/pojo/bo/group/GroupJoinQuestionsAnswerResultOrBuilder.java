@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.group;
 
 public interface GroupJoinQuestionsAnswerResultOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.GroupJoinQuestionsAnswerResult)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.GroupJoinQuestionsAnswerResult)
     com.google.protobuf.MessageOrBuilder {
 
   /**

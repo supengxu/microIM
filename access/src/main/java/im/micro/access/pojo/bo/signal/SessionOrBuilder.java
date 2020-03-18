@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.signal;
 
 public interface SessionOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.Session)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.Session)
     com.google.protobuf.MessageOrBuilder {
 
   /**

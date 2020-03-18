@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.user.relationship;
 
 /**
- * Protobuf type {@code im.turms.proto.UpdateFriendRequestRequest}
+ * Protobuf type {@code im.micro.proto.UpdateFriendRequestRequest}
  */
 public  final class UpdateFriendRequestRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UpdateFriendRequestRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UpdateFriendRequestRequest)
     UpdateFriendRequestRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UpdateFriendRequestRequest.newBuilder() to construct.
@@ -94,13 +94,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_turms_proto_UpdateFriendRequestRequest_descriptor;
+    return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_micro_proto_UpdateFriendRequestRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_turms_proto_UpdateFriendRequestRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_micro_proto_UpdateFriendRequestRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequest.class, im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequest.Builder.class);
   }
@@ -118,14 +118,14 @@ private static final long serialVersionUID = 0L;
   public static final int RESPONSEACTION_FIELD_NUMBER = 2;
   private int responseAction_;
   /**
-   * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+   * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
    * @return The enum numeric value on the wire for responseAction.
    */
   public int getResponseActionValue() {
     return responseAction_;
   }
   /**
-   * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+   * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
    * @return The responseAction.
    */
   public im.micro.access.constant.ResponseAction getResponseAction() {
@@ -340,21 +340,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UpdateFriendRequestRequest}
+   * Protobuf type {@code im.micro.proto.UpdateFriendRequestRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UpdateFriendRequestRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UpdateFriendRequestRequest)
       im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_turms_proto_UpdateFriendRequestRequest_descriptor;
+      return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_micro_proto_UpdateFriendRequestRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_turms_proto_UpdateFriendRequestRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_micro_proto_UpdateFriendRequestRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequest.class, im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequest.Builder.class);
     }
@@ -393,7 +393,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_turms_proto_UpdateFriendRequestRequest_descriptor;
+      return im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequestOuterClass.internal_static_im_micro_proto_UpdateFriendRequestRequest_descriptor;
     }
 
     @java.lang.Override
@@ -538,14 +538,14 @@ private static final long serialVersionUID = 0L;
 
     private int responseAction_ = 0;
     /**
-     * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+     * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
      * @return The enum numeric value on the wire for responseAction.
      */
     public int getResponseActionValue() {
       return responseAction_;
     }
     /**
-     * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+     * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
      * @param value The enum numeric value on the wire for responseAction to set.
      * @return This builder for chaining.
      */
@@ -555,7 +555,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+     * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
      * @return The responseAction.
      */
     public im.micro.access.constant.ResponseAction getResponseAction() {
@@ -564,7 +564,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.ResponseAction.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+     * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
      * @param value The responseAction to set.
      * @return This builder for chaining.
      */
@@ -578,7 +578,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.ResponseAction responseAction = 2;</code>
+     * <code>.im.micro.proto.ResponseAction responseAction = 2;</code>
      * @return This builder for chaining.
      */
     public Builder clearResponseAction() {
@@ -719,10 +719,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UpdateFriendRequestRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UpdateFriendRequestRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UpdateFriendRequestRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UpdateFriendRequestRequest)
   private static final im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.user.relationship.UpdateFriendRequestRequest();

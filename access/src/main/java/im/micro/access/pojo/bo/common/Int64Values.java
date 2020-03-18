@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.common;
 
 /**
- * Protobuf type {@code im.turms.proto.Int64Values}
+ * Protobuf type {@code im.micro.proto.Int64Values}
  */
 public  final class Int64Values extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.Int64Values)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.Int64Values)
     Int64ValuesOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Int64Values.newBuilder() to construct.
@@ -95,13 +95,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_turms_proto_Int64Values_descriptor;
+    return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_micro_proto_Int64Values_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_turms_proto_Int64Values_fieldAccessorTable
+    return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_micro_proto_Int64Values_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.common.Int64Values.class, im.micro.access.pojo.bo.common.Int64Values.Builder.class);
   }
@@ -306,21 +306,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.Int64Values}
+   * Protobuf type {@code im.micro.proto.Int64Values}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.Int64Values)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.Int64Values)
       im.micro.access.pojo.bo.common.Int64ValuesOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_turms_proto_Int64Values_descriptor;
+      return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_micro_proto_Int64Values_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_turms_proto_Int64Values_fieldAccessorTable
+      return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_micro_proto_Int64Values_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.common.Int64Values.class, im.micro.access.pojo.bo.common.Int64Values.Builder.class);
     }
@@ -351,7 +351,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_turms_proto_Int64Values_descriptor;
+      return im.micro.access.pojo.bo.common.Int64ValuesOuterClass.internal_static_im_micro_proto_Int64Values_descriptor;
     }
 
     @java.lang.Override
@@ -556,10 +556,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.Int64Values)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.Int64Values)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.Int64Values)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.Int64Values)
   private static final im.micro.access.pojo.bo.common.Int64Values DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.common.Int64Values();

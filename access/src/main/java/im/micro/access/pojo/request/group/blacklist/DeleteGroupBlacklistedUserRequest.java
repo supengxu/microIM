@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.group.blacklist;
 
 /**
- * Protobuf type {@code im.turms.proto.DeleteGroupBlacklistedUserRequest}
+ * Protobuf type {@code im.micro.proto.DeleteGroupBlacklistedUserRequest}
  */
 public  final class DeleteGroupBlacklistedUserRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.DeleteGroupBlacklistedUserRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.DeleteGroupBlacklistedUserRequest)
     DeleteGroupBlacklistedUserRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use DeleteGroupBlacklistedUserRequest.newBuilder() to construct.
@@ -79,13 +79,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_descriptor;
+    return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequest.class, im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequest.Builder.class);
   }
@@ -279,21 +279,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.DeleteGroupBlacklistedUserRequest}
+   * Protobuf type {@code im.micro.proto.DeleteGroupBlacklistedUserRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.DeleteGroupBlacklistedUserRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.DeleteGroupBlacklistedUserRequest)
       im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_descriptor;
+      return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequest.class, im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequest.Builder.class);
     }
@@ -326,7 +326,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_DeleteGroupBlacklistedUserRequest_descriptor;
+      return im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_DeleteGroupBlacklistedUserRequest_descriptor;
     }
 
     @java.lang.Override
@@ -503,10 +503,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.DeleteGroupBlacklistedUserRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.DeleteGroupBlacklistedUserRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.DeleteGroupBlacklistedUserRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.DeleteGroupBlacklistedUserRequest)
   private static final im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.group.blacklist.DeleteGroupBlacklistedUserRequest();

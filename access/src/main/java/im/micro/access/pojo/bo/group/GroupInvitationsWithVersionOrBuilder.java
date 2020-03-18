@@ -4,29 +4,29 @@
 package im.micro.access.pojo.bo.group;
 
 public interface GroupInvitationsWithVersionOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.GroupInvitationsWithVersion)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.GroupInvitationsWithVersion)
     com.google.protobuf.MessageOrBuilder {
 
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   java.util.List<im.micro.access.pojo.bo.group.GroupInvitation> 
       getGroupInvitationsList();
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupInvitation getGroupInvitations(int index);
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   int getGroupInvitationsCount();
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   java.util.List<? extends im.micro.access.pojo.bo.group.GroupInvitationOrBuilder> 
       getGroupInvitationsOrBuilderList();
   /**
-   * <code>repeated .im.turms.proto.GroupInvitation group_invitations = 1;</code>
+   * <code>repeated .im.micro.proto.GroupInvitation group_invitations = 1;</code>
    */
   im.micro.access.pojo.bo.group.GroupInvitationOrBuilder getGroupInvitationsOrBuilder(
       int index);

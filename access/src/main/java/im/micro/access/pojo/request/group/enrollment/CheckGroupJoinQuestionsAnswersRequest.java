@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.group.enrollment;
 
 /**
- * Protobuf type {@code im.turms.proto.CheckGroupJoinQuestionsAnswersRequest}
+ * Protobuf type {@code im.micro.proto.CheckGroupJoinQuestionsAnswersRequest}
  */
 public  final class CheckGroupJoinQuestionsAnswersRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.CheckGroupJoinQuestionsAnswersRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.CheckGroupJoinQuestionsAnswersRequest)
     CheckGroupJoinQuestionsAnswersRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use CheckGroupJoinQuestionsAnswersRequest.newBuilder() to construct.
@@ -83,7 +83,7 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor;
+    return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor;
   }
 
   @SuppressWarnings({"rawtypes"})
@@ -101,7 +101,7 @@ private static final long serialVersionUID = 0L;
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequest.class, im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequest.Builder.class);
   }
@@ -112,7 +112,7 @@ private static final long serialVersionUID = 0L;
         java.lang.Long, java.lang.String> defaultEntry =
             com.google.protobuf.MapEntry
             .<java.lang.Long, java.lang.String>newDefaultInstance(
-                im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_descriptor, 
+                im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_descriptor, 
                 com.google.protobuf.WireFormat.FieldType.INT64,
                 0L,
                 com.google.protobuf.WireFormat.FieldType.STRING,
@@ -349,15 +349,15 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.CheckGroupJoinQuestionsAnswersRequest}
+   * Protobuf type {@code im.micro.proto.CheckGroupJoinQuestionsAnswersRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.CheckGroupJoinQuestionsAnswersRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.CheckGroupJoinQuestionsAnswersRequest)
       im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor;
+      return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor;
     }
 
     @SuppressWarnings({"rawtypes"})
@@ -385,7 +385,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequest.class, im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequest.Builder.class);
     }
@@ -415,7 +415,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor;
+      return im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequestOuterClass.internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor;
     }
 
     @java.lang.Override
@@ -653,10 +653,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.CheckGroupJoinQuestionsAnswersRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.CheckGroupJoinQuestionsAnswersRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.CheckGroupJoinQuestionsAnswersRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.CheckGroupJoinQuestionsAnswersRequest)
   private static final im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.group.enrollment.CheckGroupJoinQuestionsAnswersRequest();

@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.user;
 
 public interface UpdateUserLocationRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UpdateUserLocationRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UpdateUserLocationRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

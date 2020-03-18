@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.file;
 
 /**
- * Protobuf type {@code im.turms.proto.VideoFile}
+ * Protobuf type {@code im.micro.proto.VideoFile}
  */
 public  final class VideoFile extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.VideoFile)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.VideoFile)
     VideoFileOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use VideoFile.newBuilder() to construct.
@@ -95,19 +95,19 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_descriptor;
+    return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_fieldAccessorTable
+    return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.file.VideoFile.class, im.micro.access.pojo.bo.file.VideoFile.Builder.class);
   }
 
   public interface DescriptionOrBuilder extends
-      // @@protoc_insertion_point(interface_extends:im.turms.proto.VideoFile.Description)
+      // @@protoc_insertion_point(interface_extends:im.micro.proto.VideoFile.Description)
       com.google.protobuf.MessageOrBuilder {
 
     /**
@@ -168,11 +168,11 @@ private static final long serialVersionUID = 0L;
     com.google.protobuf.StringValueOrBuilder getFormatOrBuilder();
   }
   /**
-   * Protobuf type {@code im.turms.proto.VideoFile.Description}
+   * Protobuf type {@code im.micro.proto.VideoFile.Description}
    */
   public  static final class Description extends
       com.google.protobuf.GeneratedMessageV3 implements
-      // @@protoc_insertion_point(message_implements:im.turms.proto.VideoFile.Description)
+      // @@protoc_insertion_point(message_implements:im.micro.proto.VideoFile.Description)
       DescriptionOrBuilder {
   private static final long serialVersionUID = 0L;
     // Use Description.newBuilder() to construct.
@@ -279,13 +279,13 @@ private static final long serialVersionUID = 0L;
     }
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_Description_descriptor;
+      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_Description_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_Description_fieldAccessorTable
+      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_Description_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.file.VideoFile.Description.class, im.micro.access.pojo.bo.file.VideoFile.Description.Builder.class);
     }
@@ -598,21 +598,21 @@ private static final long serialVersionUID = 0L;
       return builder;
     }
     /**
-     * Protobuf type {@code im.turms.proto.VideoFile.Description}
+     * Protobuf type {@code im.micro.proto.VideoFile.Description}
      */
     public static final class Builder extends
         com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-        // @@protoc_insertion_point(builder_implements:im.turms.proto.VideoFile.Description)
+        // @@protoc_insertion_point(builder_implements:im.micro.proto.VideoFile.Description)
         im.micro.access.pojo.bo.file.VideoFile.DescriptionOrBuilder {
       public static final com.google.protobuf.Descriptors.Descriptor
           getDescriptor() {
-        return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_Description_descriptor;
+        return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_Description_descriptor;
       }
 
       @java.lang.Override
       protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
           internalGetFieldAccessorTable() {
-        return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_Description_fieldAccessorTable
+        return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_Description_fieldAccessorTable
             .ensureFieldAccessorsInitialized(
                 im.micro.access.pojo.bo.file.VideoFile.Description.class, im.micro.access.pojo.bo.file.VideoFile.Description.Builder.class);
       }
@@ -661,7 +661,7 @@ private static final long serialVersionUID = 0L;
       @java.lang.Override
       public com.google.protobuf.Descriptors.Descriptor
           getDescriptorForType() {
-        return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_Description_descriptor;
+        return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_Description_descriptor;
       }
 
       @java.lang.Override
@@ -1232,10 +1232,10 @@ private static final long serialVersionUID = 0L;
       }
 
 
-      // @@protoc_insertion_point(builder_scope:im.turms.proto.VideoFile.Description)
+      // @@protoc_insertion_point(builder_scope:im.micro.proto.VideoFile.Description)
     }
 
-    // @@protoc_insertion_point(class_scope:im.turms.proto.VideoFile.Description)
+    // @@protoc_insertion_point(class_scope:im.micro.proto.VideoFile.Description)
     private static final im.micro.access.pojo.bo.file.VideoFile.Description DEFAULT_INSTANCE;
     static {
       DEFAULT_INSTANCE = new im.micro.access.pojo.bo.file.VideoFile.Description();
@@ -1275,21 +1275,21 @@ private static final long serialVersionUID = 0L;
   public static final int DESCRIPTION_FIELD_NUMBER = 1;
   private im.micro.access.pojo.bo.file.VideoFile.Description description_;
   /**
-   * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+   * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
    * @return Whether the description field is set.
    */
   public boolean hasDescription() {
     return description_ != null;
   }
   /**
-   * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+   * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
    * @return The description.
    */
   public im.micro.access.pojo.bo.file.VideoFile.Description getDescription() {
     return description_ == null ? im.micro.access.pojo.bo.file.VideoFile.Description.getDefaultInstance() : description_;
   }
   /**
-   * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+   * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
    */
   public im.micro.access.pojo.bo.file.VideoFile.DescriptionOrBuilder getDescriptionOrBuilder() {
     return getDescription();
@@ -1495,21 +1495,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.VideoFile}
+   * Protobuf type {@code im.micro.proto.VideoFile}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.VideoFile)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.VideoFile)
       im.micro.access.pojo.bo.file.VideoFileOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_descriptor;
+      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_fieldAccessorTable
+      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.file.VideoFile.class, im.micro.access.pojo.bo.file.VideoFile.Builder.class);
     }
@@ -1550,7 +1550,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_turms_proto_VideoFile_descriptor;
+      return im.micro.access.pojo.bo.file.VideoFileOuterClass.internal_static_im_micro_proto_VideoFile_descriptor;
     }
 
     @java.lang.Override
@@ -1667,14 +1667,14 @@ private static final long serialVersionUID = 0L;
     private com.google.protobuf.SingleFieldBuilderV3<
         im.micro.access.pojo.bo.file.VideoFile.Description, im.micro.access.pojo.bo.file.VideoFile.Description.Builder, im.micro.access.pojo.bo.file.VideoFile.DescriptionOrBuilder> descriptionBuilder_;
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      * @return Whether the description field is set.
      */
     public boolean hasDescription() {
       return descriptionBuilder_ != null || description_ != null;
     }
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      * @return The description.
      */
     public im.micro.access.pojo.bo.file.VideoFile.Description getDescription() {
@@ -1685,7 +1685,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      */
     public Builder setDescription(im.micro.access.pojo.bo.file.VideoFile.Description value) {
       if (descriptionBuilder_ == null) {
@@ -1701,7 +1701,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      */
     public Builder setDescription(
         im.micro.access.pojo.bo.file.VideoFile.Description.Builder builderForValue) {
@@ -1715,7 +1715,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      */
     public Builder mergeDescription(im.micro.access.pojo.bo.file.VideoFile.Description value) {
       if (descriptionBuilder_ == null) {
@@ -1733,7 +1733,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      */
     public Builder clearDescription() {
       if (descriptionBuilder_ == null) {
@@ -1747,7 +1747,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      */
     public im.micro.access.pojo.bo.file.VideoFile.Description.Builder getDescriptionBuilder() {
       
@@ -1755,7 +1755,7 @@ private static final long serialVersionUID = 0L;
       return getDescriptionFieldBuilder().getBuilder();
     }
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      */
     public im.micro.access.pojo.bo.file.VideoFile.DescriptionOrBuilder getDescriptionOrBuilder() {
       if (descriptionBuilder_ != null) {
@@ -1766,7 +1766,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>.im.turms.proto.VideoFile.Description description = 1;</code>
+     * <code>.im.micro.proto.VideoFile.Description description = 1;</code>
      */
     private com.google.protobuf.SingleFieldBuilderV3<
         im.micro.access.pojo.bo.file.VideoFile.Description, im.micro.access.pojo.bo.file.VideoFile.Description.Builder, im.micro.access.pojo.bo.file.VideoFile.DescriptionOrBuilder> 
@@ -1913,10 +1913,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.VideoFile)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.VideoFile)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.VideoFile)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.VideoFile)
   private static final im.micro.access.pojo.bo.file.VideoFile DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.file.VideoFile();

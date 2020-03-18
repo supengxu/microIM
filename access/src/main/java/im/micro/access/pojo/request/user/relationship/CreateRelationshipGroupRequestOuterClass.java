@@ -15,10 +15,10 @@ public final class CreateRelationshipGroupRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_CreateRelationshipGroupRequest_descriptor;
+    internal_static_im_micro_proto_CreateRelationshipGroupRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_CreateRelationshipGroupRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_CreateRelationshipGroupRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class CreateRelationshipGroupRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\nArequest/user/relationship/create_relat" +
-      "ionship_group_request.proto\022\016im.turms.pr" +
+      "ionship_group_request.proto\022\016im.micro.pr" +
       "oto\".\n\036CreateRelationshipGroupRequest\022\014\n" +
       "\004name\030\001 \001(\tB2\n.im.micro.access.pojo.requ" +
       "est.user.relationshipP\001b\006proto3"
@@ -38,11 +38,11 @@ public final class CreateRelationshipGroupRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_CreateRelationshipGroupRequest_descriptor =
+    internal_static_im_micro_proto_CreateRelationshipGroupRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_CreateRelationshipGroupRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_CreateRelationshipGroupRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_CreateRelationshipGroupRequest_descriptor,
+        internal_static_im_micro_proto_CreateRelationshipGroupRequest_descriptor,
         new java.lang.String[] { "Name", });
   }
 

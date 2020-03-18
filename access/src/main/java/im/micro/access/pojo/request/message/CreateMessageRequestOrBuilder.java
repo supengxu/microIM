@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.message;
 
 public interface CreateMessageRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.CreateMessageRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.CreateMessageRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**
@@ -23,12 +23,12 @@ public interface CreateMessageRequestOrBuilder extends
   com.google.protobuf.Int64ValueOrBuilder getMessageIdOrBuilder();
 
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 2;</code>
    * @return The enum numeric value on the wire for chatType.
    */
   int getChatTypeValue();
   /**
-   * <code>.im.turms.proto.ChatType chat_type = 2;</code>
+   * <code>.im.micro.proto.ChatType chat_type = 2;</code>
    * @return The chatType.
    */
   im.micro.access.constant.ChatType getChatType();

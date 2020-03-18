@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.group.blacklist;
 
 /**
- * Protobuf type {@code im.turms.proto.CreateGroupBlacklistedUserRequest}
+ * Protobuf type {@code im.micro.proto.CreateGroupBlacklistedUserRequest}
  */
 public  final class CreateGroupBlacklistedUserRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.CreateGroupBlacklistedUserRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.CreateGroupBlacklistedUserRequest)
     CreateGroupBlacklistedUserRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use CreateGroupBlacklistedUserRequest.newBuilder() to construct.
@@ -79,13 +79,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_CreateGroupBlacklistedUserRequest_descriptor;
+    return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_CreateGroupBlacklistedUserRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_CreateGroupBlacklistedUserRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_CreateGroupBlacklistedUserRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequest.class, im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequest.Builder.class);
   }
@@ -279,21 +279,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.CreateGroupBlacklistedUserRequest}
+   * Protobuf type {@code im.micro.proto.CreateGroupBlacklistedUserRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.CreateGroupBlacklistedUserRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.CreateGroupBlacklistedUserRequest)
       im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_CreateGroupBlacklistedUserRequest_descriptor;
+      return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_CreateGroupBlacklistedUserRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_CreateGroupBlacklistedUserRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_CreateGroupBlacklistedUserRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequest.class, im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequest.Builder.class);
     }
@@ -326,7 +326,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_turms_proto_CreateGroupBlacklistedUserRequest_descriptor;
+      return im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequestOuterClass.internal_static_im_micro_proto_CreateGroupBlacklistedUserRequest_descriptor;
     }
 
     @java.lang.Override
@@ -503,10 +503,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.CreateGroupBlacklistedUserRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.CreateGroupBlacklistedUserRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.CreateGroupBlacklistedUserRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.CreateGroupBlacklistedUserRequest)
   private static final im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.group.blacklist.CreateGroupBlacklistedUserRequest();

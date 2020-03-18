@@ -15,15 +15,15 @@ public final class CheckGroupJoinQuestionsAnswersRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor;
+    internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_fieldAccessorTable;
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_descriptor;
+    internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_fieldAccessorTable;
+      internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -35,9 +35,9 @@ public final class CheckGroupJoinQuestionsAnswersRequestOuterClass {
     java.lang.String[] descriptorData = {
       "\nIrequest/group/enrollment/check_group_j" +
       "oin_questions_answers_request.proto\022\016im." +
-      "turms.proto\"\323\001\n%CheckGroupJoinQuestionsA" +
+      "micro.proto\"\323\001\n%CheckGroupJoinQuestionsA" +
       "nswersRequest\022n\n\026question_id_and_answer\030" +
-      "\001 \003(\0132N.im.turms.proto.CheckGroupJoinQue" +
+      "\001 \003(\0132N.im.micro.proto.CheckGroupJoinQue" +
       "stionsAnswersRequest.QuestionIdAndAnswer" +
       "Entry\032:\n\030QuestionIdAndAnswerEntry\022\013\n\003key" +
       "\030\001 \001(\003\022\r\n\005value\030\002 \001(\t:\0028\001B1\n-im.micro.ac" +
@@ -48,17 +48,17 @@ public final class CheckGroupJoinQuestionsAnswersRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor =
+    internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor,
+        internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor,
         new java.lang.String[] { "QuestionIdAndAnswer", });
-    internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_descriptor =
-      internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor.getNestedTypes().get(0);
-    internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_fieldAccessorTable = new
+    internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_descriptor =
+      internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_descriptor.getNestedTypes().get(0);
+    internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_descriptor,
+        internal_static_im_micro_proto_CheckGroupJoinQuestionsAnswersRequest_QuestionIdAndAnswerEntry_descriptor,
         new java.lang.String[] { "Key", "Value", });
   }
 

@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UserLocation}
+ * Protobuf type {@code im.micro.proto.UserLocation}
  */
 public  final class UserLocation extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UserLocation)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UserLocation)
     UserLocationOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UserLocation.newBuilder() to construct.
@@ -118,13 +118,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_turms_proto_UserLocation_descriptor;
+    return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_micro_proto_UserLocation_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_turms_proto_UserLocation_fieldAccessorTable
+    return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_micro_proto_UserLocation_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.user.UserLocation.class, im.micro.access.pojo.bo.user.UserLocation.Builder.class);
   }
@@ -437,21 +437,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UserLocation}
+   * Protobuf type {@code im.micro.proto.UserLocation}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UserLocation)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UserLocation)
       im.micro.access.pojo.bo.user.UserLocationOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_turms_proto_UserLocation_descriptor;
+      return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_micro_proto_UserLocation_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_turms_proto_UserLocation_fieldAccessorTable
+      return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_micro_proto_UserLocation_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.user.UserLocation.class, im.micro.access.pojo.bo.user.UserLocation.Builder.class);
     }
@@ -502,7 +502,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_turms_proto_UserLocation_descriptor;
+      return im.micro.access.pojo.bo.user.UserLocationOuterClass.internal_static_im_micro_proto_UserLocation_descriptor;
     }
 
     @java.lang.Override
@@ -1060,10 +1060,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UserLocation)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UserLocation)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UserLocation)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UserLocation)
   private static final im.micro.access.pojo.bo.user.UserLocation DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.user.UserLocation();

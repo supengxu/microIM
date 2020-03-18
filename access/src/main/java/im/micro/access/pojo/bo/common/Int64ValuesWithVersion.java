@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.common;
 
 /**
- * Protobuf type {@code im.turms.proto.Int64ValuesWithVersion}
+ * Protobuf type {@code im.micro.proto.Int64ValuesWithVersion}
  */
 public  final class Int64ValuesWithVersion extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.Int64ValuesWithVersion)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.Int64ValuesWithVersion)
     Int64ValuesWithVersionOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use Int64ValuesWithVersion.newBuilder() to construct.
@@ -108,13 +108,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_turms_proto_Int64ValuesWithVersion_descriptor;
+    return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_micro_proto_Int64ValuesWithVersion_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_turms_proto_Int64ValuesWithVersion_fieldAccessorTable
+    return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_micro_proto_Int64ValuesWithVersion_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.common.Int64ValuesWithVersion.class, im.micro.access.pojo.bo.common.Int64ValuesWithVersion.Builder.class);
   }
@@ -358,21 +358,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.Int64ValuesWithVersion}
+   * Protobuf type {@code im.micro.proto.Int64ValuesWithVersion}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.Int64ValuesWithVersion)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.Int64ValuesWithVersion)
       im.micro.access.pojo.bo.common.Int64ValuesWithVersionOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_turms_proto_Int64ValuesWithVersion_descriptor;
+      return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_micro_proto_Int64ValuesWithVersion_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_turms_proto_Int64ValuesWithVersion_fieldAccessorTable
+      return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_micro_proto_Int64ValuesWithVersion_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.common.Int64ValuesWithVersion.class, im.micro.access.pojo.bo.common.Int64ValuesWithVersion.Builder.class);
     }
@@ -409,7 +409,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_turms_proto_Int64ValuesWithVersion_descriptor;
+      return im.micro.access.pojo.bo.common.Int64ValuesWithVersionOuterClass.internal_static_im_micro_proto_Int64ValuesWithVersion_descriptor;
     }
 
     @java.lang.Override
@@ -741,10 +741,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.Int64ValuesWithVersion)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.Int64ValuesWithVersion)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.Int64ValuesWithVersion)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.Int64ValuesWithVersion)
   private static final im.micro.access.pojo.bo.common.Int64ValuesWithVersion DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.common.Int64ValuesWithVersion();

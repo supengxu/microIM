@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.message;
 
 /**
- * Protobuf type {@code im.turms.proto.UpdateMessageRequest}
+ * Protobuf type {@code im.micro.proto.UpdateMessageRequest}
  */
 public  final class UpdateMessageRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UpdateMessageRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UpdateMessageRequest)
     UpdateMessageRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UpdateMessageRequest.newBuilder() to construct.
@@ -139,13 +139,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_turms_proto_UpdateMessageRequest_descriptor;
+    return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_micro_proto_UpdateMessageRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_turms_proto_UpdateMessageRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_micro_proto_UpdateMessageRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.message.UpdateMessageRequest.class, im.micro.access.pojo.request.message.UpdateMessageRequest.Builder.class);
   }
@@ -517,21 +517,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UpdateMessageRequest}
+   * Protobuf type {@code im.micro.proto.UpdateMessageRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UpdateMessageRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UpdateMessageRequest)
       im.micro.access.pojo.request.message.UpdateMessageRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_turms_proto_UpdateMessageRequest_descriptor;
+      return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_micro_proto_UpdateMessageRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_turms_proto_UpdateMessageRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_micro_proto_UpdateMessageRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.message.UpdateMessageRequest.class, im.micro.access.pojo.request.message.UpdateMessageRequest.Builder.class);
     }
@@ -588,7 +588,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_turms_proto_UpdateMessageRequest_descriptor;
+      return im.micro.access.pojo.request.message.UpdateMessageRequestOuterClass.internal_static_im_micro_proto_UpdateMessageRequest_descriptor;
     }
 
     @java.lang.Override
@@ -1341,10 +1341,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UpdateMessageRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UpdateMessageRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UpdateMessageRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UpdateMessageRequest)
   private static final im.micro.access.pojo.request.message.UpdateMessageRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.message.UpdateMessageRequest();

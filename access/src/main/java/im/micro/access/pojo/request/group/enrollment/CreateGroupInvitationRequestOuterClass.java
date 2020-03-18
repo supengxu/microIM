@@ -15,10 +15,10 @@ public final class CreateGroupInvitationRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_CreateGroupInvitationRequest_descriptor;
+    internal_static_im_micro_proto_CreateGroupInvitationRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_CreateGroupInvitationRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_CreateGroupInvitationRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class CreateGroupInvitationRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n>request/group/enrollment/create_group_" +
-      "invitation_request.proto\022\016im.turms.proto" +
+      "invitation_request.proto\022\016im.micro.proto" +
       "\"U\n\034CreateGroupInvitationRequest\022\020\n\010grou" +
       "p_id\030\001 \001(\003\022\022\n\ninvitee_id\030\002 \001(\003\022\017\n\007conten" +
       "t\030\003 \001(\tB1\n-im.micro.access.pojo.request." +
@@ -39,11 +39,11 @@ public final class CreateGroupInvitationRequestOuterClass {
       .internalBuildGeneratedFileFrom(descriptorData,
         new com.google.protobuf.Descriptors.FileDescriptor[] {
         });
-    internal_static_im_turms_proto_CreateGroupInvitationRequest_descriptor =
+    internal_static_im_micro_proto_CreateGroupInvitationRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_CreateGroupInvitationRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_CreateGroupInvitationRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_CreateGroupInvitationRequest_descriptor,
+        internal_static_im_micro_proto_CreateGroupInvitationRequest_descriptor,
         new java.lang.String[] { "GroupId", "InviteeId", "Content", });
   }
 

@@ -15,10 +15,10 @@ public final class MessagesWithTotalListOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_MessagesWithTotalList_descriptor;
+    internal_static_im_micro_proto_MessagesWithTotalList_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_MessagesWithTotalList_fieldAccessorTable;
+      internal_static_im_micro_proto_MessagesWithTotalList_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,10 +29,10 @@ public final class MessagesWithTotalListOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n,model/message/messages_with_total_list" +
-      ".proto\022\016im.turms.proto\032\'model/message/me" +
+      ".proto\022\016im.micro.proto\032\'model/message/me" +
       "ssages_with_total.proto\"\\\n\025MessagesWithT" +
       "otalList\022C\n\030messages_with_total_list\030\001 \003" +
-      "(\0132!.im.turms.proto.MessagesWithTotalB#\n" +
+      "(\0132!.im.micro.proto.MessagesWithTotalB#\n" +
       "\037im.micro.access.pojo.bo.messageP\001b\006prot" +
       "o3"
     };
@@ -41,11 +41,11 @@ public final class MessagesWithTotalListOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_MessagesWithTotalList_descriptor =
+    internal_static_im_micro_proto_MessagesWithTotalList_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_MessagesWithTotalList_fieldAccessorTable = new
+    internal_static_im_micro_proto_MessagesWithTotalList_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_MessagesWithTotalList_descriptor,
+        internal_static_im_micro_proto_MessagesWithTotalList_descriptor,
         new java.lang.String[] { "MessagesWithTotalList", });
     im.micro.access.pojo.bo.message.MessagesWithTotalOuterClass.getDescriptor();
   }

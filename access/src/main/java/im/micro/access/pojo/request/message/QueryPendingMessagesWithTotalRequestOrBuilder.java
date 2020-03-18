@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.message;
 
 public interface QueryPendingMessagesWithTotalRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.QueryPendingMessagesWithTotalRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.QueryPendingMessagesWithTotalRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

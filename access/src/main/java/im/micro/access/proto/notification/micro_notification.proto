@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package im.turms.proto;
+package im.micro.proto;
 
 option java_package = "im.micro.access.pojo.notification";
 option java_multiple_files = true;
@@ -10,7 +10,7 @@ import "google/protobuf/wrappers.proto";
 import "model/signal/acknowledge.proto";
 import "model/signal/session.proto";
 
-import "request/turms_request.proto";
+import "request/micro_request.proto";
 
 import "model/common/int64_values.proto";
 import "model/common/int64_values_with_version.proto";
@@ -29,16 +29,16 @@ import "model/user/user_relationships_with_version.proto";
 import "model/user/users_infos_with_version.proto";
 import "model/user/users_online_statuses.proto";
 
-message TurmsNotification {
+message MicroNotification {
     // Note: request_id is allowed to be duplicate because
     // it is used for clients to identify the response of the same request id in a session
     google.protobuf.Int64Value request_id = 1;
     google.protobuf.Int32Value code = 2;
     google.protobuf.StringValue reason = 3;
     Data data = 4;
-    TurmsRequest relayed_request = 5;
+    MicroRequest relayed_request = 5;
     // requester_id only exists when a requester triggers a notification to its recipients
-    // Note: Do not move requester_id to TurmsRequest because it needs to rebuild a whole TurmsNotification
+    // Note: Do not move requester_id to microRequest because it needs to rebuild a whole microNotification
     // when recipients need the requester_id.
     google.protobuf.Int64Value requester_id = 6;
 

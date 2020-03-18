@@ -4,7 +4,7 @@
 package im.micro.access.pojo.request.group.blacklist;
 
 public interface CreateGroupBlacklistedUserRequestOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.CreateGroupBlacklistedUserRequest)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.CreateGroupBlacklistedUserRequest)
     com.google.protobuf.MessageOrBuilder {
 
   /**

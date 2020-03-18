@@ -15,10 +15,10 @@ public final class UpdateMessageRequestOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UpdateMessageRequest_descriptor;
+    internal_static_im_micro_proto_UpdateMessageRequest_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UpdateMessageRequest_fieldAccessorTable;
+      internal_static_im_micro_proto_UpdateMessageRequest_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,7 +29,7 @@ public final class UpdateMessageRequestOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n,request/message/update_message_request" +
-      ".proto\022\016im.turms.proto\032\036google/protobuf/" +
+      ".proto\022\016im.micro.proto\032\036google/protobuf/" +
       "wrappers.proto\"\200\002\n\024UpdateMessageRequest\022" +
       "\022\n\nmessage_id\030\001 \001(\003\0225\n\021is_system_message" +
       "\030\002 \001(\0132\032.google.protobuf.BoolValue\022*\n\004te" +
@@ -45,11 +45,11 @@ public final class UpdateMessageRequestOuterClass {
         new com.google.protobuf.Descriptors.FileDescriptor[] {
           com.google.protobuf.WrappersProto.getDescriptor(),
         });
-    internal_static_im_turms_proto_UpdateMessageRequest_descriptor =
+    internal_static_im_micro_proto_UpdateMessageRequest_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UpdateMessageRequest_fieldAccessorTable = new
+    internal_static_im_micro_proto_UpdateMessageRequest_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UpdateMessageRequest_descriptor,
+        internal_static_im_micro_proto_UpdateMessageRequest_descriptor,
         new java.lang.String[] { "MessageId", "IsSystemMessage", "Text", "Records", "RecallDate", "ReadDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
   }

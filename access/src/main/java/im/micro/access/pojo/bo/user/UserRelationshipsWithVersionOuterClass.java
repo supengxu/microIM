@@ -15,10 +15,10 @@ public final class UserRelationshipsWithVersionOuterClass {
         (com.google.protobuf.ExtensionRegistryLite) registry);
   }
   static final com.google.protobuf.Descriptors.Descriptor
-    internal_static_im_turms_proto_UserRelationshipsWithVersion_descriptor;
+    internal_static_im_micro_proto_UserRelationshipsWithVersion_descriptor;
   static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
-      internal_static_im_turms_proto_UserRelationshipsWithVersion_fieldAccessorTable;
+      internal_static_im_micro_proto_UserRelationshipsWithVersion_fieldAccessorTable;
 
   public static com.google.protobuf.Descriptors.FileDescriptor
       getDescriptor() {
@@ -29,11 +29,11 @@ public final class UserRelationshipsWithVersionOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n0model/user/user_relationships_with_ver" +
-      "sion.proto\022\016im.turms.proto\032\036google/proto" +
+      "sion.proto\022\016im.micro.proto\032\036google/proto" +
       "buf/wrappers.proto\032\"model/user/user_rela" +
       "tionship.proto\"\224\001\n\034UserRelationshipsWith" +
       "Version\022<\n\022user_relationships\030\001 \003(\0132 .im" +
-      ".turms.proto.UserRelationship\0226\n\021last_up" +
+      ".micro.proto.UserRelationship\0226\n\021last_up" +
       "dated_date\030\002 \001(\0132\033.google.protobuf.Int64" +
       "ValueB \n\034im.micro.access.pojo.bo.userP\001b" +
       "\006proto3"
@@ -44,11 +44,11 @@ public final class UserRelationshipsWithVersionOuterClass {
           com.google.protobuf.WrappersProto.getDescriptor(),
           im.micro.access.pojo.bo.user.UserRelationshipOuterClass.getDescriptor(),
         });
-    internal_static_im_turms_proto_UserRelationshipsWithVersion_descriptor =
+    internal_static_im_micro_proto_UserRelationshipsWithVersion_descriptor =
       getDescriptor().getMessageTypes().get(0);
-    internal_static_im_turms_proto_UserRelationshipsWithVersion_fieldAccessorTable = new
+    internal_static_im_micro_proto_UserRelationshipsWithVersion_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
-        internal_static_im_turms_proto_UserRelationshipsWithVersion_descriptor,
+        internal_static_im_micro_proto_UserRelationshipsWithVersion_descriptor,
         new java.lang.String[] { "UserRelationships", "LastUpdatedDate", });
     com.google.protobuf.WrappersProto.getDescriptor();
     im.micro.access.pojo.bo.user.UserRelationshipOuterClass.getDescriptor();

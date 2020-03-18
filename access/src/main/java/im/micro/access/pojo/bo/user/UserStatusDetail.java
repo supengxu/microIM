@@ -4,11 +4,11 @@
 package im.micro.access.pojo.bo.user;
 
 /**
- * Protobuf type {@code im.turms.proto.UserStatusDetail}
+ * Protobuf type {@code im.micro.proto.UserStatusDetail}
  */
 public  final class UserStatusDetail extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.UserStatusDetail)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.UserStatusDetail)
     UserStatusDetailOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use UserStatusDetail.newBuilder() to construct.
@@ -109,13 +109,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_turms_proto_UserStatusDetail_descriptor;
+    return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_micro_proto_UserStatusDetail_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_turms_proto_UserStatusDetail_fieldAccessorTable
+    return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_micro_proto_UserStatusDetail_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.bo.user.UserStatusDetail.class, im.micro.access.pojo.bo.user.UserStatusDetail.Builder.class);
   }
@@ -133,14 +133,14 @@ private static final long serialVersionUID = 0L;
   public static final int USER_STATUS_FIELD_NUMBER = 2;
   private int userStatus_;
   /**
-   * <code>.im.turms.proto.UserStatus user_status = 2;</code>
+   * <code>.im.micro.proto.UserStatus user_status = 2;</code>
    * @return The enum numeric value on the wire for userStatus.
    */
   public int getUserStatusValue() {
     return userStatus_;
   }
   /**
-   * <code>.im.turms.proto.UserStatus user_status = 2;</code>
+   * <code>.im.micro.proto.UserStatus user_status = 2;</code>
    * @return The userStatus.
    */
   public im.micro.access.constant.UserStatus getUserStatus() {
@@ -162,7 +162,7 @@ private static final long serialVersionUID = 0L;
             }
           };
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
    * @return A list containing the usingDeviceTypes.
    */
   public java.util.List<im.micro.access.constant.DeviceType> getUsingDeviceTypesList() {
@@ -170,14 +170,14 @@ private static final long serialVersionUID = 0L;
         java.lang.Integer, im.micro.access.constant.DeviceType>(usingDeviceTypes_, usingDeviceTypes_converter_);
   }
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
    * @return The count of usingDeviceTypes.
    */
   public int getUsingDeviceTypesCount() {
     return usingDeviceTypes_.size();
   }
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
    * @param index The index of the element to return.
    * @return The usingDeviceTypes at the given index.
    */
@@ -185,7 +185,7 @@ private static final long serialVersionUID = 0L;
     return usingDeviceTypes_converter_.convert(usingDeviceTypes_.get(index));
   }
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
    * @return A list containing the enum numeric values on the wire for usingDeviceTypes.
    */
   public java.util.List<java.lang.Integer>
@@ -193,7 +193,7 @@ private static final long serialVersionUID = 0L;
     return usingDeviceTypes_;
   }
   /**
-   * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+   * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
    * @param index The index of the value to return.
    * @return The enum numeric value on the wire of usingDeviceTypes at the given index.
    */
@@ -394,21 +394,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.UserStatusDetail}
+   * Protobuf type {@code im.micro.proto.UserStatusDetail}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.UserStatusDetail)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.UserStatusDetail)
       im.micro.access.pojo.bo.user.UserStatusDetailOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_turms_proto_UserStatusDetail_descriptor;
+      return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_micro_proto_UserStatusDetail_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_turms_proto_UserStatusDetail_fieldAccessorTable
+      return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_micro_proto_UserStatusDetail_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.bo.user.UserStatusDetail.class, im.micro.access.pojo.bo.user.UserStatusDetail.Builder.class);
     }
@@ -443,7 +443,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_turms_proto_UserStatusDetail_descriptor;
+      return im.micro.access.pojo.bo.user.UserStatusDetailOuterClass.internal_static_im_micro_proto_UserStatusDetail_descriptor;
     }
 
     @java.lang.Override
@@ -597,14 +597,14 @@ private static final long serialVersionUID = 0L;
 
     private int userStatus_ = 0;
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 2;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 2;</code>
      * @return The enum numeric value on the wire for userStatus.
      */
     public int getUserStatusValue() {
       return userStatus_;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 2;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 2;</code>
      * @param value The enum numeric value on the wire for userStatus to set.
      * @return This builder for chaining.
      */
@@ -614,7 +614,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 2;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 2;</code>
      * @return The userStatus.
      */
     public im.micro.access.constant.UserStatus getUserStatus() {
@@ -623,7 +623,7 @@ private static final long serialVersionUID = 0L;
       return result == null ? im.micro.access.constant.UserStatus.UNRECOGNIZED : result;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 2;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 2;</code>
      * @param value The userStatus to set.
      * @return This builder for chaining.
      */
@@ -637,7 +637,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>.im.turms.proto.UserStatus user_status = 2;</code>
+     * <code>.im.micro.proto.UserStatus user_status = 2;</code>
      * @return This builder for chaining.
      */
     public Builder clearUserStatus() {
@@ -656,7 +656,7 @@ private static final long serialVersionUID = 0L;
       }
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @return A list containing the usingDeviceTypes.
      */
     public java.util.List<im.micro.access.constant.DeviceType> getUsingDeviceTypesList() {
@@ -664,14 +664,14 @@ private static final long serialVersionUID = 0L;
           java.lang.Integer, im.micro.access.constant.DeviceType>(usingDeviceTypes_, usingDeviceTypes_converter_);
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @return The count of usingDeviceTypes.
      */
     public int getUsingDeviceTypesCount() {
       return usingDeviceTypes_.size();
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @param index The index of the element to return.
      * @return The usingDeviceTypes at the given index.
      */
@@ -679,7 +679,7 @@ private static final long serialVersionUID = 0L;
       return usingDeviceTypes_converter_.convert(usingDeviceTypes_.get(index));
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @param index The index to set the value at.
      * @param value The usingDeviceTypes to set.
      * @return This builder for chaining.
@@ -695,7 +695,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @param value The usingDeviceTypes to add.
      * @return This builder for chaining.
      */
@@ -709,7 +709,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @param values The usingDeviceTypes to add.
      * @return This builder for chaining.
      */
@@ -723,7 +723,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @return This builder for chaining.
      */
     public Builder clearUsingDeviceTypes() {
@@ -733,7 +733,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @return A list containing the enum numeric values on the wire for usingDeviceTypes.
      */
     public java.util.List<java.lang.Integer>
@@ -741,7 +741,7 @@ private static final long serialVersionUID = 0L;
       return java.util.Collections.unmodifiableList(usingDeviceTypes_);
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @param index The index of the value to return.
      * @return The enum numeric value on the wire of usingDeviceTypes at the given index.
      */
@@ -749,7 +749,7 @@ private static final long serialVersionUID = 0L;
       return usingDeviceTypes_.get(index);
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @param index The index of the value to return.
      * @return The enum numeric value on the wire of usingDeviceTypes at the given index.
      * @return This builder for chaining.
@@ -762,7 +762,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @param value The enum numeric value on the wire for usingDeviceTypes to add.
      * @return This builder for chaining.
      */
@@ -773,7 +773,7 @@ private static final long serialVersionUID = 0L;
       return this;
     }
     /**
-     * <code>repeated .im.turms.proto.DeviceType using_device_types = 3;</code>
+     * <code>repeated .im.micro.proto.DeviceType using_device_types = 3;</code>
      * @param values The enum numeric values on the wire for usingDeviceTypes to add.
      * @return This builder for chaining.
      */
@@ -799,10 +799,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.UserStatusDetail)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.UserStatusDetail)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.UserStatusDetail)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.UserStatusDetail)
   private static final im.micro.access.pojo.bo.user.UserStatusDetail DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.bo.user.UserStatusDetail();

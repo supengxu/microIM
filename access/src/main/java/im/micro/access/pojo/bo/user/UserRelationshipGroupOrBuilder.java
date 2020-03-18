@@ -4,7 +4,7 @@
 package im.micro.access.pojo.bo.user;
 
 public interface UserRelationshipGroupOrBuilder extends
-    // @@protoc_insertion_point(interface_extends:im.turms.proto.UserRelationshipGroup)
+    // @@protoc_insertion_point(interface_extends:im.micro.proto.UserRelationshipGroup)
     com.google.protobuf.MessageOrBuilder {
 
   /**

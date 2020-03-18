@@ -4,11 +4,11 @@
 package im.micro.access.pojo.request.user;
 
 /**
- * Protobuf type {@code im.turms.proto.QueryUserProfileRequest}
+ * Protobuf type {@code im.micro.proto.QueryUserProfileRequest}
  */
 public  final class QueryUserProfileRequest extends
     com.google.protobuf.GeneratedMessageV3 implements
-    // @@protoc_insertion_point(message_implements:im.turms.proto.QueryUserProfileRequest)
+    // @@protoc_insertion_point(message_implements:im.micro.proto.QueryUserProfileRequest)
     QueryUserProfileRequestOrBuilder {
 private static final long serialVersionUID = 0L;
   // Use QueryUserProfileRequest.newBuilder() to construct.
@@ -87,13 +87,13 @@ private static final long serialVersionUID = 0L;
   }
   public static final com.google.protobuf.Descriptors.Descriptor
       getDescriptor() {
-    return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_turms_proto_QueryUserProfileRequest_descriptor;
+    return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_micro_proto_QueryUserProfileRequest_descriptor;
   }
 
   @java.lang.Override
   protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internalGetFieldAccessorTable() {
-    return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_turms_proto_QueryUserProfileRequest_fieldAccessorTable
+    return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_micro_proto_QueryUserProfileRequest_fieldAccessorTable
         .ensureFieldAccessorsInitialized(
             im.micro.access.pojo.request.user.QueryUserProfileRequest.class, im.micro.access.pojo.request.user.QueryUserProfileRequest.Builder.class);
   }
@@ -304,21 +304,21 @@ private static final long serialVersionUID = 0L;
     return builder;
   }
   /**
-   * Protobuf type {@code im.turms.proto.QueryUserProfileRequest}
+   * Protobuf type {@code im.micro.proto.QueryUserProfileRequest}
    */
   public static final class Builder extends
       com.google.protobuf.GeneratedMessageV3.Builder<Builder> implements
-      // @@protoc_insertion_point(builder_implements:im.turms.proto.QueryUserProfileRequest)
+      // @@protoc_insertion_point(builder_implements:im.micro.proto.QueryUserProfileRequest)
       im.micro.access.pojo.request.user.QueryUserProfileRequestOrBuilder {
     public static final com.google.protobuf.Descriptors.Descriptor
         getDescriptor() {
-      return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_turms_proto_QueryUserProfileRequest_descriptor;
+      return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_micro_proto_QueryUserProfileRequest_descriptor;
     }
 
     @java.lang.Override
     protected com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
         internalGetFieldAccessorTable() {
-      return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_turms_proto_QueryUserProfileRequest_fieldAccessorTable
+      return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_micro_proto_QueryUserProfileRequest_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               im.micro.access.pojo.request.user.QueryUserProfileRequest.class, im.micro.access.pojo.request.user.QueryUserProfileRequest.Builder.class);
     }
@@ -355,7 +355,7 @@ private static final long serialVersionUID = 0L;
     @java.lang.Override
     public com.google.protobuf.Descriptors.Descriptor
         getDescriptorForType() {
-      return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_turms_proto_QueryUserProfileRequest_descriptor;
+      return im.micro.access.pojo.request.user.QueryUserProfileRequestOuterClass.internal_static_im_micro_proto_QueryUserProfileRequest_descriptor;
     }
 
     @java.lang.Override
@@ -625,10 +625,10 @@ private static final long serialVersionUID = 0L;
     }
 
 
-    // @@protoc_insertion_point(builder_scope:im.turms.proto.QueryUserProfileRequest)
+    // @@protoc_insertion_point(builder_scope:im.micro.proto.QueryUserProfileRequest)
   }
 
-  // @@protoc_insertion_point(class_scope:im.turms.proto.QueryUserProfileRequest)
+  // @@protoc_insertion_point(class_scope:im.micro.proto.QueryUserProfileRequest)
   private static final im.micro.access.pojo.request.user.QueryUserProfileRequest DEFAULT_INSTANCE;
   static {
     DEFAULT_INSTANCE = new im.micro.access.pojo.request.user.QueryUserProfileRequest();

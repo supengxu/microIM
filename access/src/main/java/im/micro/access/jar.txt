@@ -42,8 +42,8 @@ D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\model\user\user_
 D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\model\user\user_relationship_group.proto 
 D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\model\user\user_relationship_groups_with_version.proto 
 D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\model\user\user_status_detail.proto 
-D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\notification\turms_notification.proto 
-D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\request\turms_request.proto 
+D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\notification\micro_notification.proto
+D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\request\micro_request.proto
 D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\request\group\create_group_request.proto 
 D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\request\group\delete_group_request.proto 
 D:\code\Java\microIM\access\src\main\java\im\micro\access\proto\request\group\query_group_request.proto 
